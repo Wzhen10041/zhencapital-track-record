@@ -1,0 +1,216 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zhen Quant | Live Track Record</title>
+<meta name="description" content="Live track record of an AI agent trading a rules based US equity strategy. Every order published as it happens.">
+<style>html,body{margin:0;background:#0c0c0e}</style><!-- Zhen Capital homepage embed v2 (2026-09-30). Live data: GitHub Pages zhencapital-track-record -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+#zc{--bg:#0c0c0e;--ink:#ececef;--ink2:#a9abb3;--mute:#6f727b;--line:rgba(255,255,255,.08);--card:rgba(255,255,255,.035);--gold:#d7b46a;--teal:#7fd4c1;--pos:#5fd39c;--neg:#ff7a72;
+  position:relative;overflow:hidden;background:radial-gradient(1200px 700px at 78% -10%,#18202b 0%,#0f1013 55%,#0c0c0e 100%);color:var(--ink);font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+#zc *{box-sizing:border-box}#zc a{color:inherit;text-decoration:none}
+#zc .serif{font-family:'Playfair Display',Georgia,serif}
+#zc .grad{background:linear-gradient(100deg,var(--gold) 0%,#e9d7a6 45%,var(--teal) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+#zc .wrap{position:relative;z-index:2;max-width:1180px;margin:0 auto;padding:0 24px}
+#zc .eyebrow{font-size:11.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--mute)}
+#zc .orb{position:absolute;border-radius:50%;filter:blur(110px);opacity:.2;pointer-events:none;z-index:0}
+#zc .o1{width:620px;height:620px;background:var(--gold);top:-160px;left:-220px}
+#zc .o2{width:560px;height:560px;background:#2f8f7a;top:900px;right:-200px}
+#zc .o3{width:520px;height:520px;background:#4a5f8a;top:1900px;left:-180px}
+#zc canvas.stars{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;opacity:.7}
+/* hero */
+#zc .hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;padding-top:110px;padding-bottom:70px}
+#zc .pill{display:inline-flex;align-items:center;gap:10px;padding:7px 14px 7px 8px;border:1px solid var(--line);border-radius:99px;background:rgba(255,255,255,.03);font-size:13px;color:var(--ink2);backdrop-filter:blur(6px);max-width:100%}
+#zc .pill b{font-weight:600;color:var(--ink)}
+#zc .live{position:relative;width:9px;height:9px;border-radius:50%;background:var(--pos);display:inline-block}
+#zc .live:after{content:"";position:absolute;inset:-5px;border-radius:50%;border:1px solid var(--pos);animation:zcping 1.8s ease-out infinite}
+@keyframes zcping{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.8);opacity:0}}
+#zc h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:clamp(44px,7.2vw,96px);line-height:1.02;letter-spacing:-.02em;margin:26px 0 22px}
+#zc h1 .rot{display:inline-block;min-width:3.6em}
+#zc .lede{max-width:640px;font-size:clamp(16px,1.6vw,19px);color:var(--ink2);margin:0 0 34px}
+#zc .ctas{display:flex;gap:12px;flex-wrap:wrap}
+#zc .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:12px;font-weight:600;font-size:14.5px;transition:transform .2s,box-shadow .2s,background .2s}
+#zc .btn.p{background:linear-gradient(100deg,var(--gold),#e8cf8f);color:#16130b;box-shadow:0 10px 30px -10px rgba(215,180,106,.6)}
+#zc .btn.s{border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--ink)}
+#zc .btn:hover{transform:translateY(-2px)}
+#zc .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:70px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--line)}
+#zc .strip>div{background:rgba(14,15,18,.85);padding:20px 22px}
+#zc .strip .v{font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:600}
+#zc .strip .l{font-size:12.5px;color:var(--mute);margin-top:2px}
+/* marquee */
+#zc .mq{position:relative;z-index:2;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.02);overflow:hidden;white-space:nowrap}
+#zc .mq .t{display:inline-block;padding:14px 0;animation:zcmq 42s linear infinite;font-family:'JetBrains Mono',monospace;font-size:12.5px;color:var(--ink2);letter-spacing:.04em}
+#zc .mq .t span{margin:0 26px}#zc .mq .up{color:var(--pos)}#zc .mq .dn{color:var(--neg)}
+@keyframes zcmq{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* sections */
+#zc section{position:relative;z-index:2;padding:110px 0}
+#zc h2{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:clamp(34px,4.6vw,56px);line-height:1.08;letter-spacing:-.01em;margin:14px 0 14px}
+#zc .sub{color:var(--ink2);max-width:640px;margin:0}
+/* ventures */
+#zc .vg{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:48px}
+#zc .vc{position:relative;border:1px solid var(--line);border-radius:20px;background:var(--card);overflow:hidden;transition:transform .35s,border-color .35s;display:flex;flex-direction:column}
+#zc .vc:hover{transform:translateY(-4px);border-color:rgba(215,180,106,.35)}
+#zc .vc .media{height:230px;position:relative;overflow:hidden;background:#15161a}
+#zc .vc .media img{width:100%;height:100%;object-fit:cover;transition:transform .8s}
+#zc .vc:hover .media img{transform:scale(1.04)}
+#zc .vc .body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+#zc .tag{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);border:1px solid rgba(127,212,193,.3);border-radius:99px;padding:3px 10px;width:max-content}
+#zc .vc h3{font-family:'Playfair Display',Georgia,serif;font-size:26px;font-weight:600;margin:6px 0 0}
+#zc .vc p{color:var(--ink2);font-size:14.5px;margin:0;flex:1}
+#zc .vc .go{color:var(--gold);font-size:14px;font-weight:600;margin-top:6px}
+#zc .spark-ui{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:radial-gradient(400px 200px at 50% 0%,#3a2513,#141416)}
+#zc .spark-ui .bar{display:flex;gap:6px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:12px;padding:6px 6px 6px 14px;font-size:13px;color:var(--mute);width:78%;max-width:380px;align-items:center;justify-content:space-between}
+#zc .spark-ui .bar b{background:linear-gradient(100deg,#ff7a2f,#ffb14a);color:#1b0f05;border-radius:8px;padding:7px 12px;font-size:12px}
+#zc .quant-ui{position:absolute;inset:0;padding:18px 20px;background:radial-gradient(420px 220px at 80% 0%,#1b2a2b,#121316)}
+#zc .quant-ui .row{display:flex;justify-content:space-between;align-items:baseline}
+#zc .quant-ui .big{font-family:'Playfair Display',Georgia,serif;font-size:34px;font-weight:600}
+#zc .quant-ui svg{position:absolute;left:0;right:0;bottom:0;width:100%;height:62%}
+/* track record */
+#zc .tr{border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));padding:30px;margin-top:44px;backdrop-filter:blur(8px)}
+#zc .kp{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+#zc .kp>div{border:1px solid var(--line);border-radius:16px;padding:16px 18px;background:rgba(0,0,0,.18)}
+#zc .kp .l{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+#zc .kp .v{font-family:'Playfair Display',Georgia,serif;font-size:34px;font-weight:600;margin-top:4px;font-variant-numeric:tabular-nums}
+#zc .kp .s{font-size:12.5px;color:var(--ink2)}
+#zc .pos{color:var(--pos)}#zc .neg{color:var(--neg)}
+#zc .trh{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:26px 0 10px}
+#zc .seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;padding:3px;background:rgba(0,0,0,.2)}
+#zc .seg button{font:inherit;font-size:13px;border:0;background:none;color:var(--ink2);padding:6px 14px;border-radius:8px;cursor:pointer}
+#zc .seg button.on{background:rgba(255,255,255,.1);color:var(--ink)}
+#zc .chart{position:relative;height:300px}
+#zc .chart svg{width:100%;height:100%;display:block}
+#zc .tip{position:absolute;top:6px;pointer-events:none;background:rgba(18,19,22,.95);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12px;display:none;white-space:nowrap;font-variant-numeric:tabular-nums}
+#zc .lg{display:flex;gap:18px;font-size:12.5px;color:var(--ink2);margin-top:8px;flex-wrap:wrap}
+#zc .lg i{display:inline-block;width:18px;height:2px;margin-right:7px;vertical-align:middle}
+#zc .two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;margin-top:22px}
+#zc .box{border:1px solid var(--line);border-radius:16px;padding:18px;background:rgba(0,0,0,.18)}
+#zc .box h4{margin:0 0 10px;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);font-weight:600}
+#zc table{width:100%;border-collapse:collapse;font-size:13.5px}
+#zc td{padding:9px 4px;border-top:1px solid var(--line)}
+#zc td.n{text-align:right;font-variant-numeric:tabular-nums}
+#zc .mono{font-family:'JetBrains Mono',monospace;font-size:12.5px}
+#zc .empty{color:var(--mute);font-size:14px;padding:6px 0}
+#zc .gauge{display:flex;align-items:center;gap:12px;margin:8px 0}
+#zc .gauge .track{flex:1;height:8px;border-radius:99px;background:rgba(255,255,255,.07);position:relative;overflow:hidden}
+#zc .gauge .fill{position:absolute;left:0;top:0;bottom:0;border-radius:99px;background:linear-gradient(90deg,var(--teal),var(--gold))}
+#zc .gauge .mark{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--neg);left:70%}
+#zc .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+#zc .steps>div{border-left:1px solid var(--line);padding:4px 0 4px 18px}
+#zc .steps .n{font-family:'JetBrains Mono',monospace;color:var(--gold);font-size:12px}
+#zc .steps b{display:block;margin:6px 0 4px;font-size:15.5px}
+#zc .steps span{color:var(--ink2);font-size:14px}
+#zc .disc{font-size:11.5px;color:var(--mute);margin-top:22px;line-height:1.5}
+#zc .full{color:var(--gold);font-weight:600;font-size:14px}
+/* cta */
+#zc .cta{text-align:center;padding-top:120px;padding-bottom:90px}
+#zc .cta .ctas{justify-content:center;margin-top:28px}
+/* reveal */
+#zc .rv{opacity:0;transform:translateY(22px);transition:opacity .9s ease,transform .9s ease}
+#zc .rv.in{opacity:1;transform:none}
+@media (max-width:860px){#zc .strip{grid-template-columns:repeat(2,1fr)}#zc .vg,#zc .two{grid-template-columns:1fr}#zc .kp{grid-template-columns:repeat(2,1fr)}#zc .steps{grid-template-columns:1fr}#zc .tr{padding:18px}#zc section{padding:80px 0}}
+@media (prefers-reduced-motion:reduce){#zc *{animation:none!important;transition:none!important}#zc .rv{opacity:1;transform:none}}
+</style>
+
+</head><body>
+<div id="zc"><canvas class="stars"></canvas><div class="orb o1"></div><div class="orb o2"></div>
+<div class="wrap" style="padding-top:28px;display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2"><a href="https://zhenscapital.com" class="serif" style="font-size:20px;letter-spacing:.18em;font-weight:600">ZHEN CAPITAL</a><span class="pill"><span class="live"></span><span>Zhen Quant</span></span></div>
+<section id="zc-track"><div class="wrap">
+    <div class="eyebrow rv">Zhen Quant &middot; Live track record</div>
+    <h2 class="rv">An AI agent, <span class="grad" style="font-style:italic">trading in public.</span></h2>
+    <p class="sub rv" id="zc-status">Every order the agent places is published below as it happens. Returns are shown in percentages only.</p>
+    <div class="tr rv">
+      <div class="kp">
+        <div><div class="l">Since inception</div><div class="v" id="k1">0.0%</div><div class="s" id="k1s">S&amp;P 500: 0.0%</div></div>
+        <div><div class="l">Max drawdown</div><div class="v" id="k2">0.0%</div><div class="s">from account peak</div></div>
+        <div><div class="l">Win rate</div><div class="v" id="k3">n/a</div><div class="s" id="k3s">0 closed trades</div></div>
+        <div><div class="l">Capital deployed</div><div class="v" id="k4">0%</div><div class="s" id="k4s">0 open positions</div></div>
+      </div>
+      <div class="trh">
+        <div class="seg"><button id="zc-bl" class="on">Live</button><button id="zc-bb">Backtest 2010 to 2026</button></div>
+        <span class="mono" style="color:var(--mute)" id="zc-upd"></span>
+      </div>
+      <div class="chart" id="zc-chart"></div>
+      <div class="lg"><span><i style="background:linear-gradient(90deg,var(--gold),var(--teal))"></i>Zhen Quant</span><span><i style="border-top:2px dashed #7b7d85;height:0"></i>S&amp;P 500 (SPY)</span><span id="zc-cnote" style="color:var(--mute)"></span></div>
+      <div class="two">
+        <div class="box"><h4>Latest orders</h4><table id="zc-trades"></table></div>
+        <div class="box"><h4>Open positions</h4><table id="zc-pos"></table>
+          <h4 style="margin-top:18px">Market filter today</h4>
+          <div class="gauge"><span class="mono" style="width:112px;color:var(--ink2)">Breadth</span><div class="track"><div class="fill" id="zc-gb" style="width:0%"></div><div class="mark" title="Overheated above 70%"></div></div><span class="mono" id="zc-gbv">0%</span></div>
+          <div class="mono" style="color:var(--ink2);font-size:12.5px" id="zc-mkt"></div>
+        </div>
+      </div>
+      <div class="steps">
+        <div><span class="n">01 &middot; SCAN</span><b>2,300 stocks after every close</b><span>Looks for a high volume breakout that pulls back and holds, or a volume thrust off one year lows.</span></div>
+        <div><span class="n">02 &middot; SIZE</span><b>Risk 1% per trade</b><span>Stops sit under the pullback low. Position size follows from the stop, never from conviction.</span></div>
+        <div><span class="n">03 &middot; MANAGE</span><b>Let winners run</b><span>Sell a quarter at the prior high, move the stop to breakeven, exit the rest below the 20 day average.</span></div>
+      </div>
+      <div style="margin-top:22px"><a class="full" href="https://zhenscapital.com" target="_top">&larr; Back to zhenscapital.com</a></div>
+      <p class="disc">Personal trading account shown for informational purposes only. Not investment advice, an offer or a solicitation. Zhen Capital LLC does not manage money for others. Backtest figures are hypothetical, built with hindsight on today's listed companies, and do not reflect actual trading. Past performance does not guarantee future results.</p>
+    </div>
+  </div></section>
+<div id="zc-mq" style="display:none"></div><span id="zc-rot" style="display:none"></span><span id="zc-strip-ret" style="display:none"></span><span id="zc-strip-ret-l" style="display:none"></span><span id="zc-card-ret" style="display:none"></span><span id="zc-card-sub" style="display:none"></span><svg id="zc-card-spark" style="display:none"></svg><a id="zc-contact-btn" style="display:none"></a>
+</div>
+<script>
+(function(){
+const DATA_URL="data.json", BT_URL="backtest.json";
+const $=id=>document.getElementById(id), root=$("zc");
+const pct=(v,d=1)=>v==null?"n/a":(v>0?"+":"")+(v*100).toFixed(d)+"%", cl=v=>v==null?"":v>=0?"pos":"neg";
+/* stars */
+(function(){const c=root.querySelector("canvas.stars"),x=c.getContext("2d");let W,H,S=[];function rs(){W=c.width=root.clientWidth*devicePixelRatio;H=c.height=root.clientHeight*devicePixelRatio;S=[...Array(Math.round(W*H/9000))].map(()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.2*devicePixelRatio,a:Math.random(),s:.002+Math.random()*.008}))}
+ rs();addEventListener("resize",rs);(function f(){x.clearRect(0,0,W,H);for(const s of S){s.a+=s.s;x.globalAlpha=.25+.55*Math.abs(Math.sin(s.a));x.fillStyle="#fff";x.beginPath();x.arc(s.x,s.y,s.r,0,6.3);x.fill()}requestAnimationFrame(f)})()})();
+/* rotating verb */
+(function(){const w=["sell.","curate.","build.","trade."],el=$("zc-rot");let i=0;setInterval(()=>{i=(i+1)%w.length;el.style.transition="opacity .35s,transform .35s";el.style.opacity=0;el.style.transform="translateY(10px)";setTimeout(()=>{el.textContent=w[i];el.style.opacity=1;el.style.transform="none"},350)},2400)})();
+/* reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});root.querySelectorAll(".rv").forEach(e=>io.observe(e));
+/* smooth anchors inside embed */
+root.querySelectorAll('a[href^="#zc-"]').forEach(a=>a.addEventListener("click",e=>{const t=document.querySelector(a.getAttribute("href"));if(t){e.preventDefault();t.scrollIntoView({behavior:"smooth"})}}));
+$("zc-contact-btn").addEventListener("click",e=>{e.preventDefault();try{const f=window.top.document.querySelector('[data-aid="CONTACT_FORM_CONTAINER_REND"], form');if(f){f.scrollIntoView({behavior:"smooth"});return}}catch(_){}window.top.location.hash="contact"});
+/* chart */
+function plot(box,L,A,B,log,mini){
+  if(!L.length){box.innerHTML=mini?"":'<div class="empty" style="padding-top:120px;text-align:center">The live curve starts on the first trading day. Switch to Backtest to see 2010 to 2026.</div>';return}
+  const W=box.clientWidth||400,H=box.clientHeight||140,pl=mini?0:56,pr=mini?0:10,pt=mini?6:10,pb=mini?0:26,f=log?Math.log:(v=>v);
+  const all=A.concat(B||[]).filter(v=>v!=null),lo=f(Math.min(...all)),hi=f(Math.max(...all)),n=L.length;
+  const X=i=>pl+(W-pl-pr)*(n==1?.5:i/(n-1)),Y=v=>pt+(H-pt-pb)*(1-(f(v)-lo)/((hi-lo)||1));
+  const P=S=>S.map((v,i)=>(i?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1)).join("");
+  const id="g"+Math.random().toString(36).slice(2,7);
+  const area=P(A)+`L${X(n-1)} ${H-pb}L${X(0)} ${H-pb}Z`;
+  let g="";
+  if(!mini){let ts=[];if(log){for(const t of [100,150,200,300,500,800,1200,1800])if(f(t)>=lo-.02&&f(t)<=hi+.02)ts.push(t)}else{const a=Math.min(...all),b=Math.max(...all);for(let k=0;k<=4;k++)ts.push(a+(b-a)*k/4)}
+    const fm=v=>{const r=v-100;return (r>0?"+":"")+(Math.abs(r)>=100?Math.round(r):r.toFixed(1))+"%"};
+    g=ts.map(t=>`<line x1="${pl}" x2="${W-pr}" y1="${Y(t)}" y2="${Y(t)}" stroke="rgba(255,255,255,.06)"/><text x="${pl-8}" y="${Y(t)+4}" text-anchor="end" font-size="11" fill="#6f727b" font-family="JetBrains Mono">${fm(t)}</text>`).join("");
+    const xt=[0,Math.floor(n/3),Math.floor(2*n/3),n-1];g+=xt.map(i=>`<text x="${X(i)}" y="${H-6}" text-anchor="${i==n-1?"end":i==0?"start":"middle"}" font-size="11" fill="#6f727b" font-family="JetBrains Mono">${L[i].slice(0,7)}</text>`).join("")}
+  box.innerHTML=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><defs><linearGradient id="${id}l" x1="0" x2="1"><stop offset="0" stop-color="#d7b46a"/><stop offset="1" stop-color="#7fd4c1"/></linearGradient><linearGradient id="${id}a" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d7b46a" stop-opacity=".22"/><stop offset="1" stop-color="#d7b46a" stop-opacity="0"/></linearGradient></defs>${g}<path d="${area}" fill="url(#${id}a)"/>${B?`<path d="${P(B)}" fill="none" stroke="#7b7d85" stroke-width="1.3" stroke-dasharray="5 4"/>`:""}<path d="${P(A)}" fill="none" stroke="url(#${id}l)" stroke-width="${mini?2:2.2}"/>${mini?"":`<line class="cx" y1="${pt}" y2="${H-pb}" stroke="rgba(255,255,255,.25)" style="display:none"/>`}</svg>${mini?"":'<div class="tip"></div>'}`;
+  if(mini)return;const svg=box.querySelector("svg"),tip=box.querySelector(".tip"),cx=box.querySelector(".cx");
+  svg.onmousemove=e=>{const r=svg.getBoundingClientRect(),x=(e.clientX-r.left)*W/r.width,i=Math.max(0,Math.min(n-1,Math.round((x-pl)/(W-pl-pr)*(n-1))));cx.setAttribute("x1",X(i));cx.setAttribute("x2",X(i));cx.style.display="";tip.style.display="block";
+    const fm=v=>{const r=v-100;return (r>=0?"+":"")+r.toFixed(1)+"%"};tip.innerHTML=`<b>${L[i]}</b><br><span style="color:#d7b46a">Zhen Quant ${fm(A[i])}</span><br><span style="color:#a9abb3">S&amp;P 500 ${fm(B[i])}</span>`;tip.style.left=Math.min(r.width*X(i)/W+12,r.width-170)+"px"};
+  svg.onmouseleave=()=>{tip.style.display="none";cx.style.display="none"};
+}
+function count(el,to,fmt){const t0=performance.now(),d=1100;(function s(t){const k=Math.min(1,(t-t0)/d),e=1-Math.pow(1-k,3);el.textContent=fmt(to*e);if(k<1)requestAnimationFrame(s)})(t0)}
+let D,BT,mode="live";
+function drawChart(){const box=$("zc-chart");$("zc-bl").classList.toggle("on",mode=="live");$("zc-bb").classList.toggle("on",mode=="bt");
+  if(mode=="bt"){plot(box,BT.series.map(x=>x[0].slice(0,4)+"-"+x[0].slice(4,6)+"-"+x[0].slice(6,8)),BT.series.map(x=>x[1]),BT.series.map(x=>x[2]),true);$("zc-cnote").textContent=`Hypothetical: ${pct(BT.cagr)} a year vs ${pct(BT.spy_cagr)} for the S&P 500, worst drawdown ${pct(BT.maxdd,0)}`}
+  else{plot(box,D.equity.map(x=>x.d),D.equity.map(x=>100+x.r*100),D.equity.map(x=>100+x.spy*100),false);$("zc-cnote").textContent=D.equity.length?"Live account, since the first trade":""}}
+$("zc-bl").onclick=()=>{mode="live";drawChart()};$("zc-bb").onclick=()=>{mode="bt";drawChart()};addEventListener("resize",()=>D&&drawChart());
+async function load(){
+  try{[D,BT]=await Promise.all([fetch(DATA_URL+"?t="+Date.now()).then(r=>r.json()),BT||fetch(BT_URL).then(r=>r.json())])}catch(e){$("zc-status").textContent="Live data is temporarily unavailable.";return}
+  const s=D.stats,live=D.status=="live";
+  $("zc-status").textContent=live?`Live since ${D.inception}. Every order the agent places is published below as it happens. Returns are shown in percentages only.`:"Launching soon. The first live orders will appear here the moment they are placed. Until then, switch the chart to Backtest to see how the rules performed from 2010 to 2026.";
+  count($("k1"),s.total_return,v=>pct(v));$("k1").className="v "+cl(s.total_return);$("k1s").textContent="S&P 500 over the same days: "+pct(s.spy_return);
+  count($("k2"),s.max_drawdown,v=>pct(v));$("k3").textContent=s.win_rate==null?"n/a":Math.round(s.win_rate*100)+"%";$("k3s").textContent=s.closed_trades+" closed trades";
+  count($("k4"),s.invested_pct,v=>Math.round(v*100)+"%");$("k4s").textContent=s.open_positions+" open positions";
+  $("zc-card-ret").textContent=live?pct(s.total_return):pct(BT.cagr)+" / yr";$("zc-card-sub").textContent=live?"live, since "+D.inception:"backtest 2010 to 2026, hypothetical";
+  const sp=live&&D.equity.length>1?D.equity.map(x=>100+x.r*100):BT.series.map(x=>x[1]);plot($("zc-card-spark"),sp.map((_,i)=>String(i)),sp,null,!live,true);
+  if(!live){$("zc-strip-ret").textContent=pct(BT.cagr,1);$("zc-strip-ret-l").textContent="a year in the 2010 to 2026 backtest"}else{$("zc-strip-ret").textContent=pct(s.total_return);$("zc-strip-ret-l").textContent="live quant return since "+D.inception}
+  const T=D.trades.slice().reverse();
+  $("zc-trades").innerHTML=T.length?T.map(t=>`<tr><td class="mono" style="color:#6f727b">${t.time}</td><td><b>${t.ticker}</b></td><td>${t.action}</td><td style="color:#a9abb3">${t.reason}</td><td class="n ${cl(t.result)}">${t.result==null?"":pct(t.result)}</td></tr>`).join(""):`<tr><td class="empty">No orders yet. The first ones will appear here in real time.</td></tr>`;
+  const Pp=D.positions;$("zc-pos").innerHTML=Pp.length?Pp.map(p=>`<tr><td><b>${p.ticker}</b> <span style="color:#6f727b">${p.setup}</span></td><td class="n">${(p.weight*100).toFixed(0)}%</td><td class="n ${cl(p.ret)}">${pct(p.ret)}</td></tr>`).join(""):`<tr><td class="empty">No open positions.</td></tr>`;
+  const m=D.market;$("zc-gb").style.width=Math.round(m.breadth50*100)+"%";$("zc-gbv").textContent=Math.round(m.breadth50*100)+"%";
+  $("zc-mkt").textContent=`S&P 500 ${m.spy_above_200?"above":"below"} its 200 day line \u00b7 new positions at ${Math.round(m.size_today*100)}% size \u00b7 idle cash in gold: ${m.gold_on?"yes":"no"}`;
+  $("zc-upd").textContent="Updated "+new Date(D.updated).toLocaleString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" ET";
+  const items=(D.trades.length?D.trades.slice(-12).map(t=>`<span class="${t.result>0?"up":t.result<0?"dn":""}">${t.action.toUpperCase()} ${t.ticker} \u00b7 ${t.reason}${t.result==null?"":" \u00b7 "+pct(t.result)}</span>`):["ZHEN QUANT \u00b7 LIVE TRACK RECORD","SCANNING 2,300 US STOCKS AFTER EVERY CLOSE","RISK 1% PER TRADE","BACKTEST 2010 TO 2026: "+pct(BT.cagr)+" A YEAR (HYPOTHETICAL)","SPARKGPT.AI","TASTEA.AI","STAR ISLES"].map(x=>`<span>${x}</span>`)).join("");
+  $("zc-mq").innerHTML=items+items;
+  drawChart();
+}
+load();setInterval(load,120000);
+})();
+</script>
+
+</body></html>
