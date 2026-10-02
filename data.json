@@ -1,1 +1,77 @@
-{"updated":"2026-10-02T14:16:30-04:00","status":"pre-launch","inception":null,"capital":{"account_value":19000.0,"principal":19000.0,"pnl_usd":0.0,"cash":19000.0,"deposits":[{"date":"2026-10-01","amount":1000.0}]},"market":{"breadth50":0.242,"spy_above_200":true,"size_today":1.0,"gold_on":false},"stats":{"total_return":0.0,"spy_return":0.0061,"max_drawdown":0.0,"win_rate":null,"closed_trades":0,"open_positions":0,"invested_pct":0.0},"equity":[],"positions":[],"holdings":{"cash":19000.0,"units":190.0,"principal":19000.0,"spy0":764.4099731445312,"shares":{},"entries":{}},"trades":[],"intraday":true}
+{
+ "updated": "2026-10-02T19:50:38+00:00",
+ "status": "pre-launch",
+ "inception": null,
+ "capital": {
+  "account_value": 19000.0,
+  "principal": 19000.0,
+  "pnl_usd": 0.0,
+  "cash": 19000.0,
+  "deposits": [
+   {
+    "date": "2026-10-01",
+    "amount": 1000.0
+   }
+  ]
+ },
+ "market": {
+  "breadth50": 0.266,
+  "spy_above_200": true,
+  "size_today": 1.0,
+  "gold_on": false
+ },
+ "stats": {
+  "total_return": 0.0,
+  "spy_return": 0.0,
+  "max_drawdown": 0.0,
+  "win_rate": null,
+  "closed_trades": 0,
+  "open_positions": 0,
+  "invested_pct": 0.0
+ },
+ "equity": [],
+ "positions": [],
+ "holdings": {
+  "cash": 19000.0,
+  "units": 190.0,
+  "principal": 19000.0,
+  "spy0": 769.6099853515625,
+  "shares": {},
+  "entries": {}
+ },
+ "trades": [],
+ "lab": {
+  "start": "2026-10-02",
+  "note": "Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.",
+  "strategies": [
+   {
+    "id": "a10",
+    "name": "Morning re-scan",
+    "tag": "Swing \u00b7 paper",
+    "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
+    "ret": 0.0,
+    "trades": 0,
+    "win_rate": null,
+    "open": 0,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0
+     }
+    ]
+   },
+   {
+    "id": "orb",
+    "name": "Opening range breakout",
+    "tag": "Intraday \u00b7 paper",
+    "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
+    "ret": 0.0,
+    "trades": 0,
+    "win_rate": null,
+    "open": 0,
+    "avg_spread": null,
+    "curve": []
+   }
+  ]
+ }
+}
