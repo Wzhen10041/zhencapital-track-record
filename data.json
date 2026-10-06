@@ -1,1 +1,176 @@
-{"updated":"2026-10-06T14:50:23-04:00","status":"live","inception":"2026-10-05","capital":{"account_value":20040.11,"principal":20000.0,"pnl_usd":40.11,"cash":13987.91,"deposits":[{"date":"2026-10-01","amount":1000.0},{"date":"2026-10-06","amount":1000.0}]},"market":{"breadth50":0.295,"spy_above_200":true,"size_today":1.0,"gold_on":false},"stats":{"total_return":0.0021,"spy_return":0.0067,"max_drawdown":0.0,"win_rate":null,"closed_trades":0,"open_positions":2,"invested_pct":0.302},"equity":[{"d":"2026-10-05","r":-0.0039,"spy":0.0}],"positions":[{"ticker":"BSBR","setup":"C","opened":"2026-10-05","weight":0.103,"value_usd":2058.0,"ret":0.0381,"stop_dist":0.1285,"stage":"initial"},{"ticker":"PWP","setup":"A","opened":"2026-10-05","weight":0.199,"value_usd":3994.2,"ret":-0.0088,"stop_dist":0.0499,"stage":"initial"}],"holdings":{"cash":13987.91,"units":199.978365,"principal":20000.0,"spy0":774.77001953125,"shares":{"BSBR":343,"PWP":252},"entries":{"BSBR":5.7799,"PWP":15.9904}},"trades":[{"time":"Oct 5 15:50","ticker":"BSBR","action":"Buy","size":"10% of account","value_usd":1983,"reason":"Volume thrust off one year low","result":null},{"time":"Oct 5 16:30","ticker":"PWP","action":"Buy","size":"21% of account","value_usd":4030,"reason":"Breakout held its pullback","result":null}],"lab":{"start":"2026-10-02","note":"Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.","strategies":[{"id":"a10","name":"Morning re-scan","tag":"Swing \u00b7 paper","desc":"The live breakout setup, scanned again at 10:00 and bought then instead of at the close.","ret":-0.0037,"trades":0,"win_rate":null,"open":1,"curve":[{"d":"2026-10-02","r":0.0},{"d":"2026-10-05","r":-0.002},{"d":"2026-10-06","r":-0.0037}]},{"id":"orb","name":"Opening range breakout","tag":"Intraday \u00b7 paper","desc":"Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.","ret":0.0167,"trades":6,"win_rate":0.667,"open":0,"avg_spread":0.00265,"curve":[{"d":"2026-10-02","r":0.0206},{"d":"2026-10-05","r":0.0167}]}]},"intraday":true}
+{
+ "updated": "2026-10-06T19:50:56+00:00",
+ "status": "live",
+ "inception": "2026-10-05",
+ "capital": {
+  "account_value": 19960.06,
+  "principal": 20000.0,
+  "pnl_usd": -39.94,
+  "cash": 10751.6,
+  "deposits": [
+   {
+    "date": "2026-10-01",
+    "amount": 1000.0
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 1000.0
+   }
+  ]
+ },
+ "market": {
+  "breadth50": 0.292,
+  "spy_above_200": true,
+  "size_today": 1.0,
+  "gold_on": false
+ },
+ "stats": {
+  "total_return": -0.0019,
+  "spy_return": 0.0059,
+  "max_drawdown": 0.0,
+  "win_rate": null,
+  "closed_trades": 0,
+  "open_positions": 3,
+  "invested_pct": 0.461
+ },
+ "equity": [
+  {
+   "d": "2026-10-05",
+   "r": -0.0039,
+   "spy": 0.0
+  },
+  {
+   "d": "2026-10-06",
+   "r": -0.0019,
+   "spy": 0.0059
+  }
+ ],
+ "positions": [
+  {
+   "ticker": "BSBR",
+   "setup": "C",
+   "opened": "2026-10-05",
+   "weight": 0.103,
+   "value_usd": 2045.99,
+   "ret": 0.032,
+   "stop_dist": 0.1249,
+   "stage": "initial"
+  },
+  {
+   "ticker": "PWP",
+   "setup": "A",
+   "opened": "2026-10-05",
+   "weight": 0.197,
+   "value_usd": 3928.68,
+   "ret": -0.025,
+   "stop_dist": 0.0346,
+   "stage": "initial"
+  },
+  {
+   "ticker": "UTHR",
+   "setup": "A",
+   "opened": "2026-10-06",
+   "weight": 0.162,
+   "value_usd": 3233.79,
+   "ret": -0.0008,
+   "stop_dist": 0.0601,
+   "stage": "initial"
+  }
+ ],
+ "holdings": {
+  "cash": 10751.6,
+  "units": 199.978365,
+  "principal": 20000.0,
+  "spy0": 774.77001953125,
+  "shares": {
+   "BSBR": 343,
+   "PWP": 252,
+   "UTHR": 6
+  },
+  "entries": {
+   "BSBR": 5.7799,
+   "PWP": 15.9904,
+   "UTHR": 539.3848
+  }
+ },
+ "trades": [
+  {
+   "time": "Oct 5 15:50",
+   "ticker": "BSBR",
+   "action": "Buy",
+   "size": "10% of account",
+   "value_usd": 1983,
+   "reason": "Volume thrust off one year low",
+   "result": null
+  },
+  {
+   "time": "Oct 5 16:30",
+   "ticker": "PWP",
+   "action": "Buy",
+   "size": "21% of account",
+   "value_usd": 4030,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 6 15:50",
+   "ticker": "UTHR",
+   "action": "Buy",
+   "size": "16% of account",
+   "value_usd": 3236,
+   "reason": "Breakout held its pullback",
+   "result": null
+  }
+ ],
+ "lab": {
+  "start": "2026-10-02",
+  "note": "Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.",
+  "strategies": [
+   {
+    "id": "a10",
+    "name": "Morning re-scan",
+    "tag": "Swing \u00b7 paper",
+    "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
+    "ret": -0.0037,
+    "trades": 0,
+    "win_rate": null,
+    "open": 1,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0
+     },
+     {
+      "d": "2026-10-05",
+      "r": -0.002
+     },
+     {
+      "d": "2026-10-06",
+      "r": -0.0037
+     }
+    ]
+   },
+   {
+    "id": "orb",
+    "name": "Opening range breakout",
+    "tag": "Intraday \u00b7 paper",
+    "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
+    "ret": 0.0167,
+    "trades": 6,
+    "win_rate": 0.667,
+    "open": 0,
+    "avg_spread": 0.00265,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0206
+     },
+     {
+      "d": "2026-10-05",
+      "r": 0.0167
+     }
+    ]
+   }
+  ]
+ }
+}
