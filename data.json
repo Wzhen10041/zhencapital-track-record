@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-06T13:38:13+00:00",
+ "updated": "2026-10-06T14:33:37+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19051.29,
+  "account_value": 18970.01,
   "principal": 19000.0,
-  "pnl_usd": 51.29,
+  "pnl_usd": -29.99,
   "cash": 12987.91,
   "deposits": [
    {
@@ -15,19 +15,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.303,
+  "breadth50": 0.295,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": 0.0027,
-  "spy_return": 0.0044,
+  "total_return": -0.0016,
+  "spy_return": 0.0052,
   "max_drawdown": 0.0,
   "win_rate": null,
   "closed_trades": 0,
   "open_positions": 2,
-  "invested_pct": 0.318
+  "invested_pct": 0.315
  },
  "equity": [
   {
@@ -41,20 +41,20 @@
    "ticker": "BSBR",
    "setup": "C",
    "opened": "2026-10-05",
-   "weight": 0.106,
-   "value_usd": 2016.84,
-   "ret": 0.0173,
-   "stop_dist": 0.1122,
+   "weight": 0.105,
+   "value_usd": 1997.98,
+   "ret": 0.0078,
+   "stop_dist": 0.1039,
    "stage": "initial"
   },
   {
    "ticker": "PWP",
    "setup": "A",
    "opened": "2026-10-05",
-   "weight": 0.212,
-   "value_usd": 4046.54,
-   "ret": 0.0042,
-   "stop_dist": 0.0628,
+   "weight": 0.21,
+   "value_usd": 3984.12,
+   "ret": -0.0113,
+   "stop_dist": 0.0481,
    "stage": "initial"
   }
  ],
@@ -121,15 +121,19 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": 0.0206,
-    "trades": 3,
+    "ret": 0.0167,
+    "trades": 6,
     "win_rate": 0.667,
     "open": 0,
-    "avg_spread": 0.00297,
+    "avg_spread": 0.00265,
     "curve": [
      {
       "d": "2026-10-02",
       "r": 0.0206
+     },
+     {
+      "d": "2026-10-05",
+      "r": 0.0167
      }
     ]
    }
