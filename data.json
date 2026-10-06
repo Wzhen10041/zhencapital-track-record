@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-06T16:33:40+00:00",
+ "updated": "2026-10-06T18:33:00+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 20041.19,
+  "account_value": 20035.88,
   "principal": 20000.0,
-  "pnl_usd": 41.19,
+  "pnl_usd": 35.88,
   "cash": 13987.91,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.31,
+  "breadth50": 0.295,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": 0.0022,
-  "spy_return": 0.0072,
+  "total_return": 0.0019,
+  "spy_return": 0.0066,
   "max_drawdown": 0.0,
   "win_rate": null,
   "closed_trades": 0,
@@ -45,20 +45,20 @@
    "ticker": "BSBR",
    "setup": "C",
    "opened": "2026-10-05",
-   "weight": 0.101,
-   "value_usd": 2028.85,
-   "ret": 0.0234,
-   "stop_dist": 0.1175,
+   "weight": 0.103,
+   "value_usd": 2054.57,
+   "ret": 0.0364,
+   "stop_dist": 0.1285,
    "stage": "initial"
   },
   {
    "ticker": "PWP",
    "setup": "A",
    "opened": "2026-10-05",
-   "weight": 0.201,
-   "value_usd": 4024.44,
-   "ret": -0.0013,
-   "stop_dist": 0.0576,
+   "weight": 0.199,
+   "value_usd": 3991.68,
+   "ret": -0.0094,
+   "stop_dist": 0.0499,
    "stage": "initial"
   }
  ],
