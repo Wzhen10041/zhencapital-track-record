@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-09T18:33:01+00:00",
+ "updated": "2026-10-09T19:50:59+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19574.24,
+  "account_value": 19516.94,
   "principal": 20000.0,
-  "pnl_usd": -425.76,
-  "cash": 4567.57,
+  "pnl_usd": -483.06,
+  "cash": 23.43,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.301,
+  "breadth50": 0.303,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0212,
+  "total_return": -0.024,
   "spy_return": 0.005,
-  "max_drawdown": -0.0208,
+  "max_drawdown": -0.0221,
   "win_rate": 0.0,
   "closed_trades": 3,
-  "open_positions": 5,
-  "invested_pct": 0.767
+  "open_positions": 6,
+  "invested_pct": 0.999
  },
  "equity": [
   {
@@ -53,6 +53,11 @@
    "d": "2026-10-08",
    "r": -0.0227,
    "spy": -0.0013
+  },
+  {
+   "d": "2026-10-09",
+   "r": -0.024,
+   "spy": 0.005
   }
  ],
  "positions": [
@@ -60,10 +65,10 @@
    "ticker": "BSBR",
    "setup": "C",
    "opened": "2026-10-05",
-   "weight": 0.103,
-   "value_usd": 2023.7,
-   "ret": 0.0208,
-   "stop_dist": 0.1153,
+   "weight": 0.102,
+   "value_usd": 1992.83,
+   "ret": 0.0052,
+   "stop_dist": 0.1015,
    "stage": "initial"
   },
   {
@@ -71,29 +76,29 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.169,
-   "value_usd": 3299.4,
-   "ret": 0.0195,
-   "stop_dist": 0.0788,
+   "value_usd": 3299.67,
+   "ret": 0.0196,
+   "stop_dist": 0.0789,
    "stage": "initial"
   },
   {
    "ticker": "SLG",
    "setup": "S",
    "opened": "2026-10-07",
-   "weight": 0.246,
-   "value_usd": 4811.4,
-   "ret": -0.0002,
-   "stop_dist": 0.0366,
+   "weight": 0.245,
+   "value_usd": 4782.69,
+   "ret": -0.0062,
+   "stop_dist": 0.0308,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.149,
-   "value_usd": 2922.39,
-   "ret": 0.014,
-   "stop_dist": 0.0791,
+   "weight": 0.15,
+   "value_usd": 2934.55,
+   "ret": 0.0183,
+   "stop_dist": 0.0829,
    "stage": "initial"
   },
   {
@@ -101,14 +106,24 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.1,
-   "value_usd": 1950.54,
-   "ret": 0.0087,
-   "stop_dist": 0.0574,
+   "value_usd": 1942.42,
+   "ret": 0.0045,
+   "stop_dist": 0.0534,
+   "stage": "initial"
+  },
+  {
+   "ticker": "TKR",
+   "setup": "S",
+   "opened": "2026-10-09",
+   "weight": 0.233,
+   "value_usd": 4541.35,
+   "ret": -0.0006,
+   "stop_dist": 0.0341,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 4567.57,
+  "cash": 23.43,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -117,14 +132,16 @@
    "UTHR": 6,
    "SLG": 99,
    "MSTR": 19,
-   "TTEK": 58
+   "TTEK": 58,
+   "TKR": 39
   },
   "entries": {
    "BSBR": 5.7799,
    "UTHR": 539.3848,
    "SLG": 48.6099,
    "MSTR": 151.6799,
-   "TTEK": 33.3399
+   "TTEK": 33.3399,
+   "TKR": 116.5165
   }
  },
  "trades": [
@@ -226,6 +243,15 @@
    "value_usd": 4536,
    "reason": "Stop hit",
    "result": -0.043
+  },
+  {
+   "time": "Oct 9 15:50",
+   "ticker": "TKR",
+   "action": "Buy",
+   "size": "23% of account",
+   "value_usd": 4544,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
