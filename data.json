@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-12T13:38:55+00:00",
+ "updated": "2026-10-12T14:35:29+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19521.5,
+  "account_value": 19529.66,
   "principal": 20000.0,
-  "pnl_usd": -478.5,
+  "pnl_usd": -470.34,
   "cash": 23.43,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.309,
+  "breadth50": 0.306,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0238,
-  "spy_return": 0.0056,
+  "total_return": -0.0234,
+  "spy_return": 0.0041,
   "max_drawdown": -0.0221,
   "win_rate": 0.0,
   "closed_trades": 3,
@@ -66,49 +66,49 @@
    "setup": "C",
    "opened": "2026-10-05",
    "weight": 0.102,
-   "value_usd": 1989.4,
-   "ret": 0.0035,
-   "stop_dist": 0.1,
+   "value_usd": 1991.12,
+   "ret": 0.0043,
+   "stop_dist": 0.1008,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.17,
-   "value_usd": 3316.2,
-   "ret": 0.0247,
-   "stop_dist": 0.0835,
+   "weight": 0.169,
+   "value_usd": 3295.02,
+   "ret": 0.0181,
+   "stop_dist": 0.0776,
    "stage": "initial"
   },
   {
    "ticker": "SLG",
    "setup": "S",
    "opened": "2026-10-07",
-   "weight": 0.243,
-   "value_usd": 4744.08,
-   "ret": -0.0142,
-   "stop_dist": 0.023,
+   "weight": 0.244,
+   "value_usd": 4767.84,
+   "ret": -0.0093,
+   "stop_dist": 0.0278,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.151,
-   "value_usd": 2948.8,
-   "ret": 0.0232,
-   "stop_dist": 0.0873,
+   "weight": 0.152,
+   "value_usd": 2958.85,
+   "ret": 0.0267,
+   "stop_dist": 0.0904,
    "stage": "initial"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.101,
-   "value_usd": 1963.3,
-   "ret": 0.0153,
-   "stop_dist": 0.0635,
+   "weight": 0.1,
+   "value_usd": 1956.34,
+   "ret": 0.0117,
+   "stop_dist": 0.0602,
    "stage": "initial"
   },
   {
@@ -116,9 +116,9 @@
    "setup": "S",
    "opened": "2026-10-09",
    "weight": 0.232,
-   "value_usd": 4536.48,
-   "ret": -0.0017,
-   "stop_dist": 0.033,
+   "value_usd": 4537.06,
+   "ret": -0.0016,
+   "stop_dist": 0.0331,
    "stage": "initial"
   }
  ],
@@ -299,9 +299,9 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0274,
-    "trades": 16,
-    "win_rate": 0.312,
+    "ret": -0.0239,
+    "trades": 18,
+    "win_rate": 0.333,
     "open": 0,
     "avg_spread": 0.00355,
     "curve": [
@@ -324,6 +324,10 @@
      {
       "d": "2026-10-08",
       "r": -0.0274
+     },
+     {
+      "d": "2026-10-09",
+      "r": -0.0239
      }
     ]
    }
