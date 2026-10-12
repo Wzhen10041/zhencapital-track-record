@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-09T19:50:59+00:00",
+ "updated": "2026-10-12T13:38:55+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19516.94,
+  "account_value": 19521.5,
   "principal": 20000.0,
-  "pnl_usd": -483.06,
+  "pnl_usd": -478.5,
   "cash": 23.43,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.303,
+  "breadth50": 0.309,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.024,
-  "spy_return": 0.005,
+  "total_return": -0.0238,
+  "spy_return": 0.0056,
   "max_drawdown": -0.0221,
   "win_rate": 0.0,
   "closed_trades": 3,
@@ -66,59 +66,59 @@
    "setup": "C",
    "opened": "2026-10-05",
    "weight": 0.102,
-   "value_usd": 1992.83,
-   "ret": 0.0052,
-   "stop_dist": 0.1015,
+   "value_usd": 1989.4,
+   "ret": 0.0035,
+   "stop_dist": 0.1,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.169,
-   "value_usd": 3299.67,
-   "ret": 0.0196,
-   "stop_dist": 0.0789,
+   "weight": 0.17,
+   "value_usd": 3316.2,
+   "ret": 0.0247,
+   "stop_dist": 0.0835,
    "stage": "initial"
   },
   {
    "ticker": "SLG",
    "setup": "S",
    "opened": "2026-10-07",
-   "weight": 0.245,
-   "value_usd": 4782.69,
-   "ret": -0.0062,
-   "stop_dist": 0.0308,
+   "weight": 0.243,
+   "value_usd": 4744.08,
+   "ret": -0.0142,
+   "stop_dist": 0.023,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.15,
-   "value_usd": 2934.55,
-   "ret": 0.0183,
-   "stop_dist": 0.0829,
+   "weight": 0.151,
+   "value_usd": 2948.8,
+   "ret": 0.0232,
+   "stop_dist": 0.0873,
    "stage": "initial"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.1,
-   "value_usd": 1942.42,
-   "ret": 0.0045,
-   "stop_dist": 0.0534,
+   "weight": 0.101,
+   "value_usd": 1963.3,
+   "ret": 0.0153,
+   "stop_dist": 0.0635,
    "stage": "initial"
   },
   {
    "ticker": "TKR",
    "setup": "S",
    "opened": "2026-10-09",
-   "weight": 0.233,
-   "value_usd": 4541.35,
-   "ret": -0.0006,
-   "stop_dist": 0.0341,
+   "weight": 0.232,
+   "value_usd": 4536.48,
+   "ret": -0.0017,
+   "stop_dist": 0.033,
    "stage": "initial"
   }
  ],
