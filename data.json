@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-12T16:33:28+00:00",
+ "updated": "2026-10-12T17:32:57+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19516.73,
+  "account_value": 19527.23,
   "principal": 20000.0,
-  "pnl_usd": -483.27,
+  "pnl_usd": -472.77,
   "cash": 23.43,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.317,
+  "breadth50": 0.313,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0241,
-  "spy_return": 0.0047,
+  "total_return": -0.0235,
+  "spy_return": 0.0037,
   "max_drawdown": -0.0221,
   "win_rate": 0.0,
   "closed_trades": 3,
@@ -66,39 +66,39 @@
    "setup": "C",
    "opened": "2026-10-05",
    "weight": 0.102,
-   "value_usd": 1987.68,
-   "ret": 0.0026,
-   "stop_dist": 0.0992,
+   "value_usd": 1982.54,
+   "ret": 0.0,
+   "stop_dist": 0.0969,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.169,
-   "value_usd": 3306.84,
-   "ret": 0.0218,
-   "stop_dist": 0.0809,
+   "weight": 0.17,
+   "value_usd": 3309.89,
+   "ret": 0.0227,
+   "stop_dist": 0.0817,
    "stage": "initial"
   },
   {
    "ticker": "SLG",
    "setup": "S",
    "opened": "2026-10-07",
-   "weight": 0.245,
-   "value_usd": 4789.62,
-   "ret": -0.0047,
-   "stop_dist": 0.0322,
+   "weight": 0.246,
+   "value_usd": 4810.9,
+   "ret": -0.0003,
+   "stop_dist": 0.0365,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.15,
-   "value_usd": 2925.53,
-   "ret": 0.0151,
-   "stop_dist": 0.08,
+   "weight": 0.149,
+   "value_usd": 2908.42,
+   "ret": 0.0092,
+   "stop_dist": 0.0746,
    "stage": "initial"
   },
   {
@@ -106,9 +106,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.1,
-   "value_usd": 1959.24,
-   "ret": 0.0132,
-   "stop_dist": 0.0616,
+   "value_usd": 1956.92,
+   "ret": 0.012,
+   "stop_dist": 0.0605,
    "stage": "initial"
   },
   {
@@ -116,9 +116,9 @@
    "setup": "S",
    "opened": "2026-10-09",
    "weight": 0.232,
-   "value_usd": 4524.39,
-   "ret": -0.0043,
-   "stop_dist": 0.0304,
+   "value_usd": 4535.11,
+   "ret": -0.002,
+   "stop_dist": 0.0327,
    "stage": "initial"
   }
  ],
