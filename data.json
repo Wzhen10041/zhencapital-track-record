@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-14T16:35:48+00:00",
+ "updated": "2026-10-14T17:34:38+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18906.5,
+  "account_value": 18936.51,
   "principal": 20000.0,
-  "pnl_usd": -1093.5,
+  "pnl_usd": -1063.49,
   "cash": 4651.07,
   "deposits": [
    {
@@ -19,15 +19,15 @@
   ]
  },
  "market": {
-  "breadth50": 0.274,
+  "breadth50": 0.272,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0546,
-  "spy_return": -0.0069,
-  "max_drawdown": -0.0528,
+  "total_return": -0.0531,
+  "spy_return": -0.008,
+  "max_drawdown": -0.0513,
   "win_rate": 0.0,
   "closed_trades": 5,
   "open_positions": 5,
@@ -71,8 +71,8 @@
   },
   {
    "d": "2026-10-14",
-   "r": -0.0546,
-   "spy": -0.0069
+   "r": -0.0531,
+   "spy": -0.008
   }
  ],
  "positions": [
@@ -81,39 +81,39 @@
    "setup": "C",
    "opened": "2026-10-05",
    "weight": 0.102,
-   "value_usd": 1931.19,
-   "ret": -0.0259,
-   "stop_dist": 0.0729,
+   "value_usd": 1932.8,
+   "ret": -0.0251,
+   "stop_dist": 0.0736,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.17,
-   "value_usd": 3222.96,
-   "ret": -0.0041,
-   "stop_dist": 0.057,
+   "weight": 0.173,
+   "value_usd": 3268.26,
+   "ret": 0.0099,
+   "stop_dist": 0.07,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.146,
-   "value_usd": 2754.81,
-   "ret": -0.0441,
-   "stop_dist": 0.023,
+   "weight": 0.144,
+   "value_usd": 2730.68,
+   "ret": -0.0525,
+   "stop_dist": 0.0144,
    "stage": "initial"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.103,
-   "value_usd": 1949.09,
-   "ret": 0.008,
-   "stop_dist": 0.0567,
+   "weight": 0.102,
+   "value_usd": 1938.94,
+   "ret": 0.0027,
+   "stop_dist": 0.0517,
    "stage": "initial"
   },
   {
@@ -121,9 +121,9 @@
    "setup": "S",
    "opened": "2026-10-13",
    "weight": 0.233,
-   "value_usd": 4397.38,
-   "ret": 0.0016,
-   "stop_dist": 0.0154,
+   "value_usd": 4413.99,
+   "ret": 0.0054,
+   "stop_dist": 0.0191,
    "stage": "initial"
   }
  ],
