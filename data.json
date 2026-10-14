@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-14T14:34:40+00:00",
+ "updated": "2026-10-14T15:38:20+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18984.02,
+  "account_value": 18956.6,
   "principal": 20000.0,
-  "pnl_usd": -1015.98,
+  "pnl_usd": -1043.4,
   "cash": 19.77,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.285,
+  "breadth50": 0.28,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0507,
-  "spy_return": -0.0022,
+  "total_return": -0.0521,
+  "spy_return": -0.0045,
   "max_drawdown": -0.0332,
   "win_rate": 0.0,
   "closed_trades": 4,
@@ -76,39 +76,39 @@
    "setup": "C",
    "opened": "2026-10-05",
    "weight": 0.102,
-   "value_usd": 1934.52,
-   "ret": -0.0242,
-   "stop_dist": 0.0745,
+   "value_usd": 1936.23,
+   "ret": -0.0233,
+   "stop_dist": 0.0753,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.17,
-   "value_usd": 3232.56,
-   "ret": -0.0012,
-   "stop_dist": 0.0598,
+   "weight": 0.171,
+   "value_usd": 3237.06,
+   "ret": 0.0002,
+   "stop_dist": 0.0611,
    "stage": "initial"
   },
   {
    "ticker": "SLG",
    "setup": "S",
    "opened": "2026-10-07",
-   "weight": 0.247,
-   "value_usd": 4692.6,
-   "ret": -0.0249,
-   "stop_dist": 0.0122,
+   "weight": 0.246,
+   "value_usd": 4654.98,
+   "ret": -0.0327,
+   "stop_dist": 0.0043,
    "stage": "initial"
   },
   {
    "ticker": "MSTR",
    "setup": "A",
    "opened": "2026-10-08",
-   "weight": 0.145,
-   "value_usd": 2756.52,
-   "ret": -0.0435,
-   "stop_dist": 0.0236,
+   "weight": 0.146,
+   "value_usd": 2760.89,
+   "ret": -0.042,
+   "stop_dist": 0.0252,
    "stage": "initial"
   },
   {
@@ -116,19 +116,19 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.103,
-   "value_usd": 1950.54,
-   "ret": 0.0087,
-   "stop_dist": 0.0574,
+   "value_usd": 1961.56,
+   "ret": 0.0144,
+   "stop_dist": 0.0627,
    "stage": "initial"
   },
   {
    "ticker": "PSNL",
    "setup": "S",
    "opened": "2026-10-13",
-   "weight": 0.232,
-   "value_usd": 4395.99,
-   "ret": 0.0013,
-   "stop_dist": 0.0151,
+   "weight": 0.231,
+   "value_usd": 4386.3,
+   "ret": -0.0009,
+   "stop_dist": 0.0129,
    "stage": "initial"
   }
  ],
