@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-14T18:34:52+00:00",
+ "updated": "2026-10-15T13:39:42+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18879.72,
+  "account_value": 18866.15,
   "principal": 20000.0,
-  "pnl_usd": -1120.28,
-  "cash": 4651.07,
+  "pnl_usd": -1133.85,
+  "cash": 2699.57,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.272,
+  "breadth50": 0.316,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0559,
-  "spy_return": -0.0091,
-  "max_drawdown": -0.0541,
+  "total_return": -0.0566,
+  "spy_return": -0.0112,
+  "max_drawdown": -0.0548,
   "win_rate": 0.0,
-  "closed_trades": 5,
-  "open_positions": 5,
-  "invested_pct": 0.754
+  "closed_trades": 6,
+  "open_positions": 6,
+  "invested_pct": 0.857
  },
  "equity": [
   {
@@ -71,8 +71,13 @@
   },
   {
    "d": "2026-10-14",
-   "r": -0.0559,
-   "spy": -0.0091
+   "r": -0.0563,
+   "spy": -0.0075
+  },
+  {
+   "d": "2026-10-15",
+   "r": -0.0566,
+   "spy": -0.0112
   }
  ],
  "positions": [
@@ -80,71 +85,83 @@
    "ticker": "BSBR",
    "setup": "C",
    "opened": "2026-10-05",
-   "weight": 0.102,
-   "value_usd": 1927.66,
-   "ret": -0.0277,
-   "stop_dist": 0.0712,
+   "weight": 0.101,
+   "value_usd": 1912.23,
+   "ret": -0.0355,
+   "stop_dist": 0.0637,
    "stage": "initial"
   },
   {
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.172,
-   "value_usd": 3249.05,
-   "ret": 0.0039,
-   "stop_dist": 0.0645,
-   "stage": "initial"
-  },
-  {
-   "ticker": "MSTR",
-   "setup": "A",
-   "opened": "2026-10-08",
-   "weight": 0.144,
-   "value_usd": 2713.77,
-   "ret": -0.0583,
-   "stop_dist": 0.0083,
+   "weight": 0.173,
+   "value_usd": 3265.5,
+   "ret": 0.009,
+   "stop_dist": 0.0693,
    "stage": "initial"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.103,
-   "value_usd": 1937.78,
-   "ret": 0.0021,
-   "stop_dist": 0.0512,
+   "weight": 0.105,
+   "value_usd": 1986.5,
+   "ret": 0.0273,
+   "stop_dist": 0.0745,
    "stage": "initial"
   },
   {
    "ticker": "PSNL",
    "setup": "S",
    "opened": "2026-10-13",
-   "weight": 0.233,
-   "value_usd": 4401.53,
-   "ret": 0.0026,
-   "stop_dist": 0.0164,
+   "weight": 0.234,
+   "value_usd": 4408.45,
+   "ret": 0.0041,
+   "stop_dist": 0.0179,
+   "stage": "initial"
+  },
+  {
+   "ticker": "YETI",
+   "setup": "S",
+   "opened": "2026-10-14",
+   "weight": 0.209,
+   "value_usd": 3948.88,
+   "ret": 0.0097,
+   "stop_dist": 0.0592,
+   "stage": "initial"
+  },
+  {
+   "ticker": "BG",
+   "setup": "S",
+   "opened": "2026-10-14",
+   "weight": 0.034,
+   "value_usd": 646.41,
+   "ret": -0.0117,
+   "stop_dist": 0.057,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 4651.07,
+  "cash": 2699.57,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
   "shares": {
    "BSBR": 343,
    "UTHR": 6,
-   "MSTR": 19,
    "TTEK": 58,
-   "PSNL": 277
+   "PSNL": 277,
+   "YETI": 97,
+   "BG": 6
   },
   "entries": {
    "BSBR": 5.7799,
    "UTHR": 539.3848,
-   "MSTR": 151.6799,
    "TTEK": 33.3399,
-   "PSNL": 15.8494
+   "PSNL": 15.8494,
+   "YETI": 40.3198,
+   "BG": 109.01
   }
  },
  "trades": [
@@ -282,6 +299,33 @@
    "value_usd": 4631,
    "reason": "Stop hit",
    "result": -0.0376
+  },
+  {
+   "time": "Oct 14 15:50",
+   "ticker": "YETI",
+   "action": "Buy",
+   "size": "21% of account",
+   "value_usd": 3911,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 14 15:50",
+   "ticker": "BG",
+   "action": "Buy",
+   "size": "3% of account",
+   "value_usd": 654,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 15 09:30",
+   "ticker": "MSTR",
+   "action": "Sell",
+   "size": "14% of account",
+   "value_usd": 2614,
+   "reason": "Stop hit",
+   "result": -0.0931
   }
  ],
  "lab": {
