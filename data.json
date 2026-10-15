@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-15T17:34:33+00:00",
+ "updated": "2026-10-15T18:34:05+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19074.03,
+  "account_value": 19039.08,
   "principal": 20000.0,
-  "pnl_usd": -925.97,
+  "pnl_usd": -960.92,
   "cash": 2699.57,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.331,
+  "breadth50": 0.33,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0462,
-  "spy_return": -0.0054,
+  "total_return": -0.0479,
+  "spy_return": -0.0063,
   "max_drawdown": -0.0545,
   "win_rate": 0.0,
   "closed_trades": 6,
@@ -76,8 +76,8 @@
   },
   {
    "d": "2026-10-15",
-   "r": -0.0462,
-   "spy": -0.0054
+   "r": -0.0479,
+   "spy": -0.0063
   }
  ],
  "positions": [
@@ -85,10 +85,10 @@
    "ticker": "BSBR",
    "setup": "C",
    "opened": "2026-10-05",
-   "weight": 0.1,
-   "value_usd": 1915.65,
-   "ret": -0.0337,
-   "stop_dist": 0.0654,
+   "weight": 0.101,
+   "value_usd": 1913.94,
+   "ret": -0.0346,
+   "stop_dist": 0.0645,
    "stage": "initial"
   },
   {
@@ -96,9 +96,9 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.173,
-   "value_usd": 3292.44,
-   "ret": 0.0173,
-   "stop_dist": 0.0769,
+   "value_usd": 3293.22,
+   "ret": 0.0176,
+   "stop_dist": 0.0771,
    "stage": "initial"
   },
   {
@@ -106,9 +106,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.105,
-   "value_usd": 1997.52,
-   "ret": 0.033,
-   "stop_dist": 0.0796,
+   "value_usd": 2000.42,
+   "ret": 0.0345,
+   "stop_dist": 0.0809,
    "stage": "initial"
   },
   {
@@ -125,10 +125,10 @@
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.215,
-   "value_usd": 4109.4,
-   "ret": 0.0507,
-   "stop_dist": 0.096,
+   "weight": 0.214,
+   "value_usd": 4074.0,
+   "ret": 0.0417,
+   "stop_dist": 0.0881,
    "stage": "initial"
   },
   {
@@ -136,9 +136,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.034,
-   "value_usd": 653.76,
-   "ret": -0.0005,
-   "stop_dist": 0.0676,
+   "value_usd": 651.66,
+   "ret": -0.0037,
+   "stop_dist": 0.0646,
    "stage": "initial"
   }
  ],
@@ -328,5 +328,111 @@
    "result": -0.0931
   }
  ],
- "lab": null
+ "lab": {
+  "start": "2026-10-02",
+  "note": "Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.",
+  "strategies": [
+   {
+    "id": "a10",
+    "name": "Morning re-scan",
+    "tag": "Swing \u00b7 paper",
+    "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
+    "ret": -0.0562,
+    "trades": 6,
+    "win_rate": 0.0,
+    "open": 2,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0
+     },
+     {
+      "d": "2026-10-05",
+      "r": -0.002
+     },
+     {
+      "d": "2026-10-06",
+      "r": -0.0037
+     },
+     {
+      "d": "2026-10-07",
+      "r": -0.0056
+     },
+     {
+      "d": "2026-10-08",
+      "r": -0.013
+     },
+     {
+      "d": "2026-10-09",
+      "r": -0.0275
+     },
+     {
+      "d": "2026-10-12",
+      "r": -0.0269
+     },
+     {
+      "d": "2026-10-13",
+      "r": -0.0318
+     },
+     {
+      "d": "2026-10-14",
+      "r": -0.0516
+     },
+     {
+      "d": "2026-10-15",
+      "r": -0.0562
+     }
+    ]
+   },
+   {
+    "id": "orb",
+    "name": "Opening range breakout",
+    "tag": "Intraday \u00b7 paper",
+    "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
+    "ret": -0.0594,
+    "trades": 27,
+    "win_rate": 0.333,
+    "open": 0,
+    "avg_spread": 0.00384,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0206
+     },
+     {
+      "d": "2026-10-05",
+      "r": 0.0167
+     },
+     {
+      "d": "2026-10-06",
+      "r": -0.017
+     },
+     {
+      "d": "2026-10-07",
+      "r": -0.0209
+     },
+     {
+      "d": "2026-10-08",
+      "r": -0.0274
+     },
+     {
+      "d": "2026-10-09",
+      "r": -0.0239
+     },
+     {
+      "d": "2026-10-12",
+      "r": -0.0356
+     },
+     {
+      "d": "2026-10-13",
+      "r": -0.0351
+     },
+     {
+      "d": "2026-10-14",
+      "r": -0.0594
+     }
+    ]
+   }
+  ]
+ }
 }
