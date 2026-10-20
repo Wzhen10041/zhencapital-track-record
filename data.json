@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-20T18:33:38+00:00",
+ "updated": "2026-10-20T19:52:06+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18846.04,
+  "account_value": 18878.96,
   "principal": 20000.0,
-  "pnl_usd": -1153.96,
-  "cash": 3182.1,
+  "pnl_usd": -1121.04,
+  "cash": 174.48,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.382,
+  "breadth50": 0.38,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0576,
-  "spy_return": -0.0075,
+  "total_return": -0.056,
+  "spy_return": -0.0086,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 8,
-  "open_positions": 7,
-  "invested_pct": 0.831
+  "open_positions": 9,
+  "invested_pct": 0.991
  },
  "equity": [
   {
@@ -86,8 +86,8 @@
   },
   {
    "d": "2026-10-20",
-   "r": -0.0576,
-   "spy": -0.0075
+   "r": -0.056,
+   "spy": -0.0086
   }
  ],
  "positions": [
@@ -96,9 +96,9 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.117,
-   "value_usd": 2207.52,
-   "ret": 0.0232,
-   "stop_dist": 0.0226,
+   "value_usd": 2214.58,
+   "ret": 0.0264,
+   "stop_dist": 0.0258,
    "stage": "runner"
   },
   {
@@ -106,9 +106,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.107,
-   "value_usd": 2017.82,
-   "ret": 0.0435,
-   "stop_dist": 0.0888,
+   "value_usd": 2025.94,
+   "ret": 0.0477,
+   "stop_dist": 0.0925,
    "stage": "initial"
   },
   {
@@ -116,9 +116,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.218,
-   "value_usd": 4105.04,
-   "ret": 0.0496,
-   "stop_dist": 0.095,
+   "value_usd": 4112.8,
+   "ret": 0.0516,
+   "stop_dist": 0.0967,
    "stage": "initial"
   },
   {
@@ -126,44 +126,64 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.033,
-   "value_usd": 616.2,
-   "ret": -0.0579,
-   "stop_dist": 0.0108,
+   "value_usd": 617.58,
+   "ret": -0.0558,
+   "stop_dist": 0.013,
    "stage": "initial"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.128,
-   "value_usd": 2418.24,
-   "ret": -0.0574,
-   "stop_dist": 0.0169,
+   "weight": 0.129,
+   "value_usd": 2434.08,
+   "ret": -0.0512,
+   "stop_dist": 0.0233,
    "stage": "initial"
   },
   {
    "ticker": "OII",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.125,
-   "value_usd": 2348.43,
-   "ret": -0.0065,
-   "stop_dist": 0.0752,
+   "weight": 0.124,
+   "value_usd": 2342.07,
+   "ret": -0.0092,
+   "stop_dist": 0.0726,
    "stage": "initial"
   },
   {
    "ticker": "KRYS",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.104,
-   "value_usd": 1950.69,
-   "ret": 0.0138,
-   "stop_dist": 0.0432,
+   "weight": 0.103,
+   "value_usd": 1949.88,
+   "ret": 0.0134,
+   "stop_dist": 0.0428,
+   "stage": "initial"
+  },
+  {
+   "ticker": "WT",
+   "setup": "S",
+   "opened": "2026-10-20",
+   "weight": 0.127,
+   "value_usd": 2403.7,
+   "ret": -0.0002,
+   "stop_dist": 0.0787,
+   "stage": "initial"
+  },
+  {
+   "ticker": "AGM",
+   "setup": "S",
+   "opened": "2026-10-20",
+   "weight": 0.032,
+   "value_usd": 603.28,
+   "ret": -0.0001,
+   "stop_dist": 0.0261,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 3182.1,
+  "cash": 174.48,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -174,7 +194,9 @@
    "BG": 6,
    "SKY": 32,
    "OII": 53,
-   "KRYS": 6
+   "KRYS": 6,
+   "WT": 111,
+   "AGM": 3
   },
   "entries": {
    "UTHR": 539.3848,
@@ -183,7 +205,9 @@
    "BG": 109.01,
    "SKY": 80.17,
    "OII": 44.5999,
-   "KRYS": 320.69
+   "KRYS": 320.69,
+   "WT": 21.6599,
+   "AGM": 201.1234
   }
  },
  "trades": [
@@ -402,6 +426,24 @@
    "value_usd": 1116,
    "reason": "Reached prior high, sold a quarter",
    "result": 0.0347
+  },
+  {
+   "time": "Oct 20 15:50",
+   "ticker": "WT",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 2404,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 20 15:50",
+   "ticker": "AGM",
+   "action": "Buy",
+   "size": "3% of account",
+   "value_usd": 603,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
