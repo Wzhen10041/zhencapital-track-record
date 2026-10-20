@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-20T14:34:41+00:00",
+ "updated": "2026-10-20T15:36:08+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18934.41,
+  "account_value": 18924.84,
   "principal": 20000.0,
-  "pnl_usd": -1065.59,
-  "cash": 2065.91,
+  "pnl_usd": -1075.16,
+  "cash": 3182.1,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.381,
+  "breadth50": 0.377,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0532,
-  "spy_return": -0.0048,
+  "total_return": -0.0537,
+  "spy_return": -0.0079,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 8,
   "open_positions": 7,
-  "invested_pct": 0.891
+  "invested_pct": 0.832
  },
  "equity": [
   {
@@ -86,8 +86,8 @@
   },
   {
    "d": "2026-10-20",
-   "r": -0.0532,
-   "spy": -0.0048
+   "r": -0.0537,
+   "spy": -0.0079
   }
  ],
  "positions": [
@@ -95,20 +95,20 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.177,
-   "value_usd": 3358.47,
-   "ret": 0.0377,
-   "stop_dist": 0.095,
-   "stage": "initial"
+   "weight": 0.118,
+   "value_usd": 2235.8,
+   "ret": 0.0363,
+   "stop_dist": 0.035,
+   "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.107,
-   "value_usd": 2021.3,
-   "ret": 0.0453,
-   "stop_dist": 0.0904,
+   "value_usd": 2019.85,
+   "ret": 0.0445,
+   "stop_dist": 0.0897,
    "stage": "initial"
   },
   {
@@ -116,9 +116,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.218,
-   "value_usd": 4130.26,
-   "ret": 0.0561,
-   "stop_dist": 0.1005,
+   "value_usd": 4122.5,
+   "ret": 0.0541,
+   "stop_dist": 0.0988,
    "stage": "initial"
   },
   {
@@ -126,19 +126,19 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.033,
-   "value_usd": 618.72,
-   "ret": -0.054,
-   "stop_dist": 0.0148,
+   "value_usd": 619.71,
+   "ret": -0.0525,
+   "stop_dist": 0.0164,
    "stage": "initial"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.129,
-   "value_usd": 2442.88,
-   "ret": -0.0478,
-   "stop_dist": 0.0269,
+   "weight": 0.128,
+   "value_usd": 2428.42,
+   "ret": -0.0534,
+   "stop_dist": 0.0211,
    "stage": "initial"
   },
   {
@@ -146,29 +146,29 @@
    "setup": "S",
    "opened": "2026-10-19",
    "weight": 0.124,
-   "value_usd": 2340.48,
-   "ret": -0.0099,
-   "stop_dist": 0.072,
+   "value_usd": 2350.02,
+   "ret": -0.0058,
+   "stop_dist": 0.0758,
    "stage": "initial"
   },
   {
    "ticker": "KRYS",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.103,
-   "value_usd": 1956.39,
-   "ret": 0.0168,
-   "stop_dist": 0.046,
+   "weight": 0.104,
+   "value_usd": 1966.44,
+   "ret": 0.022,
+   "stop_dist": 0.0508,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 2065.91,
+  "cash": 3182.1,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
   "shares": {
-   "UTHR": 6,
+   "UTHR": 4,
    "TTEK": 58,
    "YETI": 97,
    "BG": 6,
@@ -393,6 +393,15 @@
    "value_usd": 1924,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Oct 20 11:34",
+   "ticker": "UTHR",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 1116,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.0347
   }
  ],
  "lab": {
@@ -404,10 +413,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0623,
-    "trades": 6,
+    "ret": -0.0663,
+    "trades": 8,
     "win_rate": 0.0,
-    "open": 2,
+    "open": 0,
     "curve": [
      {
       "d": "2026-10-02",
@@ -452,6 +461,10 @@
      {
       "d": "2026-10-19",
       "r": -0.0623
+     },
+     {
+      "d": "2026-10-20",
+      "r": -0.0663
      }
     ]
    },
