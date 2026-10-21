@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-21T14:34:46+00:00",
+ "updated": "2026-10-21T17:40:47+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18957.74,
+  "account_value": 18973.4,
   "principal": 20000.0,
-  "pnl_usd": -1042.26,
+  "pnl_usd": -1026.6,
   "cash": 783.52,
   "deposits": [
    {
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.398,
+  "breadth50": 0.406,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.052,
-  "spy_return": -0.0063,
+  "total_return": -0.0512,
+  "spy_return": -0.0014,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 9,
   "open_positions": 8,
-  "invested_pct": 0.958
+  "invested_pct": 0.959
  },
  "equity": [
   {
@@ -91,8 +91,8 @@
   },
   {
    "d": "2026-10-21",
-   "r": -0.052,
-   "spy": -0.0063
+   "r": -0.0512,
+   "spy": -0.0014
   }
  ],
  "positions": [
@@ -101,19 +101,19 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.118,
-   "value_usd": 2236.68,
-   "ret": 0.0367,
-   "stop_dist": 0.0354,
+   "value_usd": 2234.84,
+   "ret": 0.0358,
+   "stop_dist": 0.0346,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.108,
-   "value_usd": 2044.79,
-   "ret": 0.0574,
-   "stop_dist": 0.1008,
+   "weight": 0.107,
+   "value_usd": 2032.32,
+   "ret": 0.051,
+   "stop_dist": 0.0953,
    "stage": "initial"
   },
   {
@@ -121,39 +121,39 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.219,
-   "value_usd": 4142.39,
-   "ret": 0.0592,
-   "stop_dist": 0.1031,
+   "value_usd": 4151.6,
+   "ret": 0.0615,
+   "stop_dist": 0.1051,
    "stage": "initial"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.127,
-   "value_usd": 2416.64,
-   "ret": -0.058,
-   "stop_dist": 0.0163,
+   "weight": 0.129,
+   "value_usd": 2438.56,
+   "ret": -0.0495,
+   "stop_dist": 0.0251,
    "stage": "initial"
   },
   {
    "ticker": "OII",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.124,
-   "value_usd": 2354.26,
-   "ret": -0.004,
-   "stop_dist": 0.0774,
+   "weight": 0.125,
+   "value_usd": 2364.86,
+   "ret": 0.0005,
+   "stop_dist": 0.0816,
    "stage": "initial"
   },
   {
    "ticker": "KRYS",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.103,
-   "value_usd": 1948.08,
-   "ret": 0.0124,
-   "stop_dist": 0.0419,
+   "weight": 0.102,
+   "value_usd": 1939.32,
+   "ret": 0.0079,
+   "stop_dist": 0.0376,
    "stage": "initial"
   },
   {
@@ -161,9 +161,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.128,
-   "value_usd": 2424.24,
-   "ret": 0.0083,
-   "stop_dist": 0.0865,
+   "value_usd": 2427.57,
+   "ret": 0.0097,
+   "stop_dist": 0.0878,
    "stage": "initial"
   },
   {
@@ -171,9 +171,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 601.65,
-   "ret": -0.0029,
-   "stop_dist": 0.0235,
+   "value_usd": 600.81,
+   "ret": -0.0042,
+   "stop_dist": 0.0221,
    "stage": "initial"
   }
  ],
@@ -508,6 +508,10 @@
      },
      {
       "d": "2026-10-20",
+      "r": -0.0663
+     },
+     {
+      "d": "2026-10-21",
       "r": -0.0663
      }
     ]
