@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-21T13:41:07+00:00",
+ "updated": "2026-10-21T14:34:46+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19002.28,
+  "account_value": 18957.74,
   "principal": 20000.0,
-  "pnl_usd": -997.72,
-  "cash": 174.48,
+  "pnl_usd": -1042.26,
+  "cash": 783.52,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.399,
+  "breadth50": 0.398,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0498,
-  "spy_return": -0.0054,
+  "total_return": -0.052,
+  "spy_return": -0.0063,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
-  "closed_trades": 8,
-  "open_positions": 9,
-  "invested_pct": 0.991
+  "closed_trades": 9,
+  "open_positions": 8,
+  "invested_pct": 0.958
  },
  "equity": [
   {
@@ -91,8 +91,8 @@
   },
   {
    "d": "2026-10-21",
-   "r": -0.0498,
-   "spy": -0.0054
+   "r": -0.052,
+   "spy": -0.0063
   }
  ],
  "positions": [
@@ -100,20 +100,20 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.117,
-   "value_usd": 2231.84,
-   "ret": 0.0344,
-   "stop_dist": 0.0333,
+   "weight": 0.118,
+   "value_usd": 2236.68,
+   "ret": 0.0367,
+   "stop_dist": 0.0354,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.107,
-   "value_usd": 2036.96,
-   "ret": 0.0534,
-   "stop_dist": 0.0974,
+   "weight": 0.108,
+   "value_usd": 2044.79,
+   "ret": 0.0574,
+   "stop_dist": 0.1008,
    "stage": "initial"
   },
   {
@@ -121,29 +121,19 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.219,
-   "value_usd": 4162.27,
-   "ret": 0.0642,
-   "stop_dist": 0.1074,
-   "stage": "initial"
-  },
-  {
-   "ticker": "BG",
-   "setup": "S",
-   "opened": "2026-10-14",
-   "weight": 0.032,
-   "value_usd": 616.89,
-   "ret": -0.0568,
-   "stop_dist": 0.0119,
+   "value_usd": 4142.39,
+   "ret": 0.0592,
+   "stop_dist": 0.1031,
    "stage": "initial"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.128,
-   "value_usd": 2433.6,
-   "ret": -0.0514,
-   "stop_dist": 0.0231,
+   "weight": 0.127,
+   "value_usd": 2416.64,
+   "ret": -0.058,
+   "stop_dist": 0.0163,
    "stage": "initial"
   },
   {
@@ -151,9 +141,9 @@
    "setup": "S",
    "opened": "2026-10-19",
    "weight": 0.124,
-   "value_usd": 2361.15,
-   "ret": -0.0011,
-   "stop_dist": 0.0801,
+   "value_usd": 2354.26,
+   "ret": -0.004,
+   "stop_dist": 0.0774,
    "stage": "initial"
   },
   {
@@ -161,19 +151,19 @@
    "setup": "S",
    "opened": "2026-10-19",
    "weight": 0.103,
-   "value_usd": 1959.3,
-   "ret": 0.0183,
-   "stop_dist": 0.0474,
+   "value_usd": 1948.08,
+   "ret": 0.0124,
+   "stop_dist": 0.0419,
    "stage": "initial"
   },
   {
    "ticker": "WT",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.127,
-   "value_usd": 2419.25,
-   "ret": 0.0062,
-   "stop_dist": 0.0847,
+   "weight": 0.128,
+   "value_usd": 2424.24,
+   "ret": 0.0083,
+   "stop_dist": 0.0865,
    "stage": "initial"
   },
   {
@@ -181,14 +171,14 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 602.46,
-   "ret": -0.0015,
-   "stop_dist": 0.0248,
+   "value_usd": 601.65,
+   "ret": -0.0029,
+   "stop_dist": 0.0235,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 174.48,
+  "cash": 783.52,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -196,7 +186,6 @@
    "UTHR": 4,
    "TTEK": 58,
    "YETI": 97,
-   "BG": 6,
    "SKY": 32,
    "OII": 53,
    "KRYS": 6,
@@ -207,7 +196,6 @@
    "UTHR": 539.3848,
    "TTEK": 33.3399,
    "YETI": 40.3198,
-   "BG": 109.01,
    "SKY": 80.17,
    "OII": 44.5999,
    "KRYS": 320.69,
@@ -449,6 +437,15 @@
    "value_usd": 603,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Oct 21 10:20",
+   "ticker": "BG",
+   "action": "Sell",
+   "size": "3% of account",
+   "value_usd": 609,
+   "reason": "Stop hit",
+   "result": -0.0688
   }
  ],
  "lab": {
