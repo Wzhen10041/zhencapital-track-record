@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-22T13:43:19+00:00",
+ "updated": "2026-10-22T14:37:27+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18790.72,
+  "account_value": 18795.13,
   "principal": 20000.0,
-  "pnl_usd": -1209.28,
-  "cash": 2126.32,
+  "pnl_usd": -1204.87,
+  "cash": 2854.5,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.399,
+  "breadth50": 0.404,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0604,
-  "spy_return": -0.0102,
+  "total_return": -0.0601,
+  "spy_return": -0.016,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
-  "closed_trades": 10,
-  "open_positions": 8,
-  "invested_pct": 0.887
+  "closed_trades": 11,
+  "open_positions": 7,
+  "invested_pct": 0.848
  },
  "equity": [
   {
@@ -96,8 +96,8 @@
   },
   {
    "d": "2026-10-22",
-   "r": -0.0604,
-   "spy": -0.0102
+   "r": -0.0601,
+   "spy": -0.016
   }
  ],
  "positions": [
@@ -105,60 +105,60 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.122,
-   "value_usd": 2288.14,
-   "ret": 0.0605,
-   "stop_dist": 0.0571,
+   "weight": 0.124,
+   "value_usd": 2323.78,
+   "ret": 0.0771,
+   "stop_dist": 0.0715,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.11,
-   "value_usd": 2063.93,
-   "ret": 0.0673,
-   "stop_dist": 0.1092,
+   "weight": 0.109,
+   "value_usd": 2053.2,
+   "ret": 0.0618,
+   "stop_dist": 0.1045,
    "stage": "initial"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.222,
-   "value_usd": 4178.28,
-   "ret": 0.0683,
-   "stop_dist": 0.1109,
+   "weight": 0.224,
+   "value_usd": 4201.07,
+   "ret": 0.0742,
+   "stop_dist": 0.1157,
    "stage": "initial"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.131,
-   "value_usd": 2461.6,
-   "ret": -0.0405,
-   "stop_dist": 0.0343,
+   "weight": 0.133,
+   "value_usd": 2494.08,
+   "ret": -0.0278,
+   "stop_dist": 0.0468,
    "stage": "initial"
   },
   {
    "ticker": "KRYS",
    "setup": "S",
    "opened": "2026-10-19",
-   "weight": 0.103,
-   "value_usd": 1943.76,
-   "ret": 0.0102,
-   "stop_dist": 0.0398,
+   "weight": 0.102,
+   "value_usd": 1926.36,
+   "ret": 0.0012,
+   "stop_dist": 0.0311,
    "stage": "initial"
   },
   {
    "ticker": "WT",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.127,
-   "value_usd": 2393.72,
-   "ret": -0.0044,
-   "stop_dist": 0.0749,
+   "weight": 0.124,
+   "value_usd": 2339.32,
+   "ret": -0.027,
+   "stop_dist": 0.0534,
    "stage": "initial"
   },
   {
@@ -166,24 +166,14 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 600.0,
-   "ret": -0.0056,
-   "stop_dist": 0.0208,
-   "stage": "initial"
-  },
-  {
-   "ticker": "KN",
-   "setup": "S",
-   "opened": "2026-10-21",
-   "weight": 0.039,
-   "value_usd": 729.3,
-   "ret": -0.0507,
-   "stop_dist": 0.0009,
+   "value_usd": 599.53,
+   "ret": -0.0064,
+   "stop_dist": 0.02,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 2126.32,
+  "cash": 2854.5,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -194,8 +184,7 @@
    "SKY": 32,
    "KRYS": 6,
    "WT": 111,
-   "AGM": 3,
-   "KN": 22
+   "AGM": 3
   },
   "entries": {
    "UTHR": 539.3848,
@@ -204,8 +193,7 @@
    "SKY": 80.17,
    "KRYS": 320.69,
    "WT": 21.6599,
-   "AGM": 201.1234,
-   "KN": 34.9199
+   "AGM": 201.1234
   }
  },
  "trades": [
@@ -469,6 +457,15 @@
    "value_usd": 2111,
    "reason": "Stop hit",
    "result": -0.1069
+  },
+  {
+   "time": "Oct 22 10:24",
+   "ticker": "KN",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 728,
+   "reason": "Stop hit",
+   "result": -0.0521
   }
  ],
  "lab": {
@@ -544,11 +541,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0558,
-    "trades": 39,
-    "win_rate": 0.333,
+    "ret": -0.0723,
+    "trades": 43,
+    "win_rate": 0.326,
     "open": 0,
-    "avg_spread": 0.00371,
+    "avg_spread": 0.00384,
     "curve": [
      {
       "d": "2026-10-02",
@@ -597,6 +594,10 @@
      {
       "d": "2026-10-20",
       "r": -0.0558
+     },
+     {
+      "d": "2026-10-21",
+      "r": -0.0723
      }
     ]
    }
