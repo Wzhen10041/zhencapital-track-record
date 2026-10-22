@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-22T18:34:15+00:00",
+ "updated": "2026-10-22T19:53:11+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18961.04,
+  "account_value": 19018.61,
   "principal": 20000.0,
-  "pnl_usd": -1038.96,
-  "cash": 2854.5,
+  "pnl_usd": -981.39,
+  "cash": 319.46,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.439,
+  "breadth50": 0.443,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0518,
-  "spy_return": -0.0165,
+  "total_return": -0.049,
+  "spy_return": -0.0154,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 11,
-  "open_positions": 7,
-  "invested_pct": 0.849
+  "open_positions": 8,
+  "invested_pct": 0.983
  },
  "equity": [
   {
@@ -96,8 +96,8 @@
   },
   {
    "d": "2026-10-22",
-   "r": -0.0518,
-   "spy": -0.0165
+   "r": -0.049,
+   "spy": -0.0154
   }
  ],
  "positions": [
@@ -105,10 +105,10 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.124,
-   "value_usd": 2352.72,
-   "ret": 0.0905,
-   "stop_dist": 0.083,
+   "weight": 0.123,
+   "value_usd": 2347.16,
+   "ret": 0.0879,
+   "stop_dist": 0.0808,
    "stage": "runner"
   },
   {
@@ -116,9 +116,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.112,
-   "value_usd": 2124.25,
-   "ret": 0.0985,
-   "stop_dist": 0.1345,
+   "value_usd": 2124.54,
+   "ret": 0.0987,
+   "stop_dist": 0.1346,
    "stage": "initial"
   },
   {
@@ -126,9 +126,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.224,
-   "value_usd": 4246.18,
-   "ret": 0.0857,
-   "stop_dist": 0.1251,
+   "value_usd": 4262.18,
+   "ret": 0.0898,
+   "stop_dist": 0.1284,
    "stage": "initial"
   },
   {
@@ -136,9 +136,9 @@
    "setup": "S",
    "opened": "2026-10-15",
    "weight": 0.133,
-   "value_usd": 2522.24,
-   "ret": -0.0168,
-   "stop_dist": 0.0575,
+   "value_usd": 2538.4,
+   "ret": -0.0105,
+   "stop_dist": 0.0635,
    "stage": "initial"
   },
   {
@@ -146,19 +146,19 @@
    "setup": "S",
    "opened": "2026-10-19",
    "weight": 0.101,
-   "value_usd": 1913.01,
-   "ret": -0.0058,
-   "stop_dist": 0.0243,
+   "value_usd": 1922.46,
+   "ret": -0.0009,
+   "stop_dist": 0.0291,
    "stage": "initial"
   },
   {
    "ticker": "WT",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.123,
-   "value_usd": 2340.99,
-   "ret": -0.0263,
-   "stop_dist": 0.0541,
+   "weight": 0.124,
+   "value_usd": 2362.08,
+   "ret": -0.0175,
+   "stop_dist": 0.0625,
    "stage": "initial"
   },
   {
@@ -166,14 +166,24 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 607.71,
-   "ret": 0.0072,
-   "stop_dist": 0.0332,
+   "value_usd": 604.53,
+   "ret": 0.0019,
+   "stop_dist": 0.0281,
+   "stage": "initial"
+  },
+  {
+   "ticker": "DAL",
+   "setup": "S",
+   "opened": "2026-10-22",
+   "weight": 0.133,
+   "value_usd": 2536.32,
+   "ret": 0.0005,
+   "stop_dist": 0.0739,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 2854.5,
+  "cash": 319.46,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -184,7 +194,8 @@
    "SKY": 32,
    "KRYS": 6,
    "WT": 111,
-   "AGM": 3
+   "AGM": 3,
+   "DAL": 32
   },
   "entries": {
    "UTHR": 539.3848,
@@ -193,7 +204,8 @@
    "SKY": 80.17,
    "KRYS": 320.69,
    "WT": 21.6599,
-   "AGM": 201.1234
+   "AGM": 201.1234,
+   "DAL": 79.2199
   }
  },
  "trades": [
@@ -466,6 +478,15 @@
    "value_usd": 728,
    "reason": "Stop hit",
    "result": -0.0521
+  },
+  {
+   "time": "Oct 22 15:50",
+   "ticker": "DAL",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 2535,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
