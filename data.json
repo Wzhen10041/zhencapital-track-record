@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-23T18:33:47+00:00",
+ "updated": "2026-10-23T19:51:44+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18728.95,
+  "account_value": 18777.14,
   "principal": 20000.0,
-  "pnl_usd": -1271.05,
-  "cash": 1362.47,
+  "pnl_usd": -1222.86,
+  "cash": 278.17,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.435,
+  "breadth50": 0.442,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0635,
-  "spy_return": -0.0176,
-  "max_drawdown": -0.0617,
+  "total_return": -0.061,
+  "spy_return": -0.019,
+  "max_drawdown": -0.0593,
   "win_rate": 0.0,
-  "closed_trades": 11,
+  "closed_trades": 12,
   "open_positions": 8,
-  "invested_pct": 0.927
+  "invested_pct": 0.985
  },
  "equity": [
   {
@@ -101,8 +101,8 @@
   },
   {
    "d": "2026-10-23",
-   "r": -0.0635,
-   "spy": -0.0176
+   "r": -0.061,
+   "spy": -0.0187
   }
  ],
  "positions": [
@@ -110,10 +110,10 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.124,
-   "value_usd": 2328.64,
-   "ret": 0.0793,
-   "stop_dist": 0.0735,
+   "weight": 0.125,
+   "value_usd": 2343.76,
+   "ret": 0.0863,
+   "stop_dist": 0.0795,
    "stage": "runner"
   },
   {
@@ -121,19 +121,19 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.114,
-   "value_usd": 2139.62,
-   "ret": 0.1065,
-   "stop_dist": 0.1407,
+   "value_usd": 2137.88,
+   "ret": 0.1056,
+   "stop_dist": 0.14,
    "stage": "initial"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.166,
-   "value_usd": 3109.43,
-   "ret": 0.0564,
-   "stop_dist": 0.0534,
+   "weight": 0.167,
+   "value_usd": 3129.14,
+   "ret": 0.0631,
+   "stop_dist": 0.0594,
    "stage": "runner"
   },
   {
@@ -141,19 +141,9 @@
    "setup": "S",
    "opened": "2026-10-15",
    "weight": 0.135,
-   "value_usd": 2524.0,
-   "ret": -0.0162,
-   "stop_dist": 0.0581,
-   "stage": "initial"
-  },
-  {
-   "ticker": "KRYS",
-   "setup": "S",
-   "opened": "2026-10-19",
-   "weight": 0.1,
-   "value_usd": 1881.27,
-   "ret": -0.0223,
-   "stop_dist": 0.0079,
+   "value_usd": 2531.04,
+   "ret": -0.0134,
+   "stop_dist": 0.0607,
    "stage": "initial"
   },
   {
@@ -161,9 +151,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.125,
-   "value_usd": 2342.66,
-   "ret": -0.0256,
-   "stop_dist": 0.0547,
+   "value_usd": 2356.53,
+   "ret": -0.0198,
+   "stop_dist": 0.0603,
    "stage": "initial"
   },
   {
@@ -171,24 +161,34 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 598.41,
-   "ret": -0.0082,
-   "stop_dist": 0.0182,
+   "value_usd": 600.16,
+   "ret": -0.0053,
+   "stop_dist": 0.0211,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.13,
-   "value_usd": 2443.84,
-   "ret": -0.036,
-   "stop_dist": 0.0389,
+   "weight": 0.131,
+   "value_usd": 2454.08,
+   "ret": -0.0319,
+   "stop_dist": 0.0429,
+   "stage": "initial"
+  },
+  {
+   "ticker": "CXW",
+   "setup": "S",
+   "opened": "2026-10-23",
+   "weight": 0.157,
+   "value_usd": 2946.37,
+   "ret": -0.0004,
+   "stop_dist": 0.0637,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 1362.47,
+  "cash": 278.17,
   "units": 199.978365,
   "principal": 20000.0,
   "spy0": 774.77001953125,
@@ -197,20 +197,20 @@
    "TTEK": 58,
    "YETI": 73,
    "SKY": 32,
-   "KRYS": 6,
    "WT": 111,
    "AGM": 3,
-   "DAL": 32
+   "DAL": 32,
+   "CXW": 98
   },
   "entries": {
    "UTHR": 539.3848,
    "TTEK": 33.3399,
    "YETI": 40.3198,
    "SKY": 80.17,
-   "KRYS": 320.69,
    "WT": 21.6599,
    "AGM": 201.1234,
-   "DAL": 79.2199
+   "DAL": 79.2199,
+   "CXW": 30.0759
   }
  },
  "trades": [
@@ -501,6 +501,24 @@
    "value_usd": 1043,
    "reason": "Reached prior high, sold a quarter",
    "result": 0.0779
+  },
+  {
+   "time": "Oct 23 15:03",
+   "ticker": "KRYS",
+   "action": "Sell",
+   "size": "10% of account",
+   "value_usd": 1863,
+   "reason": "Stop hit",
+   "result": -0.0317
+  },
+  {
+   "time": "Oct 23 15:50",
+   "ticker": "CXW",
+   "action": "Buy",
+   "size": "16% of account",
+   "value_usd": 2947,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
