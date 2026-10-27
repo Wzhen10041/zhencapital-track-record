@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-26T19:51:18+00:00",
+ "updated": "2026-10-27T15:33:57+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18941.72,
+  "account_value": 18952.08,
   "principal": 20000.0,
-  "pnl_usd": -1058.28,
+  "pnl_usd": -1047.92,
   "cash": 278.17,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.448,
+  "breadth50": 0.451,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0528,
-  "spy_return": -0.0126,
+  "total_return": -0.0523,
+  "spy_return": -0.0068,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 12,
@@ -108,6 +108,11 @@
    "d": "2026-10-26",
    "r": -0.0528,
    "spy": -0.0126
+  },
+  {
+   "d": "2026-10-27",
+   "r": -0.0523,
+   "spy": -0.0068
   }
  ],
  "positions": [
@@ -115,50 +120,50 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.125,
-   "value_usd": 2363.76,
-   "ret": 0.0956,
-   "stop_dist": 0.0873,
+   "weight": 0.124,
+   "value_usd": 2347.78,
+   "ret": 0.0882,
+   "stop_dist": 0.081,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.114,
-   "value_usd": 2158.18,
-   "ret": 0.1161,
-   "stop_dist": 0.1481,
+   "weight": 0.113,
+   "value_usd": 2139.62,
+   "ret": 0.1065,
+   "stop_dist": 0.1407,
    "stage": "initial"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.168,
-   "value_usd": 3181.34,
-   "ret": 0.0809,
-   "stop_dist": 0.0748,
+   "weight": 0.164,
+   "value_usd": 3116.74,
+   "ret": 0.0589,
+   "stop_dist": 0.0556,
    "stage": "runner"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.134,
-   "value_usd": 2544.0,
-   "ret": -0.0084,
-   "stop_dist": 0.0655,
+   "weight": 0.135,
+   "value_usd": 2557.44,
+   "ret": -0.0031,
+   "stop_dist": 0.0704,
    "stage": "initial"
   },
   {
    "ticker": "WT",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.124,
-   "value_usd": 2342.1,
-   "ret": -0.0258,
-   "stop_dist": 0.0545,
+   "weight": 0.125,
+   "value_usd": 2363.19,
+   "ret": -0.0171,
+   "stop_dist": 0.0629,
    "stage": "initial"
   },
   {
@@ -166,29 +171,29 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 601.95,
-   "ret": -0.0024,
-   "stop_dist": 0.024,
+   "value_usd": 605.62,
+   "ret": 0.0037,
+   "stop_dist": 0.0299,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.134,
-   "value_usd": 2531.2,
-   "ret": -0.0015,
-   "stop_dist": 0.0721,
+   "weight": 0.135,
+   "value_usd": 2556.48,
+   "ret": 0.0085,
+   "stop_dist": 0.0812,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.155,
-   "value_usd": 2938.14,
-   "ret": -0.0032,
-   "stop_dist": 0.0611,
+   "weight": 0.158,
+   "value_usd": 2987.04,
+   "ret": 0.0134,
+   "stop_dist": 0.0764,
    "stage": "initial"
   }
  ],
@@ -535,10 +540,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0848,
-    "trades": 8,
+    "ret": -0.0901,
+    "trades": 9,
     "win_rate": 0.0,
-    "open": 3,
+    "open": 2,
     "curve": [
      {
       "d": "2026-10-02",
@@ -603,6 +608,10 @@
      {
       "d": "2026-10-26",
       "r": -0.0848
+     },
+     {
+      "d": "2026-10-27",
+      "r": -0.0901
      }
     ]
    },
@@ -611,11 +620,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.049,
-    "trades": 53,
-    "win_rate": 0.396,
+    "ret": -0.0589,
+    "trades": 57,
+    "win_rate": 0.386,
     "open": 0,
-    "avg_spread": 0.00443,
+    "avg_spread": 0.00429,
     "curve": [
      {
       "d": "2026-10-02",
@@ -676,6 +685,10 @@
      {
       "d": "2026-10-23",
       "r": -0.049
+     },
+     {
+      "d": "2026-10-26",
+      "r": -0.0589
      }
     ]
    }
