@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-27T15:33:57+00:00",
+ "updated": "2026-10-27T16:34:21+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 18952.08,
+  "account_value": 18969.57,
   "principal": 20000.0,
-  "pnl_usd": -1047.92,
+  "pnl_usd": -1030.43,
   "cash": 278.17,
   "deposits": [
    {
@@ -19,14 +19,14 @@
   ]
  },
  "market": {
-  "breadth50": 0.451,
+  "breadth50": 0.448,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0523,
-  "spy_return": -0.0068,
+  "total_return": -0.0514,
+  "spy_return": -0.0061,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 12,
@@ -111,8 +111,8 @@
   },
   {
    "d": "2026-10-27",
-   "r": -0.0523,
-   "spy": -0.0068
+   "r": -0.0514,
+   "spy": -0.0061
   }
  ],
  "positions": [
@@ -120,10 +120,10 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.124,
-   "value_usd": 2347.78,
-   "ret": 0.0882,
-   "stop_dist": 0.081,
+   "weight": 0.123,
+   "value_usd": 2338.72,
+   "ret": 0.084,
+   "stop_dist": 0.0775,
    "stage": "runner"
   },
   {
@@ -131,19 +131,19 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.113,
-   "value_usd": 2139.62,
-   "ret": 0.1065,
-   "stop_dist": 0.1407,
+   "value_usd": 2137.88,
+   "ret": 0.1056,
+   "stop_dist": 0.14,
    "stage": "initial"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.164,
-   "value_usd": 3116.74,
-   "ret": 0.0589,
-   "stop_dist": 0.0556,
+   "weight": 0.163,
+   "value_usd": 3086.44,
+   "ret": 0.0486,
+   "stop_dist": 0.0464,
    "stage": "runner"
   },
   {
@@ -151,9 +151,9 @@
    "setup": "S",
    "opened": "2026-10-15",
    "weight": 0.135,
-   "value_usd": 2557.44,
-   "ret": -0.0031,
-   "stop_dist": 0.0704,
+   "value_usd": 2557.12,
+   "ret": -0.0032,
+   "stop_dist": 0.0703,
    "stage": "initial"
   },
   {
@@ -161,9 +161,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.125,
-   "value_usd": 2363.19,
-   "ret": -0.0171,
-   "stop_dist": 0.0629,
+   "value_usd": 2377.62,
+   "ret": -0.0111,
+   "stop_dist": 0.0686,
    "stage": "initial"
   },
   {
@@ -171,29 +171,29 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 605.62,
-   "ret": 0.0037,
-   "stop_dist": 0.0299,
+   "value_usd": 606.21,
+   "ret": 0.0047,
+   "stop_dist": 0.0308,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.135,
-   "value_usd": 2556.48,
-   "ret": 0.0085,
-   "stop_dist": 0.0812,
+   "weight": 0.136,
+   "value_usd": 2576.96,
+   "ret": 0.0165,
+   "stop_dist": 0.0885,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.158,
-   "value_usd": 2987.04,
-   "ret": 0.0134,
-   "stop_dist": 0.0764,
+   "weight": 0.159,
+   "value_usd": 3009.58,
+   "ret": 0.0211,
+   "stop_dist": 0.0834,
    "stage": "initial"
   }
  ],
