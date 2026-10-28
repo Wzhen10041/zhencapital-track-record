@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-27T19:52:34+00:00",
+ "updated": "2026-10-28T13:50:53+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19036.88,
+  "account_value": 19056.91,
   "principal": 20000.0,
-  "pnl_usd": -963.12,
+  "pnl_usd": -943.09,
   "cash": 278.17,
   "deposits": [
    {
@@ -25,8 +25,8 @@
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0481,
-  "spy_return": -0.0057,
+  "total_return": -0.0471,
+  "spy_return": -0.0065,
   "max_drawdown": -0.0593,
   "win_rate": 0.0,
   "closed_trades": 12,
@@ -113,6 +113,11 @@
    "d": "2026-10-27",
    "r": -0.0481,
    "spy": -0.0057
+  },
+  {
+   "d": "2026-10-28",
+   "r": -0.0471,
+   "spy": -0.0065
   }
  ],
  "positions": [
@@ -120,40 +125,40 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.124,
-   "value_usd": 2367.12,
-   "ret": 0.0971,
-   "stop_dist": 0.0885,
+   "weight": 0.123,
+   "value_usd": 2336.7,
+   "ret": 0.083,
+   "stop_dist": 0.0767,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.113,
-   "value_usd": 2141.65,
-   "ret": 0.1075,
-   "stop_dist": 0.1415,
+   "weight": 0.112,
+   "value_usd": 2137.88,
+   "ret": 0.1056,
+   "stop_dist": 0.14,
    "stage": "initial"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.162,
-   "value_usd": 3090.82,
-   "ret": 0.0501,
-   "stop_dist": 0.0477,
+   "weight": 0.163,
+   "value_usd": 3098.12,
+   "ret": 0.0526,
+   "stop_dist": 0.05,
    "stage": "runner"
   },
   {
    "ticker": "SKY",
    "setup": "S",
    "opened": "2026-10-15",
-   "weight": 0.135,
-   "value_usd": 2562.4,
-   "ret": -0.0012,
-   "stop_dist": 0.0722,
+   "weight": 0.134,
+   "value_usd": 2561.12,
+   "ret": -0.0017,
+   "stop_dist": 0.0718,
    "stage": "initial"
   },
   {
@@ -161,9 +166,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.124,
-   "value_usd": 2365.41,
-   "ret": -0.0162,
-   "stop_dist": 0.0638,
+   "value_usd": 2369.85,
+   "ret": -0.0143,
+   "stop_dist": 0.0656,
    "stage": "initial"
   },
   {
@@ -171,29 +176,29 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 611.88,
-   "ret": 0.0141,
-   "stop_dist": 0.0398,
+   "value_usd": 613.71,
+   "ret": 0.0171,
+   "stop_dist": 0.0427,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.137,
-   "value_usd": 2608.32,
-   "ret": 0.0289,
-   "stop_dist": 0.0995,
+   "weight": 0.138,
+   "value_usd": 2623.04,
+   "ret": 0.0347,
+   "stop_dist": 0.1046,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.158,
-   "value_usd": 3011.05,
-   "ret": 0.0216,
-   "stop_dist": 0.0838,
+   "weight": 0.159,
+   "value_usd": 3038.0,
+   "ret": 0.0307,
+   "stop_dist": 0.0919,
    "stage": "initial"
   }
  ],
