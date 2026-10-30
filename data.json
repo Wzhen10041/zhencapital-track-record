@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-30T16:34:41+00:00",
+ "updated": "2026-10-30T17:34:08+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19049.96,
+  "account_value": 19022.52,
   "principal": 20000.0,
-  "pnl_usd": -950.04,
+  "pnl_usd": -977.48,
   "cash": 4958.05,
   "deposits": [
    {
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.486,
+  "breadth50": 0.473,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0474,
-  "spy_return": -0.0227,
+  "total_return": -0.0488,
+  "spy_return": -0.0245,
   "max_drawdown": -0.0593,
   "win_rate": 0.071,
   "closed_trades": 14,
   "open_positions": 7,
-  "invested_pct": 0.74
+  "invested_pct": 0.739
  },
  "equity": [
   {
@@ -126,8 +126,8 @@
   },
   {
    "d": "2026-10-30",
-   "r": -0.0474,
-   "spy": -0.0227
+   "r": -0.0488,
+   "spy": -0.0245
   }
  ],
  "positions": [
@@ -135,10 +135,10 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.126,
-   "value_usd": 2398.44,
-   "ret": 0.1117,
-   "stop_dist": 0.1004,
+   "weight": 0.127,
+   "value_usd": 2409.96,
+   "ret": 0.117,
+   "stop_dist": 0.1047,
    "stage": "runner"
   },
   {
@@ -146,9 +146,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.089,
-   "value_usd": 1690.04,
-   "ret": 0.1521,
-   "stop_dist": 0.132,
+   "value_usd": 1697.74,
+   "ret": 0.1573,
+   "stop_dist": 0.1359,
    "stage": "runner"
   },
   {
@@ -156,9 +156,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.168,
-   "value_usd": 3203.97,
-   "ret": 0.0885,
-   "stop_dist": 0.0813,
+   "value_usd": 3202.51,
+   "ret": 0.0881,
+   "stop_dist": 0.0809,
    "stage": "runner"
   },
   {
@@ -166,9 +166,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 610.12,
-   "ret": 0.0112,
-   "stop_dist": 0.037,
+   "value_usd": 604.5,
+   "ret": 0.0019,
+   "stop_dist": 0.0281,
    "stage": "initial"
   },
   {
@@ -176,29 +176,29 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.133,
-   "value_usd": 2534.95,
-   "ret": -0.0,
-   "stop_dist": 0.0734,
+   "value_usd": 2523.2,
+   "ret": -0.0047,
+   "stop_dist": 0.0691,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.158,
-   "value_usd": 3000.76,
-   "ret": 0.0181,
-   "stop_dist": 0.0807,
+   "weight": 0.156,
+   "value_usd": 2966.46,
+   "ret": 0.0065,
+   "stop_dist": 0.07,
    "stage": "initial"
   },
   {
    "ticker": "KRYS",
    "setup": "S",
    "opened": "2026-10-29",
-   "weight": 0.034,
-   "value_usd": 654.24,
-   "ret": 0.011,
-   "stop_dist": 0.0629,
+   "weight": 0.035,
+   "value_usd": 660.1,
+   "ret": 0.0201,
+   "stop_dist": 0.0713,
    "stage": "initial"
   }
  ],
