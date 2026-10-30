@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-30T14:41:17+00:00",
+ "updated": "2026-10-30T15:34:23+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19085.05,
+  "account_value": 19031.01,
   "principal": 20000.0,
-  "pnl_usd": -914.95,
+  "pnl_usd": -968.99,
   "cash": 4958.05,
   "deposits": [
    {
@@ -19,19 +19,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.493,
+  "breadth50": 0.486,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0456,
-  "spy_return": -0.0197,
+  "total_return": -0.0483,
+  "spy_return": -0.0212,
   "max_drawdown": -0.0593,
   "win_rate": 0.071,
   "closed_trades": 14,
   "open_positions": 7,
-  "invested_pct": 0.74
+  "invested_pct": 0.739
  },
  "equity": [
   {
@@ -126,8 +126,8 @@
   },
   {
    "d": "2026-10-30",
-   "r": -0.0456,
-   "spy": -0.0197
+   "r": -0.0483,
+   "spy": -0.0212
   }
  ],
  "positions": [
@@ -136,9 +136,9 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.125,
-   "value_usd": 2385.12,
-   "ret": 0.1055,
-   "stop_dist": 0.0954,
+   "value_usd": 2379.96,
+   "ret": 0.1031,
+   "stop_dist": 0.0935,
    "stage": "runner"
   },
   {
@@ -146,9 +146,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.088,
-   "value_usd": 1685.2,
-   "ret": 0.1488,
-   "stop_dist": 0.1295,
+   "value_usd": 1681.02,
+   "ret": 0.1459,
+   "stop_dist": 0.1273,
    "stage": "runner"
   },
   {
@@ -156,9 +156,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.168,
-   "value_usd": 3209.45,
-   "ret": 0.0904,
-   "stop_dist": 0.0829,
+   "value_usd": 3197.4,
+   "ret": 0.0863,
+   "stop_dist": 0.0795,
    "stage": "runner"
   },
   {
@@ -166,9 +166,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 608.97,
-   "ret": 0.0093,
-   "stop_dist": 0.0352,
+   "value_usd": 611.91,
+   "ret": 0.0142,
+   "stop_dist": 0.0399,
    "stage": "initial"
   },
   {
@@ -176,19 +176,19 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.133,
-   "value_usd": 2542.08,
-   "ret": 0.0028,
-   "stop_dist": 0.076,
+   "value_usd": 2536.16,
+   "ret": 0.0004,
+   "stop_dist": 0.0739,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.159,
-   "value_usd": 3039.96,
-   "ret": 0.0314,
-   "stop_dist": 0.0925,
+   "weight": 0.158,
+   "value_usd": 3013.5,
+   "ret": 0.0224,
+   "stop_dist": 0.0846,
    "stage": "initial"
   },
   {
@@ -196,9 +196,9 @@
    "setup": "S",
    "opened": "2026-10-29",
    "weight": 0.034,
-   "value_usd": 655.46,
-   "ret": 0.0129,
-   "stop_dist": 0.0647,
+   "value_usd": 652.67,
+   "ret": 0.0086,
+   "stop_dist": 0.0607,
    "stage": "initial"
   }
  ],
