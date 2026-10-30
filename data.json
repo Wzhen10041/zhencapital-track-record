@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-30T15:34:23+00:00",
+ "updated": "2026-10-30T16:34:41+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19031.01,
+  "account_value": 19049.96,
   "principal": 20000.0,
-  "pnl_usd": -968.99,
+  "pnl_usd": -950.04,
   "cash": 4958.05,
   "deposits": [
    {
@@ -25,13 +25,13 @@
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0483,
-  "spy_return": -0.0212,
+  "total_return": -0.0474,
+  "spy_return": -0.0227,
   "max_drawdown": -0.0593,
   "win_rate": 0.071,
   "closed_trades": 14,
   "open_positions": 7,
-  "invested_pct": 0.739
+  "invested_pct": 0.74
  },
  "equity": [
   {
@@ -126,8 +126,8 @@
   },
   {
    "d": "2026-10-30",
-   "r": -0.0483,
-   "spy": -0.0212
+   "r": -0.0474,
+   "spy": -0.0227
   }
  ],
  "positions": [
@@ -135,20 +135,20 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.125,
-   "value_usd": 2379.96,
-   "ret": 0.1031,
-   "stop_dist": 0.0935,
+   "weight": 0.126,
+   "value_usd": 2398.44,
+   "ret": 0.1117,
+   "stop_dist": 0.1004,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.088,
-   "value_usd": 1681.02,
-   "ret": 0.1459,
-   "stop_dist": 0.1273,
+   "weight": 0.089,
+   "value_usd": 1690.04,
+   "ret": 0.1521,
+   "stop_dist": 0.132,
    "stage": "runner"
   },
   {
@@ -156,9 +156,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.168,
-   "value_usd": 3197.4,
-   "ret": 0.0863,
-   "stop_dist": 0.0795,
+   "value_usd": 3203.97,
+   "ret": 0.0885,
+   "stop_dist": 0.0813,
    "stage": "runner"
   },
   {
@@ -166,9 +166,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.032,
-   "value_usd": 611.91,
-   "ret": 0.0142,
-   "stop_dist": 0.0399,
+   "value_usd": 610.12,
+   "ret": 0.0112,
+   "stop_dist": 0.037,
    "stage": "initial"
   },
   {
@@ -176,9 +176,9 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.133,
-   "value_usd": 2536.16,
-   "ret": 0.0004,
-   "stop_dist": 0.0739,
+   "value_usd": 2534.95,
+   "ret": -0.0,
+   "stop_dist": 0.0734,
    "stage": "initial"
   },
   {
@@ -186,9 +186,9 @@
    "setup": "S",
    "opened": "2026-10-23",
    "weight": 0.158,
-   "value_usd": 3013.5,
-   "ret": 0.0224,
-   "stop_dist": 0.0846,
+   "value_usd": 3000.76,
+   "ret": 0.0181,
+   "stop_dist": 0.0807,
    "stage": "initial"
   },
   {
@@ -196,9 +196,9 @@
    "setup": "S",
    "opened": "2026-10-29",
    "weight": 0.034,
-   "value_usd": 652.67,
-   "ret": 0.0086,
-   "stop_dist": 0.0607,
+   "value_usd": 654.24,
+   "ret": 0.011,
+   "stop_dist": 0.0629,
    "stage": "initial"
   }
  ],
