@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-03T19:35:41+00:00",
+ "updated": "2026-11-03T20:52:23+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 15088.74,
+  "account_value": 15068.45,
   "principal": 15850.0,
-  "pnl_usd": -761.26,
-  "cash": 1351.62,
+  "pnl_usd": -781.55,
+  "cash": 91.8,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -23,19 +23,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.523,
+  "breadth50": 0.509,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0385,
-  "spy_return": -0.0254,
+  "total_return": -0.0398,
+  "spy_return": -0.0266,
   "max_drawdown": -0.0593,
   "win_rate": 0.062,
   "closed_trades": 16,
-  "open_positions": 6,
-  "invested_pct": 0.911
+  "open_positions": 7,
+  "invested_pct": 0.994
  },
  "equity": [
   {
@@ -135,8 +135,8 @@
   },
   {
    "d": "2026-11-03",
-   "r": -0.0385,
-   "spy": -0.0254
+   "r": -0.0398,
+   "spy": -0.0266
   }
  ],
  "positions": [
@@ -145,9 +145,9 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.159,
-   "value_usd": 2401.4,
-   "ret": 0.113,
-   "stop_dist": 0.1016,
+   "value_usd": 2400.28,
+   "ret": 0.1125,
+   "stop_dist": 0.1011,
    "stage": "runner"
   },
   {
@@ -155,9 +155,9 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.115,
-   "value_usd": 1741.52,
-   "ret": 0.1872,
-   "stop_dist": 0.1577,
+   "value_usd": 1733.6,
+   "ret": 0.1818,
+   "stop_dist": 0.1538,
    "stage": "runner"
   },
   {
@@ -165,9 +165,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.217,
-   "value_usd": 3278.8,
-   "ret": 0.114,
-   "stop_dist": 0.1023,
+   "value_usd": 3272.59,
+   "ret": 0.1119,
+   "stop_dist": 0.1006,
    "stage": "runner"
   },
   {
@@ -175,9 +175,9 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.041,
-   "value_usd": 613.88,
-   "ret": 0.0174,
-   "stop_dist": 0.0429,
+   "value_usd": 612.78,
+   "ret": 0.0156,
+   "stop_dist": 0.0412,
    "stage": "initial"
   },
   {
@@ -185,9 +185,9 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.177,
-   "value_usd": 2664.0,
-   "ret": 0.0509,
-   "stop_dist": 0.1183,
+   "value_usd": 2660.0,
+   "ret": 0.0493,
+   "stop_dist": 0.117,
    "stage": "initial"
   },
   {
@@ -195,14 +195,24 @@
    "setup": "S",
    "opened": "2026-10-23",
    "weight": 0.202,
-   "value_usd": 3041.92,
-   "ret": 0.0321,
-   "stop_dist": 0.0931,
+   "value_usd": 3036.53,
+   "ret": 0.0302,
+   "stop_dist": 0.0915,
+   "stage": "initial"
+  },
+  {
+   "ticker": "QLYS",
+   "setup": "A",
+   "opened": "2026-11-03",
+   "weight": 0.084,
+   "value_usd": 1260.87,
+   "ret": 0.0008,
+   "stop_dist": 0.0462,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 1351.62,
+  "cash": 91.8,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -212,7 +222,8 @@
    "YETI": 73,
    "AGM": 3,
    "DAL": 32,
-   "CXW": 98
+   "CXW": 98,
+   "QLYS": 6
   },
   "entries": {
    "UTHR": 539.3848,
@@ -220,7 +231,8 @@
    "YETI": 40.3198,
    "AGM": 201.1234,
    "DAL": 79.2199,
-   "CXW": 30.0759
+   "CXW": 30.0759,
+   "QLYS": 209.9699
   }
  },
  "trades": [
@@ -592,6 +604,15 @@
    "value_usd": 1292,
    "reason": "Stop hit",
    "result": -0.0489
+  },
+  {
+   "time": "Nov 3 15:50",
+   "ticker": "QLYS",
+   "action": "Buy",
+   "size": "8% of account",
+   "value_usd": 1260,
+   "reason": "Breakout held its pullback",
+   "result": null
   }
  ],
  "lab": {
