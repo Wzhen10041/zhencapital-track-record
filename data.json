@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-30T18:35:46+00:00",
+ "updated": "2026-11-03T14:40:19+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 19039.96,
-  "principal": 20000.0,
-  "pnl_usd": -960.04,
-  "cash": 4958.05,
+  "account_value": 15037.05,
+  "principal": 15850.0,
+  "pnl_usd": -812.95,
+  "cash": 60.15,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -15,23 +15,27 @@
    {
     "date": "2026-10-06",
     "amount": 1000.0
+   },
+   {
+    "date": "2026-11-02",
+    "amount": -4150.0
    }
   ]
  },
  "market": {
-  "breadth50": 0.457,
+  "breadth50": 0.513,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0479,
-  "spy_return": -0.0276,
+  "total_return": -0.0418,
+  "spy_return": -0.0271,
   "max_drawdown": -0.0593,
-  "win_rate": 0.071,
-  "closed_trades": 14,
+  "win_rate": 0.067,
+  "closed_trades": 15,
   "open_positions": 7,
-  "invested_pct": 0.74
+  "invested_pct": 0.997
  },
  "equity": [
   {
@@ -125,9 +129,14 @@
    "spy": -0.0076
   },
   {
-   "d": "2026-10-30",
-   "r": -0.0479,
-   "spy": -0.0276
+   "d": "2026-11-02",
+   "r": -0.0365,
+   "spy": -0.0281
+  },
+  {
+   "d": "2026-11-03",
+   "r": -0.0418,
+   "spy": -0.0271
   }
  ],
  "positions": [
@@ -135,86 +144,86 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.127,
-   "value_usd": 2414.76,
-   "ret": 0.1192,
-   "stop_dist": 0.1065,
+   "weight": 0.161,
+   "value_usd": 2420.0,
+   "ret": 0.1216,
+   "stop_dist": 0.1085,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.089,
-   "value_usd": 1690.26,
-   "ret": 0.1522,
-   "stop_dist": 0.1321,
+   "weight": 0.114,
+   "value_usd": 1708.52,
+   "ret": 0.1647,
+   "stop_dist": 0.1414,
    "stage": "runner"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.167,
-   "value_usd": 3180.61,
-   "ret": 0.0806,
-   "stop_dist": 0.0746,
+   "weight": 0.218,
+   "value_usd": 3271.86,
+   "ret": 0.1116,
+   "stop_dist": 0.1004,
    "stage": "runner"
   },
   {
    "ticker": "AGM",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.032,
-   "value_usd": 607.4,
-   "ret": 0.0067,
-   "stop_dist": 0.0327,
+   "weight": 0.041,
+   "value_usd": 618.74,
+   "ret": 0.0255,
+   "stop_dist": 0.0504,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.132,
-   "value_usd": 2520.0,
-   "ret": -0.0059,
-   "stop_dist": 0.0679,
+   "weight": 0.177,
+   "value_usd": 2668.32,
+   "ret": 0.0526,
+   "stop_dist": 0.1197,
    "stage": "initial"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.158,
-   "value_usd": 3013.5,
-   "ret": 0.0224,
-   "stop_dist": 0.0846,
+   "weight": 0.2,
+   "value_usd": 3000.76,
+   "ret": 0.0181,
+   "stop_dist": 0.0807,
    "stage": "initial"
   },
   {
-   "ticker": "KRYS",
+   "ticker": "DUOL",
    "setup": "S",
-   "opened": "2026-10-29",
-   "weight": 0.034,
-   "value_usd": 655.3,
-   "ret": 0.0127,
-   "stop_dist": 0.0645,
+   "opened": "2026-11-02",
+   "weight": 0.087,
+   "value_usd": 1303.2,
+   "ret": -0.0403,
+   "stop_dist": 0.0071,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 4958.05,
-  "units": 199.978365,
-  "principal": 20000.0,
+  "cash": 60.15,
+  "units": 156.924239,
+  "principal": 15850.0,
   "spy0": 774.77001953125,
   "shares": {
    "UTHR": 4,
    "TTEK": 44,
    "YETI": 73,
-   "KRYS": 2,
    "AGM": 3,
    "DAL": 32,
-   "CXW": 98
+   "CXW": 98,
+   "DUOL": 10
   },
   "entries": {
    "UTHR": 539.3848,
@@ -223,7 +232,7 @@
    "AGM": 201.1234,
    "DAL": 79.2199,
    "CXW": 30.0759,
-   "KRYS": 323.5521
+   "DUOL": 135.7899
   }
  },
  "trades": [
@@ -568,6 +577,24 @@
    "value_usd": 2188,
    "reason": "Stop hit",
    "result": -0.09
+  },
+  {
+   "time": "Nov 2 09:35",
+   "ticker": "KRYS",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 610,
+   "reason": "Stop hit",
+   "result": -0.0573
+  },
+  {
+   "time": "Nov 2 15:50",
+   "ticker": "DUOL",
+   "action": "Buy",
+   "size": "9% of account",
+   "value_usd": 1358,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
@@ -579,10 +606,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.058,
+    "ret": -0.0394,
     "trades": 9,
     "win_rate": 0.0,
-    "open": 4,
+    "open": 5,
     "curve": [
      {
       "d": "2026-10-02",
@@ -659,6 +686,10 @@
      {
       "d": "2026-10-30",
       "r": -0.058
+     },
+     {
+      "d": "2026-11-02",
+      "r": -0.0394
      }
     ]
    },
@@ -667,11 +698,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0202,
-    "trades": 70,
-    "win_rate": 0.457,
+    "ret": -0.0229,
+    "trades": 73,
+    "win_rate": 0.466,
     "open": 0,
-    "avg_spread": 0.00384,
+    "avg_spread": 0.00367,
     "curve": [
      {
       "d": "2026-10-02",
@@ -748,6 +779,10 @@
      {
       "d": "2026-10-29",
       "r": -0.0202
+     },
+     {
+      "d": "2026-10-30",
+      "r": -0.0229
      }
     ]
    }
