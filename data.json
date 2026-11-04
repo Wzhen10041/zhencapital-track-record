@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-04T14:40:49+00:00",
+ "updated": "2026-11-04T15:37:55+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 15232.65,
+  "account_value": 15210.41,
   "principal": 15850.0,
-  "pnl_usd": -617.35,
+  "pnl_usd": -639.59,
   "cash": 784.5,
   "deposits": [
    {
@@ -23,19 +23,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.577,
+  "breadth50": 0.549,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0293,
-  "spy_return": -0.0123,
+  "total_return": -0.0307,
+  "spy_return": -0.0107,
   "max_drawdown": -0.0593,
   "win_rate": 0.062,
   "closed_trades": 16,
   "open_positions": 7,
-  "invested_pct": 0.945
+  "invested_pct": 0.949
  },
  "equity": [
   {
@@ -140,8 +140,8 @@
   },
   {
    "d": "2026-11-04",
-   "r": -0.0293,
-   "spy": -0.0123
+   "r": -0.0307,
+   "spy": -0.0107
   }
  ],
  "positions": [
@@ -150,69 +150,69 @@
    "setup": "A",
    "opened": "2026-10-06",
    "weight": 0.154,
-   "value_usd": 2340.94,
-   "ret": 0.085,
-   "stop_dist": 0.0784,
+   "value_usd": 2335.48,
+   "ret": 0.0825,
+   "stop_dist": 0.0762,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.114,
-   "value_usd": 1735.36,
-   "ret": 0.183,
-   "stop_dist": 0.1547,
+   "weight": 0.115,
+   "value_usd": 1752.74,
+   "ret": 0.1948,
+   "stop_dist": 0.163,
    "stage": "runner"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.225,
-   "value_usd": 3429.54,
-   "ret": 0.1652,
-   "stop_dist": 0.1418,
+   "weight": 0.227,
+   "value_usd": 3453.63,
+   "ret": 0.1734,
+   "stop_dist": 0.1477,
    "stage": "runner"
   },
   {
    "ticker": "AGM",
    "setup": "S",
    "opened": "2026-10-20",
-   "weight": 0.041,
-   "value_usd": 625.5,
-   "ret": 0.0367,
-   "stop_dist": 0.0607,
+   "weight": 0.04,
+   "value_usd": 607.71,
+   "ret": 0.0072,
+   "stop_dist": 0.0332,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.136,
-   "value_usd": 2076.0,
-   "ret": 0.0919,
-   "stop_dist": 0.0842,
+   "weight": 0.135,
+   "value_usd": 2051.16,
+   "ret": 0.0788,
+   "stop_dist": 0.0731,
    "stage": "runner"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.192,
-   "value_usd": 2927.75,
-   "ret": -0.0067,
-   "stop_dist": 0.0577,
+   "weight": 0.194,
+   "value_usd": 2946.86,
+   "ret": -0.0002,
+   "stop_dist": 0.0639,
    "stage": "initial"
   },
   {
    "ticker": "QLYS",
    "setup": "A",
    "opened": "2026-11-03",
-   "weight": 0.083,
-   "value_usd": 1257.66,
-   "ret": -0.0017,
-   "stop_dist": 0.0438,
+   "weight": 0.084,
+   "value_usd": 1282.98,
+   "ret": 0.0184,
+   "stop_dist": 0.0627,
    "stage": "initial"
   }
  ],
@@ -638,8 +638,8 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0803,
-    "trades": 9,
+    "ret": -0.0413,
+    "trades": 10,
     "win_rate": 0.0,
     "open": 6,
     "curve": [
@@ -726,6 +726,10 @@
      {
       "d": "2026-11-03",
       "r": -0.0803
+     },
+     {
+      "d": "2026-11-04",
+      "r": -0.0413
      }
     ]
    },
@@ -734,11 +738,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0119,
-    "trades": 77,
-    "win_rate": 0.494,
+    "ret": -0.0416,
+    "trades": 82,
+    "win_rate": 0.463,
     "open": 0,
-    "avg_spread": 0.00409,
+    "avg_spread": 0.00384,
     "curve": [
      {
       "d": "2026-10-02",
@@ -823,6 +827,10 @@
      {
       "d": "2026-11-02",
       "r": -0.0119
+     },
+     {
+      "d": "2026-11-03",
+      "r": -0.0416
      }
     ]
    }
