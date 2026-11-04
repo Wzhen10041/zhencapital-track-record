@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-03T20:52:23+00:00",
+ "updated": "2026-11-04T14:40:49+00:00",
  "status": "live",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 15068.45,
+  "account_value": 15232.65,
   "principal": 15850.0,
-  "pnl_usd": -781.55,
-  "cash": 91.8,
+  "pnl_usd": -617.35,
+  "cash": 784.5,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -23,19 +23,19 @@
   ]
  },
  "market": {
-  "breadth50": 0.509,
+  "breadth50": 0.577,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0398,
-  "spy_return": -0.0266,
+  "total_return": -0.0293,
+  "spy_return": -0.0123,
   "max_drawdown": -0.0593,
   "win_rate": 0.062,
   "closed_trades": 16,
   "open_positions": 7,
-  "invested_pct": 0.994
+  "invested_pct": 0.945
  },
  "equity": [
   {
@@ -137,6 +137,11 @@
    "d": "2026-11-03",
    "r": -0.0398,
    "spy": -0.0266
+  },
+  {
+   "d": "2026-11-04",
+   "r": -0.0293,
+   "spy": -0.0123
   }
  ],
  "positions": [
@@ -144,30 +149,30 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.159,
-   "value_usd": 2400.28,
-   "ret": 0.1125,
-   "stop_dist": 0.1011,
+   "weight": 0.154,
+   "value_usd": 2340.94,
+   "ret": 0.085,
+   "stop_dist": 0.0784,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.115,
-   "value_usd": 1733.6,
-   "ret": 0.1818,
-   "stop_dist": 0.1538,
+   "weight": 0.114,
+   "value_usd": 1735.36,
+   "ret": 0.183,
+   "stop_dist": 0.1547,
    "stage": "runner"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.217,
-   "value_usd": 3272.59,
-   "ret": 0.1119,
-   "stop_dist": 0.1006,
+   "weight": 0.225,
+   "value_usd": 3429.54,
+   "ret": 0.1652,
+   "stop_dist": 0.1418,
    "stage": "runner"
   },
   {
@@ -175,44 +180,44 @@
    "setup": "S",
    "opened": "2026-10-20",
    "weight": 0.041,
-   "value_usd": 612.78,
-   "ret": 0.0156,
-   "stop_dist": 0.0412,
+   "value_usd": 625.5,
+   "ret": 0.0367,
+   "stop_dist": 0.0607,
    "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.177,
-   "value_usd": 2660.0,
-   "ret": 0.0493,
-   "stop_dist": 0.117,
-   "stage": "initial"
+   "weight": 0.136,
+   "value_usd": 2076.0,
+   "ret": 0.0919,
+   "stop_dist": 0.0842,
+   "stage": "runner"
   },
   {
    "ticker": "CXW",
    "setup": "S",
    "opened": "2026-10-23",
-   "weight": 0.202,
-   "value_usd": 3036.53,
-   "ret": 0.0302,
-   "stop_dist": 0.0915,
+   "weight": 0.192,
+   "value_usd": 2927.75,
+   "ret": -0.0067,
+   "stop_dist": 0.0577,
    "stage": "initial"
   },
   {
    "ticker": "QLYS",
    "setup": "A",
    "opened": "2026-11-03",
-   "weight": 0.084,
-   "value_usd": 1260.87,
-   "ret": 0.0008,
-   "stop_dist": 0.0462,
+   "weight": 0.083,
+   "value_usd": 1257.66,
+   "ret": -0.0017,
+   "stop_dist": 0.0438,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 91.8,
+  "cash": 784.5,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -221,7 +226,7 @@
    "TTEK": 44,
    "YETI": 73,
    "AGM": 3,
-   "DAL": 32,
+   "DAL": 24,
    "CXW": 98,
    "QLYS": 6
   },
@@ -613,6 +618,15 @@
    "value_usd": 1260,
    "reason": "Breakout held its pullback",
    "result": null
+  },
+  {
+   "time": "Nov 4 09:39",
+   "ticker": "DAL",
+   "action": "Sell",
+   "size": "5% of account",
+   "value_usd": 693,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.093
   }
  ],
  "lab": {
