@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-05T15:37:08+00:00",
- "status": "live",
+ "updated": "2026-11-06T14:40:59+00:00",
+ "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 15238.94,
+  "account_value": 14716.77,
   "principal": 15850.0,
-  "pnl_usd": -611.06,
-  "cash": 1346.69,
+  "pnl_usd": -1133.23,
+  "cash": 4673.31,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -20,22 +20,23 @@
     "date": "2026-11-02",
     "amount": -4150.0
    }
-  ]
+  ],
+  "model": true
  },
  "market": {
-  "breadth50": 0.536,
+  "breadth50": 0.458,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0289,
-  "spy_return": -0.0347,
-  "max_drawdown": -0.0593,
-  "win_rate": 0.059,
-  "closed_trades": 17,
-  "open_positions": 7,
-  "invested_pct": 0.911
+  "total_return": -0.0622,
+  "spy_return": -0.0485,
+  "max_drawdown": -0.0604,
+  "win_rate": 0.053,
+  "closed_trades": 19,
+  "open_positions": 5,
+  "invested_pct": 0.682
  },
  "equity": [
   {
@@ -145,8 +146,13 @@
   },
   {
    "d": "2026-11-05",
-   "r": -0.0289,
-   "spy": -0.0347
+   "r": -0.0539,
+   "spy": -0.0539
+  },
+  {
+   "d": "2026-11-06",
+   "r": -0.0622,
+   "spy": -0.0485
   }
  ],
  "positions": [
@@ -154,75 +160,55 @@
    "ticker": "UTHR",
    "setup": "A",
    "opened": "2026-10-06",
-   "weight": 0.156,
-   "value_usd": 2372.56,
-   "ret": 0.0997,
-   "stop_dist": 0.0906,
+   "weight": 0.154,
+   "value_usd": 2268.82,
+   "ret": 0.0516,
+   "stop_dist": 0.0491,
    "stage": "runner"
   },
   {
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.118,
-   "value_usd": 1801.14,
-   "ret": 0.2278,
-   "stop_dist": 0.1855,
+   "weight": 0.119,
+   "value_usd": 1747.24,
+   "ret": 0.1911,
+   "stop_dist": 0.1604,
    "stage": "runner"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.229,
-   "value_usd": 3488.67,
-   "ret": 0.1853,
-   "stop_dist": 0.1563,
+   "weight": 0.226,
+   "value_usd": 3320.77,
+   "ret": 0.1282,
+   "stop_dist": 0.1137,
    "stage": "runner"
-  },
-  {
-   "ticker": "AGM",
-   "setup": "S",
-   "opened": "2026-10-20",
-   "weight": 0.04,
-   "value_usd": 604.95,
-   "ret": 0.0026,
-   "stop_dist": 0.0288,
-   "stage": "initial"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.135,
-   "value_usd": 2056.8,
-   "ret": 0.0818,
-   "stop_dist": 0.0756,
+   "weight": 0.141,
+   "value_usd": 2081.88,
+   "ret": 0.095,
+   "stop_dist": 0.0867,
    "stage": "runner"
-  },
-  {
-   "ticker": "CXW",
-   "setup": "S",
-   "opened": "2026-10-23",
-   "weight": 0.192,
-   "value_usd": 2929.71,
-   "ret": -0.006,
-   "stop_dist": 0.0584,
-   "stage": "initial"
   },
   {
    "ticker": "DDS",
    "setup": "S",
    "opened": "2026-11-04",
    "weight": 0.042,
-   "value_usd": 633.19,
-   "ret": -0.0072,
-   "stop_dist": 0.0721,
+   "value_usd": 624.75,
+   "ret": -0.0204,
+   "stop_dist": 0.0596,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 1346.69,
+  "cash": 4673.31,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -230,18 +216,14 @@
    "UTHR": 4,
    "TTEK": 44,
    "YETI": 73,
-   "AGM": 3,
    "DAL": 24,
-   "CXW": 98,
    "DDS": 1
   },
   "entries": {
    "UTHR": 539.3848,
    "TTEK": 33.3399,
    "YETI": 40.3198,
-   "AGM": 201.1234,
    "DAL": 79.2199,
-   "CXW": 30.0759,
    "DDS": 637.7799
   }
  },
@@ -650,6 +632,24 @@
    "value_usd": 1200,
    "reason": "Stop hit",
    "result": -0.0475
+  },
+  {
+   "time": "Nov 5 12:25",
+   "ticker": "AGM",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 588,
+   "reason": "Stop hit",
+   "result": -0.0263
+  },
+  {
+   "time": "Nov 6 09:30",
+   "ticker": "CXW",
+   "action": "Sell",
+   "size": "18% of account",
+   "value_usd": 2739,
+   "reason": "Stop hit",
+   "result": -0.0707
   }
  ],
  "lab": {
@@ -866,5 +866,8 @@
     ]
    }
   ]
+ },
+ "mode": {
+  "note": "Model portfolio. Results are hypothetical and are not the results of a real brokerage account."
  }
 }
