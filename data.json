@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T18:35:19+00:00",
+ "updated": "2026-11-11T19:35:12+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14493.64,
+  "account_value": 14383.93,
   "principal": 15850.0,
-  "pnl_usd": -1356.36,
+  "pnl_usd": -1466.07,
   "cash": 2140.84,
   "deposits": [
    {
@@ -30,13 +30,13 @@
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0764,
-  "spy_return": -0.0164,
-  "max_drawdown": -0.0746,
+  "total_return": -0.0834,
+  "spy_return": -0.0184,
+  "max_drawdown": -0.0817,
   "win_rate": 0.091,
   "closed_trades": 22,
   "open_positions": 7,
-  "invested_pct": 0.852
+  "invested_pct": 0.851
  },
  "equity": [
   {
@@ -166,8 +166,8 @@
   },
   {
    "d": "2026-11-11",
-   "r": -0.0764,
-   "spy": -0.0164
+   "r": -0.0834,
+   "spy": -0.0184
   }
  ],
  "positions": [
@@ -176,39 +176,39 @@
    "setup": "S",
    "opened": "2026-10-08",
    "weight": 0.116,
-   "value_usd": 1683.0,
-   "ret": 0.1473,
-   "stop_dist": 0.1284,
+   "value_usd": 1664.52,
+   "ret": 0.1347,
+   "stop_dist": 0.1187,
    "stage": "runner"
   },
   {
    "ticker": "YETI",
    "setup": "S",
    "opened": "2026-10-14",
-   "weight": 0.222,
-   "value_usd": 3217.84,
-   "ret": 0.0933,
-   "stop_dist": 0.0853,
+   "weight": 0.217,
+   "value_usd": 3128.05,
+   "ret": 0.0628,
+   "stop_dist": 0.059,
    "stage": "runner"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.152,
-   "value_usd": 2207.04,
-   "ret": 0.1608,
-   "stop_dist": 0.1385,
+   "weight": 0.153,
+   "value_usd": 2204.52,
+   "ret": 0.1595,
+   "stop_dist": 0.1376,
    "stage": "runner"
   },
   {
    "ticker": "DDS",
    "setup": "S",
    "opened": "2026-11-04",
-   "weight": 0.043,
-   "value_usd": 617.81,
-   "ret": -0.0313,
-   "stop_dist": 0.049,
+   "weight": 0.042,
+   "value_usd": 610.2,
+   "ret": -0.0432,
+   "stop_dist": 0.0372,
    "stage": "initial"
   },
   {
@@ -216,16 +216,16 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.064,
-   "value_usd": 924.96,
-   "ret": -0.0003,
-   "stop_dist": 0.0455,
+   "value_usd": 924.28,
+   "ret": -0.001,
+   "stop_dist": 0.0448,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.124,
+   "weight": 0.125,
    "value_usd": 1792.65,
    "ret": 0.0215,
    "stop_dist": 0.1036,
@@ -235,10 +235,10 @@
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.132,
-   "value_usd": 1909.5,
-   "ret": -0.0038,
-   "stop_dist": 0.073,
+   "weight": 0.133,
+   "value_usd": 1918.88,
+   "ret": 0.001,
+   "stop_dist": 0.0775,
    "stage": "initial"
   }
  ],
