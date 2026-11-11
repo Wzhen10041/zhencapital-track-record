@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-11T15:36:08+00:00",
+ "updated": "2026-11-11T16:35:46+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14446.65,
+  "account_value": 14481.43,
   "principal": 15850.0,
-  "pnl_usd": -1403.35,
-  "cash": 61.09,
+  "pnl_usd": -1368.57,
+  "cash": 2140.84,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.544,
+  "breadth50": 0.554,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0794,
-  "spy_return": -0.0237,
-  "max_drawdown": -0.0776,
-  "win_rate": 0.095,
-  "closed_trades": 21,
-  "open_positions": 8,
-  "invested_pct": 0.996
+  "total_return": -0.0772,
+  "spy_return": -0.0207,
+  "max_drawdown": -0.0754,
+  "win_rate": 0.091,
+  "closed_trades": 22,
+  "open_positions": 7,
+  "invested_pct": 0.852
  },
  "equity": [
   {
@@ -166,8 +166,8 @@
   },
   {
    "d": "2026-11-11",
-   "r": -0.0794,
-   "spy": -0.0237
+   "r": -0.0772,
+   "spy": -0.0207
   }
  ],
  "positions": [
@@ -175,10 +175,10 @@
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.119,
-   "value_usd": 1722.6,
-   "ret": 0.1743,
-   "stop_dist": 0.1484,
+   "weight": 0.12,
+   "value_usd": 1734.04,
+   "ret": 0.1821,
+   "stop_dist": 0.154,
    "stage": "runner"
   },
   {
@@ -186,19 +186,19 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.222,
-   "value_usd": 3201.05,
-   "ret": 0.0876,
-   "stop_dist": 0.0805,
+   "value_usd": 3210.54,
+   "ret": 0.0908,
+   "stop_dist": 0.0832,
    "stage": "runner"
   },
   {
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.152,
-   "value_usd": 2189.04,
-   "ret": 0.1514,
-   "stop_dist": 0.1315,
+   "weight": 0.151,
+   "value_usd": 2193.0,
+   "ret": 0.1534,
+   "stop_dist": 0.133,
    "stage": "runner"
   },
   {
@@ -206,9 +206,9 @@
    "setup": "S",
    "opened": "2026-11-04",
    "weight": 0.042,
-   "value_usd": 606.73,
-   "ret": -0.0487,
-   "stop_dist": 0.0317,
+   "value_usd": 609.39,
+   "ret": -0.0445,
+   "stop_dist": 0.0359,
    "stage": "initial"
   },
   {
@@ -216,9 +216,9 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.064,
-   "value_usd": 922.4,
-   "ret": -0.003,
-   "stop_dist": 0.0428,
+   "value_usd": 922.72,
+   "ret": -0.0027,
+   "stop_dist": 0.0432,
    "stage": "initial"
   },
   {
@@ -226,9 +226,9 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.122,
-   "value_usd": 1755.65,
-   "ret": 0.0004,
-   "stop_dist": 0.0847,
+   "value_usd": 1773.47,
+   "ret": 0.0105,
+   "stop_dist": 0.0939,
    "stage": "initial"
   },
   {
@@ -236,24 +236,14 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.131,
-   "value_usd": 1895.43,
-   "ret": -0.0112,
-   "stop_dist": 0.0661,
-   "stage": "initial"
-  },
-  {
-   "ticker": "BCC",
-   "setup": "S",
-   "opened": "2026-11-09",
-   "weight": 0.145,
-   "value_usd": 2092.65,
-   "ret": -0.0418,
-   "stop_dist": 0.0058,
+   "value_usd": 1897.44,
+   "ret": -0.0101,
+   "stop_dist": 0.0671,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 61.09,
+  "cash": 2140.84,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -264,8 +254,7 @@
    "DDS": 1,
    "SWK": 8,
    "ADMA": 137,
-   "EVER": 67,
-   "BCC": 30
+   "EVER": 67
   },
   "entries": {
    "TTEK": 33.3399,
@@ -274,8 +263,7 @@
    "DDS": 637.7799,
    "SWK": 115.65,
    "ADMA": 12.81,
-   "EVER": 28.61,
-   "BCC": 72.8
+   "EVER": 28.61
   }
  },
  "trades": [
@@ -764,6 +752,15 @@
    "value_usd": 2184,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Nov 11 10:45",
+   "ticker": "BCC",
+   "action": "Sell",
+   "size": "14% of account",
+   "value_usd": 2080,
+   "reason": "Stop hit",
+   "result": -0.0477
   }
  ],
  "lab": {
