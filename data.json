@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-10T20:51:26+00:00",
+ "updated": "2026-11-11T14:41:40+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14664.85,
+  "account_value": 14532.84,
   "principal": 15850.0,
-  "pnl_usd": -1185.15,
+  "pnl_usd": -1317.16,
   "cash": 61.09,
   "deposits": [
    {
@@ -30,9 +30,9 @@
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0655,
-  "spy_return": -0.0311,
-  "max_drawdown": -0.0637,
+  "total_return": -0.0739,
+  "spy_return": -0.023,
+  "max_drawdown": -0.0721,
   "win_rate": 0.095,
   "closed_trades": 21,
   "open_positions": 8,
@@ -163,6 +163,11 @@
    "d": "2026-11-10",
    "r": -0.0655,
    "spy": -0.0311
+  },
+  {
+   "d": "2026-11-11",
+   "r": -0.0739,
+   "spy": -0.023
   }
  ],
  "positions": [
@@ -170,10 +175,10 @@
    "ticker": "TTEK",
    "setup": "S",
    "opened": "2026-10-08",
-   "weight": 0.122,
-   "value_usd": 1793.0,
-   "ret": 0.2223,
-   "stop_dist": 0.1818,
+   "weight": 0.12,
+   "value_usd": 1748.34,
+   "ret": 0.1918,
+   "stop_dist": 0.1609,
    "stage": "runner"
   },
   {
@@ -181,9 +186,9 @@
    "setup": "S",
    "opened": "2026-10-14",
    "weight": 0.223,
-   "value_usd": 3266.75,
-   "ret": 0.1099,
-   "stop_dist": 0.099,
+   "value_usd": 3246.31,
+   "ret": 0.1029,
+   "stop_dist": 0.0933,
    "stage": "runner"
   },
   {
@@ -191,19 +196,19 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.151,
-   "value_usd": 2218.08,
-   "ret": 0.1666,
-   "stop_dist": 0.1428,
+   "value_usd": 2196.55,
+   "ret": 0.1553,
+   "stop_dist": 0.1344,
    "stage": "runner"
   },
   {
    "ticker": "DDS",
    "setup": "S",
    "opened": "2026-11-04",
-   "weight": 0.044,
-   "value_usd": 640.05,
-   "ret": 0.0036,
-   "stop_dist": 0.0821,
+   "weight": 0.043,
+   "value_usd": 623.47,
+   "ret": -0.0224,
+   "stop_dist": 0.0577,
    "stage": "initial"
   },
   {
@@ -211,19 +216,19 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.064,
-   "value_usd": 932.26,
-   "ret": 0.0076,
-   "stop_dist": 0.053,
+   "value_usd": 926.6,
+   "ret": 0.0015,
+   "stop_dist": 0.0472,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.119,
-   "value_usd": 1741.95,
-   "ret": -0.0074,
-   "stop_dist": 0.0775,
+   "weight": 0.12,
+   "value_usd": 1739.53,
+   "ret": -0.0088,
+   "stop_dist": 0.0762,
    "stage": "initial"
   },
   {
@@ -231,9 +236,9 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.129,
-   "value_usd": 1890.07,
-   "ret": -0.014,
-   "stop_dist": 0.0635,
+   "value_usd": 1878.35,
+   "ret": -0.0201,
+   "stop_dist": 0.0576,
    "stage": "initial"
   },
   {
@@ -241,9 +246,9 @@
    "setup": "S",
    "opened": "2026-11-09",
    "weight": 0.145,
-   "value_usd": 2121.6,
-   "ret": -0.0286,
-   "stop_dist": 0.0194,
+   "value_usd": 2112.6,
+   "ret": -0.0327,
+   "stop_dist": 0.0152,
    "stage": "initial"
   }
  ],
@@ -882,11 +887,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0747,
-    "trades": 92,
-    "win_rate": 0.435,
+    "ret": -0.0846,
+    "trades": 94,
+    "win_rate": 0.426,
     "open": 0,
-    "avg_spread": 0.00396,
+    "avg_spread": 0.00429,
     "curve": [
      {
       "d": "2026-10-02",
@@ -987,6 +992,10 @@
      {
       "d": "2026-11-06",
       "r": -0.0747
+     },
+     {
+      "d": "2026-11-10",
+      "r": -0.0846
      }
     ]
    }
