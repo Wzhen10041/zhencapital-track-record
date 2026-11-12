@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-11T20:51:22+00:00",
+ "updated": "2026-11-12T14:40:26+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14408.24,
+  "account_value": 14360.58,
   "principal": 15850.0,
-  "pnl_usd": -1441.76,
+  "pnl_usd": -1489.42,
   "cash": 4776.58,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.559,
+  "breadth50": 0.542,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0818,
-  "spy_return": -0.019,
-  "max_drawdown": -0.0801,
+  "total_return": -0.0849,
+  "spy_return": -0.0234,
+  "max_drawdown": -0.0832,
   "win_rate": 0.167,
   "closed_trades": 24,
   "open_positions": 6,
-  "invested_pct": 0.668
+  "invested_pct": 0.667
  },
  "equity": [
   {
@@ -168,6 +168,11 @@
    "d": "2026-11-11",
    "r": -0.0818,
    "spy": -0.019
+  },
+  {
+   "d": "2026-11-12",
+   "r": -0.0849,
+   "spy": -0.0234
   }
  ],
  "positions": [
@@ -176,59 +181,59 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.152,
-   "value_usd": 2195.04,
-   "ret": 0.1545,
-   "stop_dist": 0.1338,
+   "value_usd": 2180.52,
+   "ret": 0.1469,
+   "stop_dist": 0.1281,
    "stage": "runner"
   },
   {
    "ticker": "DDS",
    "setup": "S",
    "opened": "2026-11-04",
-   "weight": 0.043,
-   "value_usd": 619.79,
-   "ret": -0.0282,
-   "stop_dist": 0.0521,
+   "weight": 0.044,
+   "value_usd": 628.37,
+   "ret": -0.0148,
+   "stop_dist": 0.065,
    "stage": "initial"
   },
   {
    "ticker": "SWK",
    "setup": "A",
    "opened": "2026-11-06",
-   "weight": 0.064,
-   "value_usd": 923.92,
-   "ret": -0.0014,
-   "stop_dist": 0.0444,
+   "weight": 0.065,
+   "value_usd": 929.92,
+   "ret": 0.0051,
+   "stop_dist": 0.0506,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.126,
-   "value_usd": 1813.19,
-   "ret": 0.0332,
-   "stop_dist": 0.1137,
+   "weight": 0.125,
+   "value_usd": 1802.23,
+   "ret": 0.0269,
+   "stop_dist": 0.1083,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.135,
-   "value_usd": 1948.36,
-   "ret": 0.0164,
-   "stop_dist": 0.0915,
+   "weight": 0.134,
+   "value_usd": 1929.93,
+   "ret": 0.0068,
+   "stop_dist": 0.0828,
    "stage": "initial"
   },
   {
    "ticker": "TREX",
    "setup": "A",
    "opened": "2026-11-11",
-   "weight": 0.148,
-   "value_usd": 2131.35,
-   "ret": 0.0,
-   "stop_dist": 0.0295,
+   "weight": 0.147,
+   "value_usd": 2113.02,
+   "ret": -0.0086,
+   "stop_dist": 0.021,
    "stage": "initial"
   }
  ],
