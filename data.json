@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T15:36:03+00:00",
+ "updated": "2026-11-12T16:34:58+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14324.79,
+  "account_value": 14293.55,
   "principal": 15850.0,
-  "pnl_usd": -1525.21,
+  "pnl_usd": -1556.45,
   "cash": 4776.58,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.531,
+  "breadth50": 0.538,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.0872,
-  "spy_return": -0.0223,
-  "max_drawdown": -0.0855,
+  "total_return": -0.0891,
+  "spy_return": -0.0181,
+  "max_drawdown": -0.0874,
   "win_rate": 0.167,
   "closed_trades": 24,
   "open_positions": 6,
-  "invested_pct": 0.667
+  "invested_pct": 0.666
  },
  "equity": [
   {
@@ -171,8 +171,8 @@
   },
   {
    "d": "2026-11-12",
-   "r": -0.0872,
-   "spy": -0.0223
+   "r": -0.0891,
+   "spy": -0.0181
   }
  ],
  "positions": [
@@ -181,19 +181,19 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.149,
-   "value_usd": 2130.0,
-   "ret": 0.1203,
-   "stop_dist": 0.1074,
+   "value_usd": 2135.28,
+   "ret": 0.1231,
+   "stop_dist": 0.1096,
    "stage": "runner"
   },
   {
    "ticker": "DDS",
    "setup": "S",
    "opened": "2026-11-04",
-   "weight": 0.044,
-   "value_usd": 627.56,
-   "ret": -0.016,
-   "stop_dist": 0.0638,
+   "weight": 0.043,
+   "value_usd": 615.37,
+   "ret": -0.0351,
+   "stop_dist": 0.0453,
    "stage": "initial"
   },
   {
@@ -201,29 +201,29 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.064,
-   "value_usd": 918.56,
-   "ret": -0.0072,
-   "stop_dist": 0.0388,
+   "value_usd": 915.0,
+   "ret": -0.011,
+   "stop_dist": 0.0351,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.126,
-   "value_usd": 1802.92,
-   "ret": 0.0273,
-   "stop_dist": 0.1087,
+   "weight": 0.127,
+   "value_usd": 1814.56,
+   "ret": 0.034,
+   "stop_dist": 0.1144,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.138,
-   "value_usd": 1969.8,
-   "ret": 0.0276,
-   "stop_dist": 0.1014,
+   "weight": 0.135,
+   "value_usd": 1935.63,
+   "ret": 0.0098,
+   "stop_dist": 0.0855,
    "stage": "initial"
   },
   {
@@ -231,9 +231,9 @@
    "setup": "A",
    "opened": "2026-11-11",
    "weight": 0.147,
-   "value_usd": 2099.37,
-   "ret": -0.015,
-   "stop_dist": 0.0147,
+   "value_usd": 2101.12,
+   "ret": -0.0142,
+   "stop_dist": 0.0155,
    "stage": "initial"
   }
  ],
@@ -792,10 +792,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0431,
+    "ret": -0.0364,
     "trades": 13,
     "win_rate": 0.077,
-    "open": 6,
+    "open": 7,
     "curve": [
      {
       "d": "2026-10-02",
@@ -896,6 +896,10 @@
      {
       "d": "2026-11-10",
       "r": -0.0431
+     },
+     {
+      "d": "2026-11-12",
+      "r": -0.0364
      }
     ]
    },
