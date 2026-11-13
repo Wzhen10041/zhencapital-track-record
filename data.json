@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-12T20:51:25+00:00",
+ "updated": "2026-11-13T15:36:19+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14089.36,
+  "account_value": 14162.3,
   "principal": 15850.0,
-  "pnl_usd": -1760.64,
+  "pnl_usd": -1687.7,
   "cash": 92.7,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.518,
+  "breadth50": 0.505,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.1022,
-  "spy_return": -0.0232,
+  "total_return": -0.0975,
+  "spy_return": -0.0303,
   "max_drawdown": -0.1005,
   "win_rate": 0.154,
   "closed_trades": 26,
@@ -173,6 +173,11 @@
    "d": "2026-11-12",
    "r": -0.1022,
    "spy": -0.0232
+  },
+  {
+   "d": "2026-11-13",
+   "r": -0.0975,
+   "spy": -0.0303
   }
  ],
  "positions": [
@@ -180,10 +185,10 @@
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.148,
-   "value_usd": 2080.08,
-   "ret": 0.094,
-   "stop_dist": 0.086,
+   "weight": 0.147,
+   "value_usd": 2079.12,
+   "ret": 0.0935,
+   "stop_dist": 0.0855,
    "stage": "runner"
   },
   {
@@ -191,39 +196,39 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.064,
-   "value_usd": 903.92,
-   "ret": -0.023,
-   "stop_dist": 0.0233,
+   "value_usd": 904.44,
+   "ret": -0.0224,
+   "stop_dist": 0.0238,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.128,
-   "value_usd": 1810.45,
-   "ret": 0.0316,
-   "stop_dist": 0.1124,
+   "weight": 0.131,
+   "value_usd": 1853.61,
+   "ret": 0.0562,
+   "stop_dist": 0.133,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.133,
-   "value_usd": 1867.29,
-   "ret": -0.0259,
-   "stop_dist": 0.052,
+   "weight": 0.134,
+   "value_usd": 1892.08,
+   "ret": -0.0129,
+   "stop_dist": 0.0644,
    "stage": "initial"
   },
   {
    "ticker": "ICLR",
    "setup": "A",
    "opened": "2026-11-12",
-   "weight": 0.241,
-   "value_usd": 3396.43,
-   "ret": -0.001,
-   "stop_dist": 0.038,
+   "weight": 0.238,
+   "value_usd": 3364.64,
+   "ret": -0.0103,
+   "stop_dist": 0.029,
    "stage": "initial"
   },
   {
@@ -231,19 +236,19 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.163,
-   "value_usd": 2299.68,
-   "ret": -0.0006,
-   "stop_dist": 0.0595,
+   "value_usd": 2309.76,
+   "ret": 0.0038,
+   "stop_dist": 0.0636,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.116,
-   "value_usd": 1638.81,
-   "ret": -0.0002,
-   "stop_dist": 0.0644,
+   "weight": 0.118,
+   "value_usd": 1665.94,
+   "ret": 0.0163,
+   "stop_dist": 0.0797,
    "stage": "initial"
   }
  ],
@@ -849,9 +854,9 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0364,
-    "trades": 13,
-    "win_rate": 0.077,
+    "ret": -0.0395,
+    "trades": 14,
+    "win_rate": 0.071,
     "open": 7,
     "curve": [
      {
@@ -957,6 +962,10 @@
      {
       "d": "2026-11-12",
       "r": -0.0364
+     },
+     {
+      "d": "2026-11-13",
+      "r": -0.0395
      }
     ]
    },
@@ -965,9 +974,9 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.0975,
-    "trades": 97,
-    "win_rate": 0.412,
+    "ret": -0.1129,
+    "trades": 100,
+    "win_rate": 0.41,
     "open": 0,
     "avg_spread": 0.00429,
     "curve": [
@@ -1078,6 +1087,10 @@
      {
       "d": "2026-11-11",
       "r": -0.0975
+     },
+     {
+      "d": "2026-11-12",
+      "r": -0.1129
      }
     ]
    }
