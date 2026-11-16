@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T15:35:36+00:00",
+ "updated": "2026-11-16T17:35:04+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14116.66,
+  "account_value": 14183.91,
   "principal": 15850.0,
-  "pnl_usd": -1733.34,
+  "pnl_usd": -1666.09,
   "cash": 3359.93,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.501,
+  "breadth50": 0.49,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.1004,
-  "spy_return": -0.0385,
+  "total_return": -0.0961,
+  "spy_return": -0.0406,
   "max_drawdown": -0.1005,
   "win_rate": 0.148,
   "closed_trades": 27,
   "open_positions": 6,
-  "invested_pct": 0.762
+  "invested_pct": 0.763
  },
  "equity": [
   {
@@ -181,8 +181,8 @@
   },
   {
    "d": "2026-11-16",
-   "r": -0.1004,
-   "spy": -0.0385
+   "r": -0.0961,
+   "spy": -0.0406
   }
  ],
  "positions": [
@@ -190,19 +190,19 @@
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.149,
-   "value_usd": 2097.9,
-   "ret": 0.1034,
-   "stop_dist": 0.0937,
+   "weight": 0.147,
+   "value_usd": 2079.36,
+   "ret": 0.0937,
+   "stop_dist": 0.0856,
    "stage": "runner"
   },
   {
    "ticker": "SWK",
    "setup": "A",
    "opened": "2026-11-06",
-   "weight": 0.065,
-   "value_usd": 913.88,
-   "ret": -0.0122,
+   "weight": 0.064,
+   "value_usd": 913.84,
+   "ret": -0.0123,
    "stop_dist": 0.0339,
    "stage": "initial"
   },
@@ -210,30 +210,30 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.134,
-   "value_usd": 1890.6,
-   "ret": 0.0773,
-   "stop_dist": 0.15,
+   "weight": 0.135,
+   "value_usd": 1913.89,
+   "ret": 0.0906,
+   "stop_dist": 0.1603,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.137,
-   "value_usd": 1937.64,
-   "ret": 0.0108,
-   "stop_dist": 0.0864,
+   "weight": 0.138,
+   "value_usd": 1957.74,
+   "ret": 0.0213,
+   "stop_dist": 0.0958,
    "stage": "initial"
   },
   {
    "ticker": "PEGA",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.163,
-   "value_usd": 2307.6,
-   "ret": 0.0028,
-   "stop_dist": 0.0627,
+   "weight": 0.165,
+   "value_usd": 2341.44,
+   "ret": 0.0175,
+   "stop_dist": 0.0763,
    "stage": "initial"
   },
   {
@@ -241,9 +241,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.114,
-   "value_usd": 1609.11,
-   "ret": -0.0183,
-   "stop_dist": 0.0472,
+   "value_usd": 1617.7,
+   "ret": -0.0131,
+   "stop_dist": 0.0522,
    "stage": "initial"
   }
  ],
@@ -856,7 +856,7 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0395,
+    "ret": -0.0295,
     "trades": 14,
     "win_rate": 0.071,
     "open": 7,
@@ -968,6 +968,10 @@
      {
       "d": "2026-11-13",
       "r": -0.0395
+     },
+     {
+      "d": "2026-11-16",
+      "r": -0.0295
      }
     ]
    },
