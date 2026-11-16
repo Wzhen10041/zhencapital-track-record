@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T14:41:22+00:00",
+ "updated": "2026-11-16T15:35:36+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14106.48,
+  "account_value": 14116.66,
   "principal": 15850.0,
-  "pnl_usd": -1743.52,
+  "pnl_usd": -1733.34,
   "cash": 3359.93,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.514,
+  "breadth50": 0.501,
   "spy_above_200": true,
   "size_today": 1.0,
   "gold_on": false
  },
  "stats": {
-  "total_return": -0.1011,
-  "spy_return": -0.0327,
+  "total_return": -0.1004,
+  "spy_return": -0.0385,
   "max_drawdown": -0.1005,
   "win_rate": 0.148,
   "closed_trades": 27,
@@ -181,8 +181,8 @@
   },
   {
    "d": "2026-11-16",
-   "r": -0.1011,
-   "spy": -0.0327
+   "r": -0.1004,
+   "spy": -0.0385
   }
  ],
  "positions": [
@@ -191,9 +191,9 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.149,
-   "value_usd": 2101.2,
-   "ret": 0.1052,
-   "stop_dist": 0.0951,
+   "value_usd": 2097.9,
+   "ret": 0.1034,
+   "stop_dist": 0.0937,
    "stage": "runner"
   },
   {
@@ -201,39 +201,39 @@
    "setup": "A",
    "opened": "2026-11-06",
    "weight": 0.065,
-   "value_usd": 911.6,
-   "ret": -0.0147,
-   "stop_dist": 0.0315,
+   "value_usd": 913.88,
+   "ret": -0.0122,
+   "stop_dist": 0.0339,
    "stage": "initial"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.135,
-   "value_usd": 1911.15,
-   "ret": 0.089,
-   "stop_dist": 0.1591,
+   "weight": 0.134,
+   "value_usd": 1890.6,
+   "ret": 0.0773,
+   "stop_dist": 0.15,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.134,
-   "value_usd": 1887.39,
-   "ret": -0.0154,
-   "stop_dist": 0.0621,
+   "weight": 0.137,
+   "value_usd": 1937.64,
+   "ret": 0.0108,
+   "stop_dist": 0.0864,
    "stage": "initial"
   },
   {
    "ticker": "PEGA",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.165,
-   "value_usd": 2322.0,
-   "ret": 0.0091,
-   "stop_dist": 0.0685,
+   "weight": 0.163,
+   "value_usd": 2307.6,
+   "ret": 0.0028,
+   "stop_dist": 0.0627,
    "stage": "initial"
   },
   {
@@ -241,9 +241,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.114,
-   "value_usd": 1613.2,
-   "ret": -0.0158,
-   "stop_dist": 0.0496,
+   "value_usd": 1609.11,
+   "ret": -0.0183,
+   "stop_dist": 0.0472,
    "stage": "initial"
   }
  ],
