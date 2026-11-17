@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T18:35:23+00:00",
+ "updated": "2026-11-17T19:34:32+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13755.06,
+  "account_value": 13724.35,
   "principal": 15850.0,
-  "pnl_usd": -2094.94,
+  "pnl_usd": -2125.65,
   "cash": 2772.29,
   "deposits": [
    {
@@ -24,15 +24,15 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.446,
-  "spy_above_200": true,
-  "size_today": 1.0,
-  "gold_on": false
+  "breadth50": 0.43,
+  "spy_above_200": false,
+  "size_today": 0.3,
+  "gold_on": true
  },
  "stats": {
-  "total_return": -0.1235,
-  "spy_return": -0.0535,
-  "max_drawdown": -0.1218,
+  "total_return": -0.1254,
+  "spy_return": -0.0566,
+  "max_drawdown": -0.1237,
   "win_rate": 0.138,
   "closed_trades": 29,
   "open_positions": 6,
@@ -186,8 +186,8 @@
   },
   {
    "d": "2026-11-17",
-   "r": -0.1235,
-   "spy": -0.0535
+   "r": -0.1254,
+   "spy": -0.0566
   }
  ],
  "positions": [
@@ -196,19 +196,19 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.149,
-   "value_usd": 2046.24,
-   "ret": 0.0762,
-   "stop_dist": 0.0708,
+   "value_usd": 2042.28,
+   "ret": 0.0742,
+   "stop_dist": 0.069,
    "stage": "runner"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.135,
-   "value_usd": 1859.09,
-   "ret": 0.0593,
-   "stop_dist": 0.1356,
+   "weight": 0.136,
+   "value_usd": 1863.88,
+   "ret": 0.0621,
+   "stop_dist": 0.1378,
    "stage": "initial"
   },
   {
@@ -216,39 +216,39 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.138,
-   "value_usd": 1902.8,
-   "ret": -0.0073,
-   "stop_dist": 0.0697,
+   "value_usd": 1891.41,
+   "ret": -0.0133,
+   "stop_dist": 0.0641,
    "stage": "initial"
   },
   {
    "ticker": "PEGA",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.162,
-   "value_usd": 2234.16,
-   "ret": -0.0291,
-   "stop_dist": 0.0319,
+   "weight": 0.163,
+   "value_usd": 2234.52,
+   "ret": -0.0289,
+   "stop_dist": 0.0321,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.117,
-   "value_usd": 1612.44,
-   "ret": -0.0163,
-   "stop_dist": 0.0491,
+   "weight": 0.116,
+   "value_usd": 1597.86,
+   "ret": -0.0252,
+   "stop_dist": 0.0404,
    "stage": "initial"
   },
   {
    "ticker": "PNTG",
    "setup": "S",
    "opened": "2026-11-16",
-   "weight": 0.097,
-   "value_usd": 1328.04,
-   "ret": -0.0027,
-   "stop_dist": 0.0485,
+   "weight": 0.096,
+   "value_usd": 1322.1,
+   "ret": -0.0072,
+   "stop_dist": 0.0442,
    "stage": "initial"
   }
  ],
