@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T19:34:32+00:00",
+ "updated": "2026-11-17T20:51:25+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13724.35,
+  "account_value": 13674.4,
   "principal": 15850.0,
-  "pnl_usd": -2125.65,
-  "cash": 2772.29,
+  "pnl_usd": -2175.6,
+  "cash": 446.08,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.43,
+  "breadth50": 0.426,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1254,
-  "spy_return": -0.0566,
-  "max_drawdown": -0.1237,
+  "total_return": -0.1286,
+  "spy_return": -0.0581,
+  "max_drawdown": -0.1269,
   "win_rate": 0.138,
   "closed_trades": 29,
-  "open_positions": 6,
-  "invested_pct": 0.798
+  "open_positions": 9,
+  "invested_pct": 0.967
  },
  "equity": [
   {
@@ -186,8 +186,8 @@
   },
   {
    "d": "2026-11-17",
-   "r": -0.1254,
-   "spy": -0.0566
+   "r": -0.1286,
+   "spy": -0.0581
   }
  ],
  "positions": [
@@ -196,9 +196,9 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.149,
-   "value_usd": 2042.28,
-   "ret": 0.0742,
-   "stop_dist": 0.069,
+   "value_usd": 2032.68,
+   "ret": 0.0691,
+   "stop_dist": 0.0646,
    "stage": "runner"
   },
   {
@@ -206,9 +206,9 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.136,
-   "value_usd": 1863.88,
-   "ret": 0.0621,
-   "stop_dist": 0.1378,
+   "value_usd": 1864.57,
+   "ret": 0.0625,
+   "stop_dist": 0.1381,
    "stage": "initial"
   },
   {
@@ -216,19 +216,19 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.138,
-   "value_usd": 1891.41,
-   "ret": -0.0133,
-   "stop_dist": 0.0641,
+   "value_usd": 1880.69,
+   "ret": -0.0189,
+   "stop_dist": 0.0588,
    "stage": "initial"
   },
   {
    "ticker": "PEGA",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.163,
-   "value_usd": 2234.52,
-   "ret": -0.0289,
-   "stop_dist": 0.0321,
+   "weight": 0.162,
+   "value_usd": 2214.72,
+   "ret": -0.0375,
+   "stop_dist": 0.0234,
    "stage": "initial"
   },
   {
@@ -236,9 +236,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.116,
-   "value_usd": 1597.86,
-   "ret": -0.0252,
-   "stop_dist": 0.0404,
+   "value_usd": 1591.83,
+   "ret": -0.0289,
+   "stop_dist": 0.0368,
    "stage": "initial"
   },
   {
@@ -246,14 +246,44 @@
    "setup": "S",
    "opened": "2026-11-16",
    "weight": 0.096,
-   "value_usd": 1322.1,
-   "ret": -0.0072,
-   "stop_dist": 0.0442,
+   "value_usd": 1317.6,
+   "ret": -0.0105,
+   "stop_dist": 0.041,
+   "stage": "initial"
+  },
+  {
+   "ticker": "VMC",
+   "setup": "A",
+   "opened": "2026-11-17",
+   "weight": 0.061,
+   "value_usd": 827.37,
+   "ret": 0.0007,
+   "stop_dist": 0.0212,
+   "stage": "initial"
+  },
+  {
+   "ticker": "LOW",
+   "setup": "A",
+   "opened": "2026-11-17",
+   "weight": 0.065,
+   "value_usd": 886.6,
+   "ret": -0.0001,
+   "stop_dist": 0.0162,
+   "stage": "initial"
+  },
+  {
+   "ticker": "COGT",
+   "setup": "S",
+   "opened": "2026-11-17",
+   "weight": 0.045,
+   "value_usd": 612.26,
+   "ret": -0.0007,
+   "stop_dist": 0.0622,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 2772.29,
+  "cash": 446.08,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -263,7 +293,10 @@
    "EVER": 67,
    "PEGA": 72,
    "FANG": 9,
-   "PNTG": 36
+   "PNTG": 36,
+   "VMC": 3,
+   "LOW": 4,
+   "COGT": 22
   },
   "entries": {
    "DAL": 79.2199,
@@ -271,7 +304,10 @@
    "EVER": 28.61,
    "PEGA": 31.96,
    "FANG": 182.13,
-   "PNTG": 36.99
+   "PNTG": 36.99,
+   "VMC": 275.61,
+   "LOW": 221.67,
+   "COGT": 27.85
   }
  },
  "trades": [
@@ -886,6 +922,33 @@
    "value_usd": 1871,
    "reason": "Stop hit",
    "result": -0.0691
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "VMC",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 827,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "LOW",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 887,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "COGT",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 613,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
