@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-17T20:51:25+00:00",
+ "updated": "2026-11-18T14:39:25+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13674.4,
+  "account_value": 13681.6,
   "principal": 15850.0,
-  "pnl_usd": -2175.6,
-  "cash": 446.08,
+  "pnl_usd": -2168.4,
+  "cash": 1293.8,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.426,
+  "breadth50": 0.425,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1286,
-  "spy_return": -0.0581,
+  "total_return": -0.1281,
+  "spy_return": -0.0547,
   "max_drawdown": -0.1269,
-  "win_rate": 0.138,
-  "closed_trades": 29,
-  "open_positions": 9,
-  "invested_pct": 0.967
+  "win_rate": 0.133,
+  "closed_trades": 30,
+  "open_positions": 8,
+  "invested_pct": 0.905
  },
  "equity": [
   {
@@ -188,6 +188,11 @@
    "d": "2026-11-17",
    "r": -0.1286,
    "spy": -0.0581
+  },
+  {
+   "d": "2026-11-18",
+   "r": -0.1281,
+   "spy": -0.0547
   }
  ],
  "positions": [
@@ -195,20 +200,20 @@
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.149,
-   "value_usd": 2032.68,
-   "ret": 0.0691,
-   "stop_dist": 0.0646,
+   "weight": 0.15,
+   "value_usd": 2056.32,
+   "ret": 0.0815,
+   "stop_dist": 0.0754,
    "stage": "runner"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.136,
-   "value_usd": 1864.57,
-   "ret": 0.0625,
-   "stop_dist": 0.1381,
+   "weight": 0.139,
+   "value_usd": 1907.73,
+   "ret": 0.087,
+   "stop_dist": 0.1576,
    "stage": "initial"
   },
   {
@@ -216,59 +221,49 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.138,
-   "value_usd": 1880.69,
-   "ret": -0.0189,
-   "stop_dist": 0.0588,
+   "value_usd": 1883.37,
+   "ret": -0.0175,
+   "stop_dist": 0.0601,
    "stage": "initial"
   },
   {
    "ticker": "PEGA",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.162,
-   "value_usd": 2214.72,
-   "ret": -0.0375,
-   "stop_dist": 0.0234,
+   "weight": 0.159,
+   "value_usd": 2181.6,
+   "ret": -0.0519,
+   "stop_dist": 0.0086,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.116,
-   "value_usd": 1591.83,
-   "ret": -0.0289,
-   "stop_dist": 0.0368,
+   "weight": 0.115,
+   "value_usd": 1571.67,
+   "ret": -0.0412,
+   "stop_dist": 0.0245,
    "stage": "initial"
   },
   {
    "ticker": "PNTG",
    "setup": "S",
    "opened": "2026-11-16",
-   "weight": 0.096,
-   "value_usd": 1317.6,
-   "ret": -0.0105,
-   "stop_dist": 0.041,
+   "weight": 0.098,
+   "value_usd": 1345.86,
+   "ret": 0.0107,
+   "stop_dist": 0.0611,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.061,
-   "value_usd": 827.37,
-   "ret": 0.0007,
-   "stop_dist": 0.0212,
-   "stage": "initial"
-  },
-  {
-   "ticker": "LOW",
-   "setup": "A",
-   "opened": "2026-11-17",
-   "weight": 0.065,
-   "value_usd": 886.6,
-   "ret": -0.0001,
-   "stop_dist": 0.0162,
+   "weight": 0.06,
+   "value_usd": 825.25,
+   "ret": -0.0019,
+   "stop_dist": 0.0187,
    "stage": "initial"
   },
   {
@@ -276,14 +271,14 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.045,
-   "value_usd": 612.26,
-   "ret": -0.0007,
-   "stop_dist": 0.0622,
+   "value_usd": 616.0,
+   "ret": 0.0054,
+   "stop_dist": 0.0679,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 446.08,
+  "cash": 1293.8,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -295,7 +290,6 @@
    "FANG": 9,
    "PNTG": 36,
    "VMC": 3,
-   "LOW": 4,
    "COGT": 22
   },
   "entries": {
@@ -306,7 +300,6 @@
    "FANG": 182.13,
    "PNTG": 36.99,
    "VMC": 275.61,
-   "LOW": 221.67,
    "COGT": 27.85
   }
  },
@@ -949,6 +942,15 @@
    "value_usd": 613,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Nov 18 09:30",
+   "ticker": "LOW",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 848,
+   "reason": "Stop hit",
+   "result": -0.0439
   }
  ],
  "lab": {
