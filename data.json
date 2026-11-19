@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T19:34:35+00:00",
+ "updated": "2026-11-19T20:51:42+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13457.2,
+  "account_value": 13436.5,
   "principal": 15850.0,
-  "pnl_usd": -2392.8,
-  "cash": 2239.07,
+  "pnl_usd": -2413.5,
+  "cash": 2411.87,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.376,
+  "breadth50": 0.365,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1424,
-  "spy_return": -0.0692,
-  "max_drawdown": -0.1408,
-  "win_rate": 0.121,
-  "closed_trades": 33,
-  "open_positions": 9,
-  "invested_pct": 0.834
+  "total_return": -0.1438,
+  "spy_return": -0.0738,
+  "max_drawdown": -0.1422,
+  "win_rate": 0.147,
+  "closed_trades": 34,
+  "open_positions": 11,
+  "invested_pct": 0.82
  },
  "equity": [
   {
@@ -196,21 +196,11 @@
   },
   {
    "d": "2026-11-19",
-   "r": -0.1424,
-   "spy": -0.0692
+   "r": -0.1438,
+   "spy": -0.0738
   }
  ],
  "positions": [
-  {
-   "ticker": "DAL",
-   "setup": "S",
-   "opened": "2026-10-22",
-   "weight": 0.15,
-   "value_usd": 2017.92,
-   "ret": 0.0613,
-   "stop_dist": 0.0578,
-   "stage": "runner"
-  },
   {
    "ticker": "ADMA",
    "setup": "A",
@@ -225,10 +215,10 @@
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.142,
-   "value_usd": 1910.51,
-   "ret": -0.0033,
-   "stop_dist": 0.0735,
+   "weight": 0.143,
+   "value_usd": 1915.2,
+   "ret": -0.0009,
+   "stop_dist": 0.0757,
    "stage": "initial"
   },
   {
@@ -236,9 +226,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.118,
-   "value_usd": 1587.29,
-   "ret": -0.0317,
-   "stop_dist": 0.034,
+   "value_usd": 1588.82,
+   "ret": -0.0307,
+   "stop_dist": 0.035,
    "stage": "initial"
   },
   {
@@ -246,9 +236,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.061,
-   "value_usd": 825.33,
-   "ret": -0.0018,
-   "stop_dist": 0.0188,
+   "value_usd": 821.18,
+   "ret": -0.0068,
+   "stop_dist": 0.0139,
    "stage": "initial"
   },
   {
@@ -256,9 +246,9 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.046,
-   "value_usd": 615.45,
-   "ret": 0.0045,
-   "stop_dist": 0.067,
+   "value_usd": 616.33,
+   "ret": 0.0059,
+   "stop_dist": 0.0684,
    "stage": "initial"
   },
   {
@@ -266,19 +256,19 @@
    "setup": "S",
    "opened": "2026-11-18",
    "weight": 0.056,
-   "value_usd": 750.9,
-   "ret": -0.0139,
-   "stop_dist": 0.0369,
+   "value_usd": 751.68,
+   "ret": -0.0128,
+   "stop_dist": 0.0379,
    "stage": "initial"
   },
   {
    "ticker": "COMP",
    "setup": "A",
    "opened": "2026-11-18",
-   "weight": 0.07,
-   "value_usd": 936.84,
-   "ret": 0.0112,
-   "stop_dist": 0.0553,
+   "weight": 0.069,
+   "value_usd": 926.44,
+   "ret": 0.0,
+   "stop_dist": 0.0447,
    "stage": "initial"
   },
   {
@@ -286,19 +276,48 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.056,
-   "value_usd": 748.38,
-   "ret": -0.0101,
-   "stop_dist": 0.0235,
+   "value_usd": 746.19,
+   "ret": -0.013,
+   "stop_dist": 0.0206,
    "stage": "initial"
+  },
+  {
+   "ticker": "VSTS",
+   "setup": "S",
+   "opened": "2026-11-19",
+   "weight": 0.048,
+   "value_usd": 650.44,
+   "ret": 0.0,
+   "stop_dist": 0.0608,
+   "stage": "initial"
+  },
+  {
+   "ticker": "VERA",
+   "setup": "S",
+   "opened": "2026-11-19",
+   "weight": 0.038,
+   "value_usd": 511.29,
+   "ret": -0.0033,
+   "stop_dist": 0.0773,
+   "stage": "initial"
+  },
+  {
+   "ticker": "GLD",
+   "setup": "Gold",
+   "opened": "",
+   "weight": 0.05,
+   "value_usd": 671.55,
+   "ret": null,
+   "stop_dist": null,
+   "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 2239.07,
+  "cash": 2411.87,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
   "shares": {
-   "DAL": 24,
    "ADMA": 137,
    "EVER": 67,
    "FANG": 9,
@@ -306,10 +325,12 @@
    "COGT": 22,
    "PTGX": 6,
    "COMP": 92,
-   "FERG": 3
+   "FERG": 3,
+   "GLD": 2,
+   "VSTS": 46,
+   "VERA": 19
   },
   "entries": {
-   "DAL": 79.2199,
    "ADMA": 12.81,
    "EVER": 28.61,
    "FANG": 182.13,
@@ -317,7 +338,9 @@
    "COGT": 27.85,
    "PTGX": 126.91,
    "COMP": 10.07,
-   "FERG": 252.01
+   "FERG": 252.01,
+   "VSTS": 14.14,
+   "VERA": 27.0
   }
  },
  "trades": [
@@ -1031,6 +1054,42 @@
    "value_usd": 950,
    "reason": "Stop hit",
    "result": -0.0378
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "DAL",
+   "action": "Sell",
+   "size": "15% of account",
+   "value_usd": 2008,
+   "reason": "Closed below 20 day average",
+   "result": 0.056
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "GLD",
+   "action": "Buy",
+   "size": "5% of account",
+   "value_usd": 672,
+   "reason": "Idle cash into gold while S&P 500 is below its 200 day line",
+   "result": null
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "VSTS",
+   "action": "Buy",
+   "size": "5% of account",
+   "value_usd": 650,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "VERA",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 513,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
   }
  ],
  "lab": {
