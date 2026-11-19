@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-19T16:34:40+00:00",
+ "updated": "2026-11-19T17:34:51+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13515.51,
+  "account_value": 13472.28,
   "principal": 15850.0,
-  "pnl_usd": -2334.49,
-  "cash": 1289.47,
+  "pnl_usd": -2377.72,
+  "cash": 2239.07,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.39,
+  "breadth50": 0.386,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1387,
-  "spy_return": -0.0591,
-  "max_drawdown": -0.1371,
-  "win_rate": 0.125,
-  "closed_trades": 32,
-  "open_positions": 10,
-  "invested_pct": 0.905
+  "total_return": -0.1415,
+  "spy_return": -0.0637,
+  "max_drawdown": -0.1399,
+  "win_rate": 0.121,
+  "closed_trades": 33,
+  "open_positions": 9,
+  "invested_pct": 0.834
  },
  "equity": [
   {
@@ -196,8 +196,8 @@
   },
   {
    "d": "2026-11-19",
-   "r": -0.1387,
-   "spy": -0.0591
+   "r": -0.1415,
+   "spy": -0.0637
   }
  ],
  "positions": [
@@ -206,29 +206,29 @@
    "setup": "S",
    "opened": "2026-10-22",
    "weight": 0.151,
-   "value_usd": 2034.48,
-   "ret": 0.0701,
-   "stop_dist": 0.0655,
+   "value_usd": 2035.92,
+   "ret": 0.0708,
+   "stop_dist": 0.0661,
    "stage": "runner"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.135,
-   "value_usd": 1825.52,
-   "ret": 0.0402,
-   "stop_dist": 0.1197,
+   "weight": 0.134,
+   "value_usd": 1804.29,
+   "ret": 0.0281,
+   "stop_dist": 0.1093,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.142,
-   "value_usd": 1925.58,
-   "ret": 0.0045,
-   "stop_dist": 0.0807,
+   "weight": 0.143,
+   "value_usd": 1924.91,
+   "ret": 0.0042,
+   "stop_dist": 0.0804,
    "stage": "initial"
   },
   {
@@ -236,9 +236,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.118,
-   "value_usd": 1591.56,
-   "ret": -0.029,
-   "stop_dist": 0.0366,
+   "value_usd": 1583.06,
+   "ret": -0.0342,
+   "stop_dist": 0.0315,
    "stage": "initial"
   },
   {
@@ -246,19 +246,19 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.061,
-   "value_usd": 827.49,
-   "ret": 0.0008,
-   "stop_dist": 0.0214,
+   "value_usd": 826.47,
+   "ret": -0.0004,
+   "stop_dist": 0.0202,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.046,
-   "value_usd": 616.88,
-   "ret": 0.0068,
-   "stop_dist": 0.0692,
+   "weight": 0.045,
+   "value_usd": 612.48,
+   "ret": -0.0004,
+   "stop_dist": 0.0625,
    "stage": "initial"
   },
   {
@@ -266,44 +266,34 @@
    "setup": "S",
    "opened": "2026-11-18",
    "weight": 0.056,
-   "value_usd": 758.67,
-   "ret": -0.0037,
-   "stop_dist": 0.0468,
+   "value_usd": 751.92,
+   "ret": -0.0125,
+   "stop_dist": 0.0382,
    "stage": "initial"
   },
   {
    "ticker": "COMP",
    "setup": "A",
    "opened": "2026-11-18",
-   "weight": 0.069,
-   "value_usd": 934.26,
-   "ret": 0.0084,
-   "stop_dist": 0.0527,
-   "stage": "initial"
-  },
-  {
-   "ticker": "FHI",
-   "setup": "A",
-   "opened": "2026-11-18",
-   "weight": 0.071,
-   "value_usd": 962.56,
-   "ret": -0.0246,
-   "stop_dist": 0.0135,
+   "weight": 0.07,
+   "value_usd": 945.76,
+   "ret": 0.0209,
+   "stop_dist": 0.0642,
    "stage": "initial"
   },
   {
    "ticker": "FERG",
    "setup": "A",
    "opened": "2026-11-18",
-   "weight": 0.055,
-   "value_usd": 749.04,
-   "ret": -0.0092,
-   "stop_dist": 0.0244,
+   "weight": 0.056,
+   "value_usd": 748.41,
+   "ret": -0.0101,
+   "stop_dist": 0.0235,
    "stage": "initial"
   }
  ],
  "holdings": {
-  "cash": 1289.47,
+  "cash": 2239.07,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -316,7 +306,6 @@
    "COGT": 22,
    "PTGX": 6,
    "COMP": 92,
-   "FHI": 16,
    "FERG": 3
   },
   "entries": {
@@ -328,7 +317,6 @@
    "COGT": 27.85,
    "PTGX": 126.91,
    "COMP": 10.07,
-   "FHI": 61.68,
    "FERG": 252.01
   }
  },
@@ -1034,6 +1022,15 @@
    "value_usd": 1264,
    "reason": "Stop hit",
    "result": -0.0511
+  },
+  {
+   "time": "Nov 19 12:05",
+   "ticker": "FHI",
+   "action": "Sell",
+   "size": "7% of account",
+   "value_usd": 950,
+   "reason": "Stop hit",
+   "result": -0.0378
   }
  ],
  "lab": {
