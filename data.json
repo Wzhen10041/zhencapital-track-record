@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T17:34:51+00:00",
+ "updated": "2026-11-19T18:34:28+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13472.28,
+  "account_value": 13441.64,
   "principal": 15850.0,
-  "pnl_usd": -2377.72,
+  "pnl_usd": -2408.36,
   "cash": 2239.07,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.386,
+  "breadth50": 0.377,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1415,
-  "spy_return": -0.0637,
-  "max_drawdown": -0.1399,
+  "total_return": -0.1434,
+  "spy_return": -0.0686,
+  "max_drawdown": -0.1418,
   "win_rate": 0.121,
   "closed_trades": 33,
   "open_positions": 9,
-  "invested_pct": 0.834
+  "invested_pct": 0.833
  },
  "equity": [
   {
@@ -196,8 +196,8 @@
   },
   {
    "d": "2026-11-19",
-   "r": -0.1415,
-   "spy": -0.0637
+   "r": -0.1434,
+   "spy": -0.0686
   }
  ],
  "positions": [
@@ -205,10 +205,10 @@
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.151,
-   "value_usd": 2035.92,
-   "ret": 0.0708,
-   "stop_dist": 0.0661,
+   "weight": 0.15,
+   "value_usd": 2019.6,
+   "ret": 0.0622,
+   "stop_dist": 0.0586,
    "stage": "runner"
   },
   {
@@ -216,19 +216,19 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.134,
-   "value_usd": 1804.29,
-   "ret": 0.0281,
-   "stop_dist": 0.1093,
+   "value_usd": 1806.35,
+   "ret": 0.0293,
+   "stop_dist": 0.1104,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.143,
-   "value_usd": 1924.91,
-   "ret": 0.0042,
-   "stop_dist": 0.0804,
+   "weight": 0.142,
+   "value_usd": 1908.16,
+   "ret": -0.0045,
+   "stop_dist": 0.0723,
    "stage": "initial"
   },
   {
@@ -236,29 +236,29 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.118,
-   "value_usd": 1583.06,
-   "ret": -0.0342,
-   "stop_dist": 0.0315,
+   "value_usd": 1587.06,
+   "ret": -0.0318,
+   "stop_dist": 0.0339,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.061,
-   "value_usd": 826.47,
-   "ret": -0.0004,
-   "stop_dist": 0.0202,
+   "weight": 0.062,
+   "value_usd": 828.87,
+   "ret": 0.0025,
+   "stop_dist": 0.023,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.045,
-   "value_usd": 612.48,
-   "ret": -0.0004,
-   "stop_dist": 0.0625,
+   "weight": 0.046,
+   "value_usd": 612.04,
+   "ret": -0.0011,
+   "stop_dist": 0.0618,
    "stage": "initial"
   },
   {
@@ -266,9 +266,9 @@
    "setup": "S",
    "opened": "2026-11-18",
    "weight": 0.056,
-   "value_usd": 751.92,
-   "ret": -0.0125,
-   "stop_dist": 0.0382,
+   "value_usd": 748.44,
+   "ret": -0.0171,
+   "stop_dist": 0.0338,
    "stage": "initial"
   },
   {
@@ -276,9 +276,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.07,
-   "value_usd": 945.76,
-   "ret": 0.0209,
-   "stop_dist": 0.0642,
+   "value_usd": 944.84,
+   "ret": 0.0199,
+   "stop_dist": 0.0633,
    "stage": "initial"
   },
   {
@@ -286,9 +286,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.056,
-   "value_usd": 748.41,
-   "ret": -0.0101,
-   "stop_dist": 0.0235,
+   "value_usd": 747.21,
+   "ret": -0.0117,
+   "stop_dist": 0.022,
    "stage": "initial"
   }
  ],
