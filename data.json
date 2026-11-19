@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-19T15:35:00+00:00",
+ "updated": "2026-11-19T16:34:40+00:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13481.92,
+  "account_value": 13515.51,
   "principal": 15850.0,
-  "pnl_usd": -2368.08,
+  "pnl_usd": -2334.49,
   "cash": 1289.47,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.392,
+  "breadth50": 0.39,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1409,
-  "spy_return": -0.0592,
-  "max_drawdown": -0.1393,
+  "total_return": -0.1387,
+  "spy_return": -0.0591,
+  "max_drawdown": -0.1371,
   "win_rate": 0.125,
   "closed_trades": 32,
   "open_positions": 10,
-  "invested_pct": 0.904
+  "invested_pct": 0.905
  },
  "equity": [
   {
@@ -196,8 +196,8 @@
   },
   {
    "d": "2026-11-19",
-   "r": -0.1409,
-   "spy": -0.0592
+   "r": -0.1387,
+   "spy": -0.0591
   }
  ],
  "positions": [
@@ -205,20 +205,20 @@
    "ticker": "DAL",
    "setup": "S",
    "opened": "2026-10-22",
-   "weight": 0.15,
-   "value_usd": 2020.08,
-   "ret": 0.0625,
-   "stop_dist": 0.0588,
+   "weight": 0.151,
+   "value_usd": 2034.48,
+   "ret": 0.0701,
+   "stop_dist": 0.0655,
    "stage": "runner"
   },
   {
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.136,
-   "value_usd": 1827.58,
-   "ret": 0.0414,
-   "stop_dist": 0.1207,
+   "weight": 0.135,
+   "value_usd": 1825.52,
+   "ret": 0.0402,
+   "stop_dist": 0.1197,
    "stage": "initial"
   },
   {
@@ -226,9 +226,9 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.142,
-   "value_usd": 1920.89,
-   "ret": 0.0021,
-   "stop_dist": 0.0785,
+   "value_usd": 1925.58,
+   "ret": 0.0045,
+   "stop_dist": 0.0807,
    "stage": "initial"
   },
   {
@@ -236,9 +236,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.118,
-   "value_usd": 1587.69,
-   "ret": -0.0314,
-   "stop_dist": 0.0343,
+   "value_usd": 1591.56,
+   "ret": -0.029,
+   "stop_dist": 0.0366,
    "stage": "initial"
   },
   {
@@ -246,9 +246,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.061,
-   "value_usd": 826.32,
-   "ret": -0.0006,
-   "stop_dist": 0.02,
+   "value_usd": 827.49,
+   "ret": 0.0008,
+   "stop_dist": 0.0214,
    "stage": "initial"
   },
   {
@@ -256,29 +256,29 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.046,
-   "value_usd": 619.96,
-   "ret": 0.0118,
-   "stop_dist": 0.0738,
+   "value_usd": 616.88,
+   "ret": 0.0068,
+   "stop_dist": 0.0692,
    "stage": "initial"
   },
   {
    "ticker": "PTGX",
    "setup": "S",
    "opened": "2026-11-18",
-   "weight": 0.057,
-   "value_usd": 768.9,
-   "ret": 0.0098,
-   "stop_dist": 0.0595,
+   "weight": 0.056,
+   "value_usd": 758.67,
+   "ret": -0.0037,
+   "stop_dist": 0.0468,
    "stage": "initial"
   },
   {
    "ticker": "COMP",
    "setup": "A",
    "opened": "2026-11-18",
-   "weight": 0.068,
-   "value_usd": 918.62,
-   "ret": -0.0084,
-   "stop_dist": 0.0366,
+   "weight": 0.069,
+   "value_usd": 934.26,
+   "ret": 0.0084,
+   "stop_dist": 0.0527,
    "stage": "initial"
   },
   {
@@ -286,9 +286,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.071,
-   "value_usd": 956.0,
-   "ret": -0.0313,
-   "stop_dist": 0.0067,
+   "value_usd": 962.56,
+   "ret": -0.0246,
+   "stop_dist": 0.0135,
    "stage": "initial"
   },
   {
@@ -296,9 +296,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.055,
-   "value_usd": 746.41,
-   "ret": -0.0127,
-   "stop_dist": 0.0209,
+   "value_usd": 749.04,
+   "ret": -0.0092,
+   "stop_dist": 0.0244,
    "stage": "initial"
   }
  ],
@@ -1045,10 +1045,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0547,
-    "trades": 17,
-    "win_rate": 0.118,
-    "open": 10,
+    "ret": -0.0767,
+    "trades": 18,
+    "win_rate": 0.167,
+    "open": 9,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1165,6 +1165,10 @@
      {
       "d": "2026-11-18",
       "r": -0.0547
+     },
+     {
+      "d": "2026-11-19",
+      "r": -0.0767
      }
     ]
    },
