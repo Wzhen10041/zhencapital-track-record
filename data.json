@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20T13:34:41-05:00",
+ "updated": "2026-11-20T14:34:16-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13332.56,
+  "account_value": 13264.74,
   "principal": 15850.0,
-  "pnl_usd": -2517.44,
-  "cash": 3865.85,
+  "pnl_usd": -2585.26,
+  "cash": 4750.89,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.332,
+  "breadth50": 0.314,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1504,
-  "spy_return": -0.0955,
-  "max_drawdown": -0.1488,
-  "win_rate": 0.139,
-  "closed_trades": 36,
-  "open_positions": 9,
-  "invested_pct": 0.71
+  "total_return": -0.1547,
+  "spy_return": -0.1051,
+  "max_drawdown": -0.1531,
+  "win_rate": 0.135,
+  "closed_trades": 37,
+  "open_positions": 8,
+  "invested_pct": 0.642
  },
  "equity": [
   {
@@ -201,8 +201,8 @@
   },
   {
    "d": "2026-11-20",
-   "r": -0.1504,
-   "spy": -0.0955
+   "r": -0.1547,
+   "spy": -0.1051
   }
  ],
  "positions": [
@@ -211,19 +211,19 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.136,
-   "value_usd": 1808.4,
-   "ret": 0.0304,
-   "stop_dist": 0.1114,
+   "value_usd": 1801.55,
+   "ret": 0.0265,
+   "stop_dist": 0.108,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.148,
-   "value_usd": 1972.4,
-   "ret": 0.029,
-   "stop_dist": 0.1025,
+   "weight": 0.147,
+   "value_usd": 1950.7,
+   "ret": 0.0177,
+   "stop_dist": 0.0926,
    "stage": "initial"
   },
   {
@@ -231,9 +231,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.12,
-   "value_usd": 1606.5,
-   "ret": -0.0199,
-   "stop_dist": 0.0456,
+   "value_usd": 1597.14,
+   "ret": -0.0256,
+   "stop_dist": 0.04,
    "stage": "initial"
   },
   {
@@ -241,9 +241,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 826.83,
-   "ret": 0.0,
-   "stop_dist": 0.0206,
+   "value_usd": 818.47,
+   "ret": -0.0101,
+   "stop_dist": 0.0106,
    "stage": "initial"
   },
   {
@@ -251,29 +251,19 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.045,
-   "value_usd": 595.54,
-   "ret": -0.028,
-   "stop_dist": 0.0358,
-   "stage": "initial"
-  },
-  {
-   "ticker": "COMP",
-   "setup": "A",
-   "opened": "2026-11-18",
-   "weight": 0.067,
-   "value_usd": 893.78,
-   "ret": -0.0353,
-   "stop_dist": 0.0098,
+   "value_usd": 590.81,
+   "ret": -0.0357,
+   "stop_dist": 0.0281,
    "stage": "initial"
   },
   {
    "ticker": "VSTS",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.048,
-   "value_usd": 636.18,
-   "ret": -0.0219,
-   "stop_dist": 0.0398,
+   "weight": 0.047,
+   "value_usd": 629.51,
+   "ret": -0.0322,
+   "stop_dist": 0.0296,
    "stage": "initial"
   },
   {
@@ -281,24 +271,24 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.036,
-   "value_usd": 483.26,
-   "ret": -0.058,
-   "stop_dist": 0.0238,
+   "value_usd": 482.22,
+   "ret": -0.06,
+   "stop_dist": 0.0217,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.048,
-   "value_usd": 643.82,
+   "weight": 0.049,
+   "value_usd": 643.44,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 3865.85,
+  "cash": 4750.89,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -308,7 +298,6 @@
    "FANG": 9,
    "VMC": 3,
    "COGT": 22,
-   "COMP": 92,
    "GLD": 2,
    "VSTS": 46,
    "VERA": 19
@@ -319,7 +308,6 @@
    "FANG": 182.13,
    "VMC": 275.61,
    "COGT": 27.85,
-   "COMP": 10.07,
    "VSTS": 14.14,
    "VERA": 27.0
   }
@@ -1089,6 +1077,15 @@
    "value_usd": 731,
    "reason": "Stop hit",
    "result": -0.0334
+  },
+  {
+   "time": "Nov 20 14:10",
+   "ticker": "COMP",
+   "action": "Sell",
+   "size": "7% of account",
+   "value_usd": 885,
+   "reason": "Stop hit",
+   "result": -0.0447
   }
  ],
  "lab": {
