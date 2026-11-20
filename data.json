@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-20T10:36:05-05:00",
+ "updated": "2026-11-20T11:34:07-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13426.69,
+  "account_value": 13373.6,
   "principal": 15850.0,
-  "pnl_usd": -2423.31,
-  "cash": 2411.87,
+  "pnl_usd": -2476.4,
+  "cash": 3135.05,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.359,
+  "breadth50": 0.352,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1444,
-  "spy_return": -0.0849,
-  "max_drawdown": -0.1428,
-  "win_rate": 0.147,
-  "closed_trades": 34,
-  "open_positions": 11,
-  "invested_pct": 0.82
+  "total_return": -0.1478,
+  "spy_return": -0.0908,
+  "max_drawdown": -0.1462,
+  "win_rate": 0.143,
+  "closed_trades": 35,
+  "open_positions": 10,
+  "invested_pct": 0.766
  },
  "equity": [
   {
@@ -201,9 +201,8 @@
   },
   {
    "d": "2026-11-20",
-   "r": -0.1444,
-   "spy": -0.0849,
-   "live": true
+   "r": -0.1478,
+   "spy": -0.0908
   }
  ],
  "positions": [
@@ -212,29 +211,29 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.135,
-   "value_usd": 1816.62,
-   "ret": 0.0351,
-   "stop_dist": 0.1154,
+   "value_usd": 1810.45,
+   "ret": 0.0316,
+   "stop_dist": 0.1124,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.147,
-   "value_usd": 1978.51,
-   "ret": 0.0322,
-   "stop_dist": 0.1053,
+   "weight": 0.148,
+   "value_usd": 1976.5,
+   "ret": 0.0311,
+   "stop_dist": 0.1044,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.119,
-   "value_usd": 1602.99,
-   "ret": -0.0221,
-   "stop_dist": 0.0435,
+   "weight": 0.12,
+   "value_usd": 1611.09,
+   "ret": -0.0171,
+   "stop_dist": 0.0483,
    "stage": "initial"
   },
   {
@@ -242,9 +241,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 837.27,
-   "ret": 0.0126,
-   "stop_dist": 0.0328,
+   "value_usd": 831.04,
+   "ret": 0.0051,
+   "stop_dist": 0.0256,
    "stage": "initial"
   },
   {
@@ -252,19 +251,9 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.044,
-   "value_usd": 596.86,
-   "ret": -0.0259,
-   "stop_dist": 0.038,
-   "stage": "initial"
-  },
-  {
-   "ticker": "PTGX",
-   "setup": "S",
-   "opened": "2026-11-18",
-   "weight": 0.054,
-   "value_usd": 731.04,
-   "ret": -0.0399,
-   "stop_dist": 0.0108,
+   "value_usd": 593.78,
+   "ret": -0.0309,
+   "stop_dist": 0.033,
    "stage": "initial"
   },
   {
@@ -272,9 +261,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.068,
-   "value_usd": 919.54,
-   "ret": -0.0074,
-   "stop_dist": 0.0375,
+   "value_usd": 903.9,
+   "ret": -0.0243,
+   "stop_dist": 0.0209,
    "stage": "initial"
   },
   {
@@ -282,9 +271,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.055,
-   "value_usd": 739.8,
-   "ret": -0.0215,
-   "stop_dist": 0.0122,
+   "value_usd": 734.0,
+   "ret": -0.0291,
+   "stop_dist": 0.0044,
    "stage": "initial"
   },
   {
@@ -292,9 +281,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 643.54,
-   "ret": -0.0106,
-   "stop_dist": 0.0508,
+   "value_usd": 638.94,
+   "ret": -0.0177,
+   "stop_dist": 0.0439,
    "stage": "initial"
   },
   {
@@ -302,24 +291,24 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.037,
-   "value_usd": 498.28,
-   "ret": -0.0287,
-   "stop_dist": 0.0532,
+   "value_usd": 489.63,
+   "ret": -0.0456,
+   "stop_dist": 0.0365,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.048,
-   "value_usd": 650.38,
+   "weight": 0.049,
+   "value_usd": 649.22,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 2411.87,
+  "cash": 3135.05,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -329,7 +318,6 @@
    "FANG": 9,
    "VMC": 3,
    "COGT": 22,
-   "PTGX": 6,
    "COMP": 92,
    "FERG": 3,
    "GLD": 2,
@@ -342,7 +330,6 @@
    "FANG": 182.13,
    "VMC": 275.61,
    "COGT": 27.85,
-   "PTGX": 126.91,
    "COMP": 10.07,
    "FERG": 252.01,
    "VSTS": 14.14,
@@ -1096,6 +1083,15 @@
    "value_usd": 513,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Nov 20 10:50",
+   "ticker": "PTGX",
+   "action": "Sell",
+   "size": "5% of account",
+   "value_usd": 723,
+   "reason": "Stop hit",
+   "result": -0.0503
   }
  ],
  "lab": {
