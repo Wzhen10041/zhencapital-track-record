@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T12:34:49-05:00",
+ "updated": "2026-11-20T13:34:41-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13346.18,
+  "account_value": 13332.56,
   "principal": 15850.0,
-  "pnl_usd": -2503.82,
+  "pnl_usd": -2517.44,
   "cash": 3865.85,
   "deposits": [
    {
@@ -30,9 +30,9 @@
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1495,
-  "spy_return": -0.0944,
-  "max_drawdown": -0.1479,
+  "total_return": -0.1504,
+  "spy_return": -0.0955,
+  "max_drawdown": -0.1488,
   "win_rate": 0.139,
   "closed_trades": 36,
   "open_positions": 9,
@@ -201,8 +201,8 @@
   },
   {
    "d": "2026-11-20",
-   "r": -0.1495,
-   "spy": -0.0944
+   "r": -0.1504,
+   "spy": -0.0955
   }
  ],
  "positions": [
@@ -211,29 +211,29 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.136,
-   "value_usd": 1820.05,
-   "ret": 0.0371,
-   "stop_dist": 0.117,
+   "value_usd": 1808.4,
+   "ret": 0.0304,
+   "stop_dist": 0.1114,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.147,
-   "value_usd": 1961.09,
-   "ret": 0.0231,
-   "stop_dist": 0.0974,
+   "weight": 0.148,
+   "value_usd": 1972.4,
+   "ret": 0.029,
+   "stop_dist": 0.1025,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.121,
-   "value_usd": 1610.01,
-   "ret": -0.0178,
-   "stop_dist": 0.0477,
+   "weight": 0.12,
+   "value_usd": 1606.5,
+   "ret": -0.0199,
+   "stop_dist": 0.0456,
    "stage": "initial"
   },
   {
@@ -241,9 +241,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 825.13,
-   "ret": -0.002,
-   "stop_dist": 0.0186,
+   "value_usd": 826.83,
+   "ret": 0.0,
+   "stop_dist": 0.0206,
    "stage": "initial"
   },
   {
@@ -251,9 +251,9 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.045,
-   "value_usd": 595.98,
-   "ret": -0.0273,
-   "stop_dist": 0.0365,
+   "value_usd": 595.54,
+   "ret": -0.028,
+   "stop_dist": 0.0358,
    "stage": "initial"
   },
   {
@@ -261,29 +261,29 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.067,
-   "value_usd": 900.22,
-   "ret": -0.0283,
-   "stop_dist": 0.0169,
+   "value_usd": 893.78,
+   "ret": -0.0353,
+   "stop_dist": 0.0098,
    "stage": "initial"
   },
   {
    "ticker": "VSTS",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.047,
-   "value_usd": 633.42,
-   "ret": -0.0262,
-   "stop_dist": 0.0356,
+   "weight": 0.048,
+   "value_usd": 636.18,
+   "ret": -0.0219,
+   "stop_dist": 0.0398,
    "stage": "initial"
   },
   {
    "ticker": "VERA",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.037,
-   "value_usd": 487.45,
-   "ret": -0.0498,
-   "stop_dist": 0.0322,
+   "weight": 0.036,
+   "value_usd": 483.26,
+   "ret": -0.058,
+   "stop_dist": 0.0238,
    "stage": "initial"
   },
   {
@@ -291,7 +291,7 @@
    "setup": "Gold",
    "opened": "",
    "weight": 0.048,
-   "value_usd": 646.99,
+   "value_usd": 643.82,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
