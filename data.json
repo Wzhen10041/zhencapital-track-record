@@ -1,1 +1,1453 @@
-{"updated":"2026-11-20T15:57:49-05:00","status":"model","inception":"2026-10-05","capital":{"account_value":13224.49,"principal":15850.0,"pnl_usd":-2625.51,"cash":4750.89,"deposits":[{"date":"2026-10-01","amount":1000.0},{"date":"2026-10-06","amount":1000.0},{"date":"2026-11-02","amount":-4150.0}],"model":true},"market":{"breadth50":0.314,"spy_above_200":false,"size_today":0.3,"gold_on":true},"stats":{"total_return":-0.1573,"spy_return":-0.1122,"max_drawdown":-0.1531,"win_rate":0.135,"closed_trades":37,"open_positions":8,"invested_pct":0.641},"equity":[{"d":"2026-10-05","r":-0.0039,"spy":0.0},{"d":"2026-10-06","r":-0.0019,"spy":0.0059},{"d":"2026-10-07","r":-0.0098,"spy":0.0031},{"d":"2026-10-08","r":-0.0227,"spy":-0.0013},{"d":"2026-10-09","r":-0.024,"spy":0.005},{"d":"2026-10-12","r":-0.0282,"spy":0.0041},{"d":"2026-10-13","r":-0.035,"spy":0.0047},{"d":"2026-10-14","r":-0.0563,"spy":-0.0075},{"d":"2026-10-15","r":-0.0497,"spy":-0.0034},{"d":"2026-10-19","r":-0.0611,"spy":-0.0101},{"d":"2026-10-20","r":-0.056,"spy":-0.0086},{"d":"2026-10-21","r":-0.0538,"spy":-0.0017},{"d":"2026-10-22","r":-0.049,"spy":-0.0154},{"d":"2026-10-23","r":-0.061,"spy":-0.0187},{"d":"2026-10-26","r":-0.0528,"spy":-0.0126},{"d":"2026-10-27","r":-0.0481,"spy":-0.0057},{"d":"2026-10-28","r":-0.0536,"spy":-0.004},{"d":"2026-10-29","r":-0.0342,"spy":-0.0076},{"d":"2026-11-02","r":-0.0365,"spy":-0.0281},{"d":"2026-11-03","r":-0.0398,"spy":-0.0266},{"d":"2026-11-04","r":-0.0083,"spy":-0.0101},{"d":"2026-11-05","r":-0.0539,"spy":-0.0539},{"d":"2026-11-06","r":-0.0628,"spy":-0.0482},{"d":"2026-11-09","r":-0.053,"spy":-0.0269},{"d":"2026-11-10","r":-0.0655,"spy":-0.0311},{"d":"2026-11-11","r":-0.0818,"spy":-0.019},{"d":"2026-11-12","r":-0.1022,"spy":-0.0232},{"d":"2026-11-13","r":-0.0957,"spy":-0.0268},{"d":"2026-11-16","r":-0.1044,"spy":-0.0456},{"d":"2026-11-17","r":-0.1286,"spy":-0.0581},{"d":"2026-11-18","r":-0.135,"spy":-0.0569},{"d":"2026-11-19","r":-0.1438,"spy":-0.0738},{"d":"2026-11-20","r":-0.1547,"spy":-0.1051}],"positions":[{"ticker":"ADMA","setup":"A","opened":"2026-11-09","weight":0.136,"value_usd":1802.92,"ret":0.0273,"stop_dist":0.108,"stage":"initial"},{"ticker":"EVER","setup":"A","opened":"2026-11-09","weight":0.147,"value_usd":1937.64,"ret":0.0108,"stop_dist":0.0926,"stage":"initial"},{"ticker":"FANG","setup":"S","opened":"2026-11-12","weight":0.119,"value_usd":1576.98,"ret":-0.0379,"stop_dist":0.04,"stage":"initial"},{"ticker":"VMC","setup":"A","opened":"2026-11-17","weight":0.061,"value_usd":812.31,"ret":-0.0176,"stop_dist":0.0106,"stage":"initial"},{"ticker":"COGT","setup":"S","opened":"2026-11-17","weight":0.044,"value_usd":587.4,"ret":-0.0413,"stop_dist":0.0281,"stage":"initial"},{"ticker":"VSTS","setup":"S","opened":"2026-11-19","weight":0.047,"value_usd":627.9,"ret":-0.0347,"stop_dist":0.0296,"stage":"initial"},{"ticker":"VERA","setup":"S","opened":"2026-11-19","weight":0.037,"value_usd":484.03,"ret":-0.0565,"stop_dist":0.0217,"stage":"initial"},{"ticker":"GLD","setup":"Gold","opened":"","weight":0.049,"value_usd":644.42,"ret":null,"stop_dist":null,"stage":"idle cash"}],"holdings":{"cash":4750.89,"units":156.924239,"principal":15850.0,"spy0":774.77001953125,"shares":{"ADMA":137,"EVER":67,"FANG":9,"VMC":3,"COGT":22,"GLD":2,"VSTS":46,"VERA":19},"entries":{"ADMA":12.81,"EVER":28.61,"FANG":182.13,"VMC":275.61,"COGT":27.85,"VSTS":14.14,"VERA":27.0}},"trades":[{"time":"Oct 5 15:50","ticker":"BSBR","action":"Buy","size":"10% of account","value_usd":1983,"reason":"Volume thrust off one year low","result":null},{"time":"Oct 5 16:30","ticker":"PWP","action":"Buy","size":"21% of account","value_usd":4030,"reason":"Breakout held its pullback","result":null},{"time":"Oct 6 15:50","ticker":"UTHR","action":"Buy","size":"16% of account","value_usd":3236,"reason":"Breakout held its pullback","result":null},{"time":"Oct 7 09:36","ticker":"PWP","action":"Sell","size":"19% of account","value_usd":3785,"reason":"Stop hit","result":-0.0606},{"time":"Oct 7 15:50","ticker":"VSH","action":"Buy","size":"25% of account","value_usd":4922,"reason":"Breakout held its pullback","result":null},{"time":"Oct 7 15:50","ticker":"WNC","action":"Buy","size":"24% of account","value_usd":4740,"reason":"Breakout held its pullback","result":null},{"time":"Oct 7 15:53","ticker":"SLG","action":"Buy","size":"24% of account","value_usd":4812,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 8 09:48","ticker":"VSH","action":"Sell","size":"25% of account","value_usd":4785,"reason":"Stop hit","result":-0.0279},{"time":"Oct 8 15:50","ticker":"MSTR","action":"Buy","size":"15% of account","value_usd":2882,"reason":"Breakout held its pullback","result":null},{"time":"Oct 8 15:50","ticker":"TTEK","action":"Buy","size":"10% of account","value_usd":1934,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 9 12:00","ticker":"WNC","action":"Sell","size":"23% of account","value_usd":4536,"reason":"Stop hit","result":-0.043},{"time":"Oct 9 15:50","ticker":"TKR","action":"Buy","size":"23% of account","value_usd":4544,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 13 11:39","ticker":"TKR","action":"Sell","size":"23% of account","value_usd":4387,"reason":"Stop hit","result":-0.0346},{"time":"Oct 13 15:50","ticker":"PSNL","action":"Buy","size":"23% of account","value_usd":4390,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 14 12:32","ticker":"SLG","action":"Sell","size":"25% of account","value_usd":4631,"reason":"Stop hit","result":-0.0376},{"time":"Oct 14 15:50","ticker":"YETI","action":"Buy","size":"21% of account","value_usd":3911,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 14 15:50","ticker":"BG","action":"Buy","size":"3% of account","value_usd":654,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 15 09:30","ticker":"MSTR","action":"Sell","size":"14% of account","value_usd":2614,"reason":"Stop hit","result":-0.0931},{"time":"Oct 15 16:01","ticker":"SKY","action":"Buy","size":"14% of account","value_usd":2565,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 16 14:01","ticker":"PSNL","action":"Sell","size":"23% of account","value_usd":4330,"reason":"Stop hit","result":-0.0138},{"time":"Oct 19 15:50","ticker":"BSBR","action":"Sell","size":"10% of account","value_usd":1890,"reason":"No progress in 10 days","result":-0.0465},{"time":"Oct 19 15:50","ticker":"OII","action":"Buy","size":"13% of account","value_usd":2364,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 19 15:50","ticker":"KRYS","action":"Buy","size":"10% of account","value_usd":1924,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 20 11:34","ticker":"UTHR","action":"Sell","size":"6% of account","value_usd":1116,"reason":"Reached prior high, sold a quarter","result":0.0347},{"time":"Oct 20 15:50","ticker":"WT","action":"Buy","size":"13% of account","value_usd":2404,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 20 15:50","ticker":"AGM","action":"Buy","size":"3% of account","value_usd":603,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 21 10:20","ticker":"BG","action":"Sell","size":"3% of account","value_usd":609,"reason":"Stop hit","result":-0.0688},{"time":"Oct 21 15:50","ticker":"KN","action":"Buy","size":"4% of account","value_usd":768,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 22 09:30","ticker":"OII","action":"Sell","size":"11% of account","value_usd":2111,"reason":"Stop hit","result":-0.1069},{"time":"Oct 22 10:24","ticker":"KN","action":"Sell","size":"4% of account","value_usd":728,"reason":"Stop hit","result":-0.0521},{"time":"Oct 22 15:50","ticker":"DAL","action":"Buy","size":"13% of account","value_usd":2535,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 23 09:40","ticker":"YETI","action":"Sell","size":"6% of account","value_usd":1043,"reason":"Reached prior high, sold a quarter","result":0.0779},{"time":"Oct 23 15:03","ticker":"KRYS","action":"Sell","size":"10% of account","value_usd":1863,"reason":"Stop hit","result":-0.0317},{"time":"Oct 23 15:50","ticker":"CXW","action":"Buy","size":"16% of account","value_usd":2947,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 29 10:13","ticker":"TTEK","action":"Sell","size":"3% of account","value_usd":521,"reason":"Reached prior high, sold a quarter","result":0.1167},{"time":"Oct 29 15:50","ticker":"SKY","action":"Sell","size":"13% of account","value_usd":2590,"reason":"No progress in 10 days","result":0.0097},{"time":"Oct 29 15:51","ticker":"KRYS","action":"Buy","size":"3% of account","value_usd":647,"reason":"Shakeout reclaimed its range","result":null},{"time":"Oct 30 09:30","ticker":"WT","action":"Sell","size":"11% of account","value_usd":2188,"reason":"Stop hit","result":-0.09},{"time":"Nov 2 09:35","ticker":"KRYS","action":"Sell","size":"4% of account","value_usd":610,"reason":"Stop hit","result":-0.0573},{"time":"Nov 2 15:50","ticker":"DUOL","action":"Buy","size":"9% of account","value_usd":1358,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 3 09:40","ticker":"DUOL","action":"Sell","size":"9% of account","value_usd":1292,"reason":"Stop hit","result":-0.0489},{"time":"Nov 3 15:50","ticker":"QLYS","action":"Buy","size":"8% of account","value_usd":1260,"reason":"Breakout held its pullback","result":null},{"time":"Nov 4 09:39","ticker":"DAL","action":"Sell","size":"5% of account","value_usd":693,"reason":"Reached prior high, sold a quarter","result":0.093},{"time":"Nov 4 15:50","ticker":"DDS","action":"Buy","size":"4% of account","value_usd":638,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 5 09:34","ticker":"QLYS","action":"Sell","size":"8% of account","value_usd":1200,"reason":"Stop hit","result":-0.0475},{"time":"Nov 5 12:25","ticker":"AGM","action":"Sell","size":"4% of account","value_usd":588,"reason":"Stop hit","result":-0.0263},{"time":"Nov 6 09:30","ticker":"CXW","action":"Sell","size":"18% of account","value_usd":2739,"reason":"Stop hit","result":-0.0707},{"time":"Nov 6 15:49","ticker":"UTHR","action":"Sell","size":"15% of account","value_usd":2252,"reason":"Closed below 20 day average","result":0.0436},{"time":"Nov 6 15:49","ticker":"HGTY","action":"Buy","size":"25% of account","value_usd":3656,"reason":"Breakout held its pullback","result":null},{"time":"Nov 6 15:49","ticker":"SWK","action":"Buy","size":"6% of account","value_usd":925,"reason":"Breakout held its pullback","result":null},{"time":"Nov 9 10:25","ticker":"HGTY","action":"Sell","size":"24% of account","value_usd":3573,"reason":"Stop hit","result":-0.0227},{"time":"Nov 9 15:50","ticker":"ADMA","action":"Buy","size":"12% of account","value_usd":1755,"reason":"Breakout held its pullback","result":null},{"time":"Nov 9 15:50","ticker":"EVER","action":"Buy","size":"13% of account","value_usd":1917,"reason":"Breakout held its pullback","result":null},{"time":"Nov 9 15:50","ticker":"BCC","action":"Buy","size":"15% of account","value_usd":2184,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 11 10:45","ticker":"BCC","action":"Sell","size":"14% of account","value_usd":2080,"reason":"Stop hit","result":-0.0477},{"time":"Nov 11 15:50","ticker":"TTEK","action":"Sell","size":"11% of account","value_usd":1648,"reason":"Closed below 20 day average","result":0.1233},{"time":"Nov 11 15:50","ticker":"YETI","action":"Sell","size":"22% of account","value_usd":3119,"reason":"Closed below 20 day average","result":0.0598},{"time":"Nov 11 15:50","ticker":"TREX","action":"Buy","size":"15% of account","value_usd":2131,"reason":"Breakout held its pullback","result":null},{"time":"Nov 12 14:00","ticker":"TREX","action":"Sell","size":"15% of account","value_usd":2069,"reason":"Stop hit","result":-0.0295},{"time":"Nov 12 15:20","ticker":"DDS","action":"Sell","size":"4% of account","value_usd":588,"reason":"Stop hit","result":-0.0788},{"time":"Nov 12 15:50","ticker":"ICLR","action":"Buy","size":"24% of account","value_usd":3400,"reason":"Breakout held its pullback","result":null},{"time":"Nov 12 15:50","ticker":"PEGA","action":"Buy","size":"16% of account","value_usd":2301,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 12 15:50","ticker":"FANG","action":"Buy","size":"12% of account","value_usd":1639,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 16 09:30","ticker":"ICLR","action":"Sell","size":"23% of account","value_usd":3267,"reason":"Stop hit","result":-0.039},{"time":"Nov 16 15:50","ticker":"ZETA","action":"Buy","size":"14% of account","value_usd":2010,"reason":"Breakout held its pullback","result":null},{"time":"Nov 16 15:50","ticker":"PNTG","action":"Buy","size":"9% of account","value_usd":1332,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 17 09:35","ticker":"SWK","action":"Sell","size":"6% of account","value_usd":883,"reason":"Stop hit","result":-0.0457},{"time":"Nov 17 10:50","ticker":"ZETA","action":"Sell","size":"14% of account","value_usd":1871,"reason":"Stop hit","result":-0.0691},{"time":"Nov 17 15:50","ticker":"VMC","action":"Buy","size":"6% of account","value_usd":827,"reason":"Breakout held its pullback","result":null},{"time":"Nov 17 15:50","ticker":"LOW","action":"Buy","size":"6% of account","value_usd":887,"reason":"Breakout held its pullback","result":null},{"time":"Nov 17 15:50","ticker":"COGT","action":"Buy","size":"4% of account","value_usd":613,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 18 09:30","ticker":"LOW","action":"Sell","size":"6% of account","value_usd":848,"reason":"Stop hit","result":-0.0439},{"time":"Nov 18 11:15","ticker":"PEGA","action":"Sell","size":"16% of account","value_usd":2163,"reason":"Stop hit","result":-0.0601},{"time":"Nov 18 15:50","ticker":"PTGX","action":"Buy","size":"6% of account","value_usd":761,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 18 15:50","ticker":"COMP","action":"Buy","size":"7% of account","value_usd":926,"reason":"Breakout held its pullback","result":null},{"time":"Nov 18 15:50","ticker":"FHI","action":"Buy","size":"7% of account","value_usd":987,"reason":"Breakout held its pullback","result":null},{"time":"Nov 18 15:50","ticker":"FERG","action":"Buy","size":"6% of account","value_usd":756,"reason":"Breakout held its pullback","result":null},{"time":"Nov 19 10:15","ticker":"PNTG","action":"Sell","size":"9% of account","value_usd":1264,"reason":"Stop hit","result":-0.0511},{"time":"Nov 19 12:05","ticker":"FHI","action":"Sell","size":"7% of account","value_usd":950,"reason":"Stop hit","result":-0.0378},{"time":"Nov 19 15:50","ticker":"DAL","action":"Sell","size":"15% of account","value_usd":2008,"reason":"Closed below 20 day average","result":0.056},{"time":"Nov 19 15:50","ticker":"GLD","action":"Buy","size":"5% of account","value_usd":672,"reason":"Idle cash into gold while S&P 500 is below its 200 day line","result":null},{"time":"Nov 19 15:50","ticker":"VSTS","action":"Buy","size":"5% of account","value_usd":650,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 19 15:50","ticker":"VERA","action":"Buy","size":"4% of account","value_usd":513,"reason":"Shakeout reclaimed its range","result":null},{"time":"Nov 20 10:50","ticker":"PTGX","action":"Sell","size":"5% of account","value_usd":723,"reason":"Stop hit","result":-0.0503},{"time":"Nov 20 11:40","ticker":"FERG","action":"Sell","size":"5% of account","value_usd":731,"reason":"Stop hit","result":-0.0334},{"time":"Nov 20 14:10","ticker":"COMP","action":"Sell","size":"7% of account","value_usd":885,"reason":"Stop hit","result":-0.0447}],"lab":{"start":"2026-10-02","note":"Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.","strategies":[{"id":"a10","name":"Morning re-scan","tag":"Swing \u00b7 paper","desc":"The live breakout setup, scanned again at 10:00 and bought then instead of at the close.","ret":-0.0925,"trades":22,"win_rate":0.136,"open":11,"curve":[{"d":"2026-10-02","r":0.0},{"d":"2026-10-05","r":-0.002},{"d":"2026-10-06","r":-0.0037},{"d":"2026-10-07","r":-0.0056},{"d":"2026-10-08","r":-0.013},{"d":"2026-10-09","r":-0.0275},{"d":"2026-10-12","r":-0.0269},{"d":"2026-10-13","r":-0.0318},{"d":"2026-10-14","r":-0.0516},{"d":"2026-10-15","r":-0.0562},{"d":"2026-10-19","r":-0.0623},{"d":"2026-10-20","r":-0.0663},{"d":"2026-10-21","r":-0.0663},{"d":"2026-10-22","r":-0.0663},{"d":"2026-10-23","r":-0.0683},{"d":"2026-10-26","r":-0.0848},{"d":"2026-10-27","r":-0.0901},{"d":"2026-10-29","r":-0.0837},{"d":"2026-10-30","r":-0.058},{"d":"2026-11-02","r":-0.0394},{"d":"2026-11-03","r":-0.0803},{"d":"2026-11-04","r":-0.0413},{"d":"2026-11-05","r":-0.0483},{"d":"2026-11-06","r":-0.06},{"d":"2026-11-10","r":-0.0431},{"d":"2026-11-12","r":-0.0364},{"d":"2026-11-13","r":-0.0395},{"d":"2026-11-16","r":-0.0295},{"d":"2026-11-18","r":-0.0547},{"d":"2026-11-19","r":-0.0767},{"d":"2026-11-20","r":-0.0925}]},{"id":"orb","name":"Opening range breakout","tag":"Intraday \u00b7 paper","desc":"Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.","ret":-0.1485,"trades":115,"win_rate":0.391,"open":0,"avg_spread":0.00443,"curve":[{"d":"2026-10-02","r":0.0206},{"d":"2026-10-05","r":0.0167},{"d":"2026-10-06","r":-0.017},{"d":"2026-10-07","r":-0.0209},{"d":"2026-10-08","r":-0.0274},{"d":"2026-10-09","r":-0.0239},{"d":"2026-10-12","r":-0.0356},{"d":"2026-10-13","r":-0.0351},{"d":"2026-10-14","r":-0.0594},{"d":"2026-10-15","r":-0.0397},{"d":"2026-10-19","r":-0.0527},{"d":"2026-10-20","r":-0.0558},{"d":"2026-10-21","r":-0.0723},{"d":"2026-10-22","r":-0.054},{"d":"2026-10-23","r":-0.049},{"d":"2026-10-26","r":-0.0589},{"d":"2026-10-27","r":-0.061},{"d":"2026-10-28","r":-0.0434},{"d":"2026-10-29","r":-0.0202},{"d":"2026-10-30","r":-0.0229},{"d":"2026-11-02","r":-0.0119},{"d":"2026-11-03","r":-0.0416},{"d":"2026-11-04","r":-0.0511},{"d":"2026-11-05","r":-0.0633},{"d":"2026-11-06","r":-0.0747},{"d":"2026-11-10","r":-0.0846},{"d":"2026-11-11","r":-0.0975},{"d":"2026-11-12","r":-0.1129},{"d":"2026-11-13","r":-0.0976},{"d":"2026-11-16","r":-0.1056},{"d":"2026-11-17","r":-0.1164},{"d":"2026-11-18","r":-0.1265},{"d":"2026-11-19","r":-0.1485}]}]},"mode":{"note":"Model portfolio. Results are hypothetical and are not the results of a real brokerage account."},"intraday":true}
+{
+ "updated": "2026-11-20T15:51:15-05:00",
+ "status": "model",
+ "inception": "2026-10-05",
+ "capital": {
+  "account_value": 13286.27,
+  "principal": 15850.0,
+  "pnl_usd": -2563.73,
+  "cash": 498.47,
+  "deposits": [
+   {
+    "date": "2026-10-01",
+    "amount": 1000.0
+   },
+   {
+    "date": "2026-10-06",
+    "amount": 1000.0
+   },
+   {
+    "date": "2026-11-02",
+    "amount": -4150.0
+   }
+  ],
+  "model": true
+ },
+ "market": {
+  "breadth50": 0.306,
+  "spy_above_200": false,
+  "size_today": 0.3,
+  "gold_on": true
+ },
+ "stats": {
+  "total_return": -0.1533,
+  "spy_return": -0.1053,
+  "max_drawdown": -0.1517,
+  "win_rate": 0.135,
+  "closed_trades": 37,
+  "open_positions": 11,
+  "invested_pct": 0.962
+ },
+ "equity": [
+  {
+   "d": "2026-10-05",
+   "r": -0.0039,
+   "spy": 0.0
+  },
+  {
+   "d": "2026-10-06",
+   "r": -0.0019,
+   "spy": 0.0059
+  },
+  {
+   "d": "2026-10-07",
+   "r": -0.0098,
+   "spy": 0.0031
+  },
+  {
+   "d": "2026-10-08",
+   "r": -0.0227,
+   "spy": -0.0013
+  },
+  {
+   "d": "2026-10-09",
+   "r": -0.024,
+   "spy": 0.005
+  },
+  {
+   "d": "2026-10-12",
+   "r": -0.0282,
+   "spy": 0.0041
+  },
+  {
+   "d": "2026-10-13",
+   "r": -0.035,
+   "spy": 0.0047
+  },
+  {
+   "d": "2026-10-14",
+   "r": -0.0563,
+   "spy": -0.0075
+  },
+  {
+   "d": "2026-10-15",
+   "r": -0.0497,
+   "spy": -0.0034
+  },
+  {
+   "d": "2026-10-19",
+   "r": -0.0611,
+   "spy": -0.0101
+  },
+  {
+   "d": "2026-10-20",
+   "r": -0.056,
+   "spy": -0.0086
+  },
+  {
+   "d": "2026-10-21",
+   "r": -0.0538,
+   "spy": -0.0017
+  },
+  {
+   "d": "2026-10-22",
+   "r": -0.049,
+   "spy": -0.0154
+  },
+  {
+   "d": "2026-10-23",
+   "r": -0.061,
+   "spy": -0.0187
+  },
+  {
+   "d": "2026-10-26",
+   "r": -0.0528,
+   "spy": -0.0126
+  },
+  {
+   "d": "2026-10-27",
+   "r": -0.0481,
+   "spy": -0.0057
+  },
+  {
+   "d": "2026-10-28",
+   "r": -0.0536,
+   "spy": -0.004
+  },
+  {
+   "d": "2026-10-29",
+   "r": -0.0342,
+   "spy": -0.0076
+  },
+  {
+   "d": "2026-11-02",
+   "r": -0.0365,
+   "spy": -0.0281
+  },
+  {
+   "d": "2026-11-03",
+   "r": -0.0398,
+   "spy": -0.0266
+  },
+  {
+   "d": "2026-11-04",
+   "r": -0.0083,
+   "spy": -0.0101
+  },
+  {
+   "d": "2026-11-05",
+   "r": -0.0539,
+   "spy": -0.0539
+  },
+  {
+   "d": "2026-11-06",
+   "r": -0.0628,
+   "spy": -0.0482
+  },
+  {
+   "d": "2026-11-09",
+   "r": -0.053,
+   "spy": -0.0269
+  },
+  {
+   "d": "2026-11-10",
+   "r": -0.0655,
+   "spy": -0.0311
+  },
+  {
+   "d": "2026-11-11",
+   "r": -0.0818,
+   "spy": -0.019
+  },
+  {
+   "d": "2026-11-12",
+   "r": -0.1022,
+   "spy": -0.0232
+  },
+  {
+   "d": "2026-11-13",
+   "r": -0.0957,
+   "spy": -0.0268
+  },
+  {
+   "d": "2026-11-16",
+   "r": -0.1044,
+   "spy": -0.0456
+  },
+  {
+   "d": "2026-11-17",
+   "r": -0.1286,
+   "spy": -0.0581
+  },
+  {
+   "d": "2026-11-18",
+   "r": -0.135,
+   "spy": -0.0569
+  },
+  {
+   "d": "2026-11-19",
+   "r": -0.1438,
+   "spy": -0.0738
+  },
+  {
+   "d": "2026-11-20",
+   "r": -0.1533,
+   "spy": -0.1053
+  }
+ ],
+ "positions": [
+  {
+   "ticker": "ADMA",
+   "setup": "A",
+   "opened": "2026-11-09",
+   "weight": 0.137,
+   "value_usd": 1814.56,
+   "ret": 0.034,
+   "stop_dist": 0.1144,
+   "stage": "initial"
+  },
+  {
+   "ticker": "EVER",
+   "setup": "A",
+   "opened": "2026-11-09",
+   "weight": 0.147,
+   "value_usd": 1955.06,
+   "ret": 0.0199,
+   "stop_dist": 0.0946,
+   "stage": "initial"
+  },
+  {
+   "ticker": "FANG",
+   "setup": "S",
+   "opened": "2026-11-12",
+   "weight": 0.12,
+   "value_usd": 1596.11,
+   "ret": -0.0263,
+   "stop_dist": 0.0394,
+   "stage": "initial"
+  },
+  {
+   "ticker": "VMC",
+   "setup": "A",
+   "opened": "2026-11-17",
+   "weight": 0.062,
+   "value_usd": 818.19,
+   "ret": -0.0104,
+   "stop_dist": 0.0103,
+   "stage": "initial"
+  },
+  {
+   "ticker": "COGT",
+   "setup": "S",
+   "opened": "2026-11-17",
+   "weight": 0.044,
+   "value_usd": 590.7,
+   "ret": -0.0359,
+   "stop_dist": 0.0279,
+   "stage": "initial"
+  },
+  {
+   "ticker": "VSTS",
+   "setup": "S",
+   "opened": "2026-11-19",
+   "weight": 0.048,
+   "value_usd": 632.04,
+   "ret": -0.0283,
+   "stop_dist": 0.0335,
+   "stage": "initial"
+  },
+  {
+   "ticker": "VERA",
+   "setup": "S",
+   "opened": "2026-11-19",
+   "weight": 0.037,
+   "value_usd": 485.07,
+   "ret": -0.0544,
+   "stop_dist": 0.0274,
+   "stage": "initial"
+  },
+  {
+   "ticker": "PCOR",
+   "setup": "A",
+   "opened": "2026-11-20",
+   "weight": 0.06,
+   "value_usd": 794.64,
+   "ret": -0.0007,
+   "stop_dist": 0.0491,
+   "stage": "initial"
+  },
+  {
+   "ticker": "REXR",
+   "setup": "S",
+   "opened": "2026-11-20",
+   "weight": 0.073,
+   "value_usd": 965.79,
+   "ret": -0.0008,
+   "stop_dist": 0.0232,
+   "stage": "initial"
+  },
+  {
+   "ticker": "DX",
+   "setup": "S",
+   "opened": "2026-11-20",
+   "weight": 0.066,
+   "value_usd": 876.04,
+   "ret": -0.0005,
+   "stop_dist": 0.0457,
+   "stage": "initial"
+  },
+  {
+   "ticker": "GLD",
+   "setup": "Gold",
+   "opened": "",
+   "weight": 0.17,
+   "value_usd": 2259.6,
+   "ret": null,
+   "stop_dist": null,
+   "stage": "idle cash"
+  }
+ ],
+ "holdings": {
+  "cash": 498.47,
+  "units": 156.924239,
+  "principal": 15850.0,
+  "spy0": 774.77001953125,
+  "shares": {
+   "ADMA": 137,
+   "EVER": 67,
+   "FANG": 9,
+   "VMC": 3,
+   "COGT": 22,
+   "GLD": 7,
+   "VSTS": 46,
+   "VERA": 19,
+   "PCOR": 11,
+   "REXR": 27,
+   "DX": 88
+  },
+  "entries": {
+   "ADMA": 12.81,
+   "EVER": 28.61,
+   "FANG": 182.13,
+   "VMC": 275.61,
+   "COGT": 27.85,
+   "VSTS": 14.14,
+   "VERA": 27.0,
+   "PCOR": 72.29,
+   "REXR": 35.8,
+   "DX": 9.96
+  }
+ },
+ "trades": [
+  {
+   "time": "Oct 5 15:50",
+   "ticker": "BSBR",
+   "action": "Buy",
+   "size": "10% of account",
+   "value_usd": 1983,
+   "reason": "Volume thrust off one year low",
+   "result": null
+  },
+  {
+   "time": "Oct 5 16:30",
+   "ticker": "PWP",
+   "action": "Buy",
+   "size": "21% of account",
+   "value_usd": 4030,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 6 15:50",
+   "ticker": "UTHR",
+   "action": "Buy",
+   "size": "16% of account",
+   "value_usd": 3236,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 7 09:36",
+   "ticker": "PWP",
+   "action": "Sell",
+   "size": "19% of account",
+   "value_usd": 3785,
+   "reason": "Stop hit",
+   "result": -0.0606
+  },
+  {
+   "time": "Oct 7 15:50",
+   "ticker": "VSH",
+   "action": "Buy",
+   "size": "25% of account",
+   "value_usd": 4922,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 7 15:50",
+   "ticker": "WNC",
+   "action": "Buy",
+   "size": "24% of account",
+   "value_usd": 4740,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 7 15:53",
+   "ticker": "SLG",
+   "action": "Buy",
+   "size": "24% of account",
+   "value_usd": 4812,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 8 09:48",
+   "ticker": "VSH",
+   "action": "Sell",
+   "size": "25% of account",
+   "value_usd": 4785,
+   "reason": "Stop hit",
+   "result": -0.0279
+  },
+  {
+   "time": "Oct 8 15:50",
+   "ticker": "MSTR",
+   "action": "Buy",
+   "size": "15% of account",
+   "value_usd": 2882,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Oct 8 15:50",
+   "ticker": "TTEK",
+   "action": "Buy",
+   "size": "10% of account",
+   "value_usd": 1934,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 9 12:00",
+   "ticker": "WNC",
+   "action": "Sell",
+   "size": "23% of account",
+   "value_usd": 4536,
+   "reason": "Stop hit",
+   "result": -0.043
+  },
+  {
+   "time": "Oct 9 15:50",
+   "ticker": "TKR",
+   "action": "Buy",
+   "size": "23% of account",
+   "value_usd": 4544,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 13 11:39",
+   "ticker": "TKR",
+   "action": "Sell",
+   "size": "23% of account",
+   "value_usd": 4387,
+   "reason": "Stop hit",
+   "result": -0.0346
+  },
+  {
+   "time": "Oct 13 15:50",
+   "ticker": "PSNL",
+   "action": "Buy",
+   "size": "23% of account",
+   "value_usd": 4390,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 14 12:32",
+   "ticker": "SLG",
+   "action": "Sell",
+   "size": "25% of account",
+   "value_usd": 4631,
+   "reason": "Stop hit",
+   "result": -0.0376
+  },
+  {
+   "time": "Oct 14 15:50",
+   "ticker": "YETI",
+   "action": "Buy",
+   "size": "21% of account",
+   "value_usd": 3911,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 14 15:50",
+   "ticker": "BG",
+   "action": "Buy",
+   "size": "3% of account",
+   "value_usd": 654,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 15 09:30",
+   "ticker": "MSTR",
+   "action": "Sell",
+   "size": "14% of account",
+   "value_usd": 2614,
+   "reason": "Stop hit",
+   "result": -0.0931
+  },
+  {
+   "time": "Oct 15 16:01",
+   "ticker": "SKY",
+   "action": "Buy",
+   "size": "14% of account",
+   "value_usd": 2565,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 16 14:01",
+   "ticker": "PSNL",
+   "action": "Sell",
+   "size": "23% of account",
+   "value_usd": 4330,
+   "reason": "Stop hit",
+   "result": -0.0138
+  },
+  {
+   "time": "Oct 19 15:50",
+   "ticker": "BSBR",
+   "action": "Sell",
+   "size": "10% of account",
+   "value_usd": 1890,
+   "reason": "No progress in 10 days",
+   "result": -0.0465
+  },
+  {
+   "time": "Oct 19 15:50",
+   "ticker": "OII",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 2364,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 19 15:50",
+   "ticker": "KRYS",
+   "action": "Buy",
+   "size": "10% of account",
+   "value_usd": 1924,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 20 11:34",
+   "ticker": "UTHR",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 1116,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.0347
+  },
+  {
+   "time": "Oct 20 15:50",
+   "ticker": "WT",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 2404,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 20 15:50",
+   "ticker": "AGM",
+   "action": "Buy",
+   "size": "3% of account",
+   "value_usd": 603,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 21 10:20",
+   "ticker": "BG",
+   "action": "Sell",
+   "size": "3% of account",
+   "value_usd": 609,
+   "reason": "Stop hit",
+   "result": -0.0688
+  },
+  {
+   "time": "Oct 21 15:50",
+   "ticker": "KN",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 768,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 22 09:30",
+   "ticker": "OII",
+   "action": "Sell",
+   "size": "11% of account",
+   "value_usd": 2111,
+   "reason": "Stop hit",
+   "result": -0.1069
+  },
+  {
+   "time": "Oct 22 10:24",
+   "ticker": "KN",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 728,
+   "reason": "Stop hit",
+   "result": -0.0521
+  },
+  {
+   "time": "Oct 22 15:50",
+   "ticker": "DAL",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 2535,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 23 09:40",
+   "ticker": "YETI",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 1043,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.0779
+  },
+  {
+   "time": "Oct 23 15:03",
+   "ticker": "KRYS",
+   "action": "Sell",
+   "size": "10% of account",
+   "value_usd": 1863,
+   "reason": "Stop hit",
+   "result": -0.0317
+  },
+  {
+   "time": "Oct 23 15:50",
+   "ticker": "CXW",
+   "action": "Buy",
+   "size": "16% of account",
+   "value_usd": 2947,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 29 10:13",
+   "ticker": "TTEK",
+   "action": "Sell",
+   "size": "3% of account",
+   "value_usd": 521,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.1167
+  },
+  {
+   "time": "Oct 29 15:50",
+   "ticker": "SKY",
+   "action": "Sell",
+   "size": "13% of account",
+   "value_usd": 2590,
+   "reason": "No progress in 10 days",
+   "result": 0.0097
+  },
+  {
+   "time": "Oct 29 15:51",
+   "ticker": "KRYS",
+   "action": "Buy",
+   "size": "3% of account",
+   "value_usd": 647,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Oct 30 09:30",
+   "ticker": "WT",
+   "action": "Sell",
+   "size": "11% of account",
+   "value_usd": 2188,
+   "reason": "Stop hit",
+   "result": -0.09
+  },
+  {
+   "time": "Nov 2 09:35",
+   "ticker": "KRYS",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 610,
+   "reason": "Stop hit",
+   "result": -0.0573
+  },
+  {
+   "time": "Nov 2 15:50",
+   "ticker": "DUOL",
+   "action": "Buy",
+   "size": "9% of account",
+   "value_usd": 1358,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 3 09:40",
+   "ticker": "DUOL",
+   "action": "Sell",
+   "size": "9% of account",
+   "value_usd": 1292,
+   "reason": "Stop hit",
+   "result": -0.0489
+  },
+  {
+   "time": "Nov 3 15:50",
+   "ticker": "QLYS",
+   "action": "Buy",
+   "size": "8% of account",
+   "value_usd": 1260,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 4 09:39",
+   "ticker": "DAL",
+   "action": "Sell",
+   "size": "5% of account",
+   "value_usd": 693,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.093
+  },
+  {
+   "time": "Nov 4 15:50",
+   "ticker": "DDS",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 638,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 5 09:34",
+   "ticker": "QLYS",
+   "action": "Sell",
+   "size": "8% of account",
+   "value_usd": 1200,
+   "reason": "Stop hit",
+   "result": -0.0475
+  },
+  {
+   "time": "Nov 5 12:25",
+   "ticker": "AGM",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 588,
+   "reason": "Stop hit",
+   "result": -0.0263
+  },
+  {
+   "time": "Nov 6 09:30",
+   "ticker": "CXW",
+   "action": "Sell",
+   "size": "18% of account",
+   "value_usd": 2739,
+   "reason": "Stop hit",
+   "result": -0.0707
+  },
+  {
+   "time": "Nov 6 15:49",
+   "ticker": "UTHR",
+   "action": "Sell",
+   "size": "15% of account",
+   "value_usd": 2252,
+   "reason": "Closed below 20 day average",
+   "result": 0.0436
+  },
+  {
+   "time": "Nov 6 15:49",
+   "ticker": "HGTY",
+   "action": "Buy",
+   "size": "25% of account",
+   "value_usd": 3656,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 6 15:49",
+   "ticker": "SWK",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 925,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 9 10:25",
+   "ticker": "HGTY",
+   "action": "Sell",
+   "size": "24% of account",
+   "value_usd": 3573,
+   "reason": "Stop hit",
+   "result": -0.0227
+  },
+  {
+   "time": "Nov 9 15:50",
+   "ticker": "ADMA",
+   "action": "Buy",
+   "size": "12% of account",
+   "value_usd": 1755,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 9 15:50",
+   "ticker": "EVER",
+   "action": "Buy",
+   "size": "13% of account",
+   "value_usd": 1917,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 9 15:50",
+   "ticker": "BCC",
+   "action": "Buy",
+   "size": "15% of account",
+   "value_usd": 2184,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 11 10:45",
+   "ticker": "BCC",
+   "action": "Sell",
+   "size": "14% of account",
+   "value_usd": 2080,
+   "reason": "Stop hit",
+   "result": -0.0477
+  },
+  {
+   "time": "Nov 11 15:50",
+   "ticker": "TTEK",
+   "action": "Sell",
+   "size": "11% of account",
+   "value_usd": 1648,
+   "reason": "Closed below 20 day average",
+   "result": 0.1233
+  },
+  {
+   "time": "Nov 11 15:50",
+   "ticker": "YETI",
+   "action": "Sell",
+   "size": "22% of account",
+   "value_usd": 3119,
+   "reason": "Closed below 20 day average",
+   "result": 0.0598
+  },
+  {
+   "time": "Nov 11 15:50",
+   "ticker": "TREX",
+   "action": "Buy",
+   "size": "15% of account",
+   "value_usd": 2131,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 12 14:00",
+   "ticker": "TREX",
+   "action": "Sell",
+   "size": "15% of account",
+   "value_usd": 2069,
+   "reason": "Stop hit",
+   "result": -0.0295
+  },
+  {
+   "time": "Nov 12 15:20",
+   "ticker": "DDS",
+   "action": "Sell",
+   "size": "4% of account",
+   "value_usd": 588,
+   "reason": "Stop hit",
+   "result": -0.0788
+  },
+  {
+   "time": "Nov 12 15:50",
+   "ticker": "ICLR",
+   "action": "Buy",
+   "size": "24% of account",
+   "value_usd": 3400,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 12 15:50",
+   "ticker": "PEGA",
+   "action": "Buy",
+   "size": "16% of account",
+   "value_usd": 2301,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 12 15:50",
+   "ticker": "FANG",
+   "action": "Buy",
+   "size": "12% of account",
+   "value_usd": 1639,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 16 09:30",
+   "ticker": "ICLR",
+   "action": "Sell",
+   "size": "23% of account",
+   "value_usd": 3267,
+   "reason": "Stop hit",
+   "result": -0.039
+  },
+  {
+   "time": "Nov 16 15:50",
+   "ticker": "ZETA",
+   "action": "Buy",
+   "size": "14% of account",
+   "value_usd": 2010,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 16 15:50",
+   "ticker": "PNTG",
+   "action": "Buy",
+   "size": "9% of account",
+   "value_usd": 1332,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 17 09:35",
+   "ticker": "SWK",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 883,
+   "reason": "Stop hit",
+   "result": -0.0457
+  },
+  {
+   "time": "Nov 17 10:50",
+   "ticker": "ZETA",
+   "action": "Sell",
+   "size": "14% of account",
+   "value_usd": 1871,
+   "reason": "Stop hit",
+   "result": -0.0691
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "VMC",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 827,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "LOW",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 887,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 17 15:50",
+   "ticker": "COGT",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 613,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 18 09:30",
+   "ticker": "LOW",
+   "action": "Sell",
+   "size": "6% of account",
+   "value_usd": 848,
+   "reason": "Stop hit",
+   "result": -0.0439
+  },
+  {
+   "time": "Nov 18 11:15",
+   "ticker": "PEGA",
+   "action": "Sell",
+   "size": "16% of account",
+   "value_usd": 2163,
+   "reason": "Stop hit",
+   "result": -0.0601
+  },
+  {
+   "time": "Nov 18 15:50",
+   "ticker": "PTGX",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 761,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 18 15:50",
+   "ticker": "COMP",
+   "action": "Buy",
+   "size": "7% of account",
+   "value_usd": 926,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 18 15:50",
+   "ticker": "FHI",
+   "action": "Buy",
+   "size": "7% of account",
+   "value_usd": 987,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 18 15:50",
+   "ticker": "FERG",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 756,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 19 10:15",
+   "ticker": "PNTG",
+   "action": "Sell",
+   "size": "9% of account",
+   "value_usd": 1264,
+   "reason": "Stop hit",
+   "result": -0.0511
+  },
+  {
+   "time": "Nov 19 12:05",
+   "ticker": "FHI",
+   "action": "Sell",
+   "size": "7% of account",
+   "value_usd": 950,
+   "reason": "Stop hit",
+   "result": -0.0378
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "DAL",
+   "action": "Sell",
+   "size": "15% of account",
+   "value_usd": 2008,
+   "reason": "Closed below 20 day average",
+   "result": 0.056
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "GLD",
+   "action": "Buy",
+   "size": "5% of account",
+   "value_usd": 672,
+   "reason": "Idle cash into gold while S&P 500 is below its 200 day line",
+   "result": null
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "VSTS",
+   "action": "Buy",
+   "size": "5% of account",
+   "value_usd": 650,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 19 15:50",
+   "ticker": "VERA",
+   "action": "Buy",
+   "size": "4% of account",
+   "value_usd": 513,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 20 10:50",
+   "ticker": "PTGX",
+   "action": "Sell",
+   "size": "5% of account",
+   "value_usd": 723,
+   "reason": "Stop hit",
+   "result": -0.0503
+  },
+  {
+   "time": "Nov 20 11:40",
+   "ticker": "FERG",
+   "action": "Sell",
+   "size": "5% of account",
+   "value_usd": 731,
+   "reason": "Stop hit",
+   "result": -0.0334
+  },
+  {
+   "time": "Nov 20 14:10",
+   "ticker": "COMP",
+   "action": "Sell",
+   "size": "7% of account",
+   "value_usd": 885,
+   "reason": "Stop hit",
+   "result": -0.0447
+  },
+  {
+   "time": "Nov 20 15:50",
+   "ticker": "GLD",
+   "action": "Buy",
+   "size": "12% of account",
+   "value_usd": 1614,
+   "reason": "Idle cash into gold while S&P 500 is below its 200 day line",
+   "result": null
+  },
+  {
+   "time": "Nov 20 15:50",
+   "ticker": "PCOR",
+   "action": "Buy",
+   "size": "6% of account",
+   "value_usd": 795,
+   "reason": "Breakout held its pullback",
+   "result": null
+  },
+  {
+   "time": "Nov 20 15:50",
+   "ticker": "REXR",
+   "action": "Buy",
+   "size": "7% of account",
+   "value_usd": 967,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  },
+  {
+   "time": "Nov 20 15:50",
+   "ticker": "DX",
+   "action": "Buy",
+   "size": "7% of account",
+   "value_usd": 876,
+   "reason": "Shakeout reclaimed its range",
+   "result": null
+  }
+ ],
+ "lab": {
+  "start": "2026-10-02",
+  "note": "Paper traded. No capital at risk. A strategy goes live only if it beats the live one after real costs.",
+  "strategies": [
+   {
+    "id": "a10",
+    "name": "Morning re-scan",
+    "tag": "Swing \u00b7 paper",
+    "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
+    "ret": -0.0925,
+    "trades": 22,
+    "win_rate": 0.136,
+    "open": 11,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0
+     },
+     {
+      "d": "2026-10-05",
+      "r": -0.002
+     },
+     {
+      "d": "2026-10-06",
+      "r": -0.0037
+     },
+     {
+      "d": "2026-10-07",
+      "r": -0.0056
+     },
+     {
+      "d": "2026-10-08",
+      "r": -0.013
+     },
+     {
+      "d": "2026-10-09",
+      "r": -0.0275
+     },
+     {
+      "d": "2026-10-12",
+      "r": -0.0269
+     },
+     {
+      "d": "2026-10-13",
+      "r": -0.0318
+     },
+     {
+      "d": "2026-10-14",
+      "r": -0.0516
+     },
+     {
+      "d": "2026-10-15",
+      "r": -0.0562
+     },
+     {
+      "d": "2026-10-19",
+      "r": -0.0623
+     },
+     {
+      "d": "2026-10-20",
+      "r": -0.0663
+     },
+     {
+      "d": "2026-10-21",
+      "r": -0.0663
+     },
+     {
+      "d": "2026-10-22",
+      "r": -0.0663
+     },
+     {
+      "d": "2026-10-23",
+      "r": -0.0683
+     },
+     {
+      "d": "2026-10-26",
+      "r": -0.0848
+     },
+     {
+      "d": "2026-10-27",
+      "r": -0.0901
+     },
+     {
+      "d": "2026-10-29",
+      "r": -0.0837
+     },
+     {
+      "d": "2026-10-30",
+      "r": -0.058
+     },
+     {
+      "d": "2026-11-02",
+      "r": -0.0394
+     },
+     {
+      "d": "2026-11-03",
+      "r": -0.0803
+     },
+     {
+      "d": "2026-11-04",
+      "r": -0.0413
+     },
+     {
+      "d": "2026-11-05",
+      "r": -0.0483
+     },
+     {
+      "d": "2026-11-06",
+      "r": -0.06
+     },
+     {
+      "d": "2026-11-10",
+      "r": -0.0431
+     },
+     {
+      "d": "2026-11-12",
+      "r": -0.0364
+     },
+     {
+      "d": "2026-11-13",
+      "r": -0.0395
+     },
+     {
+      "d": "2026-11-16",
+      "r": -0.0295
+     },
+     {
+      "d": "2026-11-18",
+      "r": -0.0547
+     },
+     {
+      "d": "2026-11-19",
+      "r": -0.0767
+     },
+     {
+      "d": "2026-11-20",
+      "r": -0.0925
+     }
+    ]
+   },
+   {
+    "id": "orb",
+    "name": "Opening range breakout",
+    "tag": "Intraday \u00b7 paper",
+    "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
+    "ret": -0.1485,
+    "trades": 115,
+    "win_rate": 0.391,
+    "open": 0,
+    "avg_spread": 0.00443,
+    "curve": [
+     {
+      "d": "2026-10-02",
+      "r": 0.0206
+     },
+     {
+      "d": "2026-10-05",
+      "r": 0.0167
+     },
+     {
+      "d": "2026-10-06",
+      "r": -0.017
+     },
+     {
+      "d": "2026-10-07",
+      "r": -0.0209
+     },
+     {
+      "d": "2026-10-08",
+      "r": -0.0274
+     },
+     {
+      "d": "2026-10-09",
+      "r": -0.0239
+     },
+     {
+      "d": "2026-10-12",
+      "r": -0.0356
+     },
+     {
+      "d": "2026-10-13",
+      "r": -0.0351
+     },
+     {
+      "d": "2026-10-14",
+      "r": -0.0594
+     },
+     {
+      "d": "2026-10-15",
+      "r": -0.0397
+     },
+     {
+      "d": "2026-10-19",
+      "r": -0.0527
+     },
+     {
+      "d": "2026-10-20",
+      "r": -0.0558
+     },
+     {
+      "d": "2026-10-21",
+      "r": -0.0723
+     },
+     {
+      "d": "2026-10-22",
+      "r": -0.054
+     },
+     {
+      "d": "2026-10-23",
+      "r": -0.049
+     },
+     {
+      "d": "2026-10-26",
+      "r": -0.0589
+     },
+     {
+      "d": "2026-10-27",
+      "r": -0.061
+     },
+     {
+      "d": "2026-10-28",
+      "r": -0.0434
+     },
+     {
+      "d": "2026-10-29",
+      "r": -0.0202
+     },
+     {
+      "d": "2026-10-30",
+      "r": -0.0229
+     },
+     {
+      "d": "2026-11-02",
+      "r": -0.0119
+     },
+     {
+      "d": "2026-11-03",
+      "r": -0.0416
+     },
+     {
+      "d": "2026-11-04",
+      "r": -0.0511
+     },
+     {
+      "d": "2026-11-05",
+      "r": -0.0633
+     },
+     {
+      "d": "2026-11-06",
+      "r": -0.0747
+     },
+     {
+      "d": "2026-11-10",
+      "r": -0.0846
+     },
+     {
+      "d": "2026-11-11",
+      "r": -0.0975
+     },
+     {
+      "d": "2026-11-12",
+      "r": -0.1129
+     },
+     {
+      "d": "2026-11-13",
+      "r": -0.0976
+     },
+     {
+      "d": "2026-11-16",
+      "r": -0.1056
+     },
+     {
+      "d": "2026-11-17",
+      "r": -0.1164
+     },
+     {
+      "d": "2026-11-18",
+      "r": -0.1265
+     },
+     {
+      "d": "2026-11-19",
+      "r": -0.1485
+     }
+    ]
+   }
+  ]
+ },
+ "mode": {
+  "note": "Model portfolio. Results are hypothetical and are not the results of a real brokerage account."
+ }
+}
