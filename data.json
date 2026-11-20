@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T09:40:19-05:00",
+ "updated": "2026-11-20T10:36:05-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13513.62,
+  "account_value": 13426.69,
   "principal": 15850.0,
-  "pnl_usd": -2336.38,
+  "pnl_usd": -2423.31,
   "cash": 2411.87,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.369,
+  "breadth50": 0.359,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1388,
-  "spy_return": -0.0799,
-  "max_drawdown": -0.1422,
+  "total_return": -0.1444,
+  "spy_return": -0.0849,
+  "max_drawdown": -0.1428,
   "win_rate": 0.147,
   "closed_trades": 34,
   "open_positions": 11,
-  "invested_pct": 0.822
+  "invested_pct": 0.82
  },
  "equity": [
   {
@@ -201,8 +201,9 @@
   },
   {
    "d": "2026-11-20",
-   "r": -0.1388,
-   "spy": -0.0799
+   "r": -0.1444,
+   "spy": -0.0849,
+   "live": true
   }
  ],
  "positions": [
@@ -210,30 +211,30 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.136,
-   "value_usd": 1834.64,
-   "ret": 0.0454,
-   "stop_dist": 0.1241,
+   "weight": 0.135,
+   "value_usd": 1816.62,
+   "ret": 0.0351,
+   "stop_dist": 0.1154,
    "stage": "initial"
   },
   {
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.148,
-   "value_usd": 1996.6,
-   "ret": 0.0416,
-   "stop_dist": 0.1134,
+   "weight": 0.147,
+   "value_usd": 1978.51,
+   "ret": 0.0322,
+   "stop_dist": 0.1053,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.118,
-   "value_usd": 1590.35,
-   "ret": -0.0298,
-   "stop_dist": 0.0359,
+   "weight": 0.119,
+   "value_usd": 1602.99,
+   "ret": -0.0221,
+   "stop_dist": 0.0435,
    "stage": "initial"
   },
   {
@@ -241,39 +242,39 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 836.04,
-   "ret": 0.0111,
-   "stop_dist": 0.0314,
+   "value_usd": 837.27,
+   "ret": 0.0126,
+   "stop_dist": 0.0328,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.045,
-   "value_usd": 604.78,
-   "ret": -0.0129,
-   "stop_dist": 0.0506,
+   "weight": 0.044,
+   "value_usd": 596.86,
+   "ret": -0.0259,
+   "stop_dist": 0.038,
    "stage": "initial"
   },
   {
    "ticker": "PTGX",
    "setup": "S",
    "opened": "2026-11-18",
-   "weight": 0.056,
-   "value_usd": 751.35,
-   "ret": -0.0133,
-   "stop_dist": 0.0375,
+   "weight": 0.054,
+   "value_usd": 731.04,
+   "ret": -0.0399,
+   "stop_dist": 0.0108,
    "stage": "initial"
   },
   {
    "ticker": "COMP",
    "setup": "A",
    "opened": "2026-11-18",
-   "weight": 0.069,
-   "value_usd": 932.88,
-   "ret": 0.007,
-   "stop_dist": 0.0513,
+   "weight": 0.068,
+   "value_usd": 919.54,
+   "ret": -0.0074,
+   "stop_dist": 0.0375,
    "stage": "initial"
   },
   {
@@ -281,9 +282,9 @@
    "setup": "A",
    "opened": "2026-11-18",
    "weight": 0.055,
-   "value_usd": 743.25,
-   "ret": -0.0169,
-   "stop_dist": 0.0168,
+   "value_usd": 739.8,
+   "ret": -0.0215,
+   "stop_dist": 0.0122,
    "stage": "initial"
   },
   {
@@ -291,27 +292,27 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 649.52,
-   "ret": -0.0014,
-   "stop_dist": 0.0595,
+   "value_usd": 643.54,
+   "ret": -0.0106,
+   "stop_dist": 0.0508,
    "stage": "initial"
   },
   {
    "ticker": "VERA",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.038,
-   "value_usd": 506.82,
-   "ret": -0.012,
-   "stop_dist": 0.0692,
+   "weight": 0.037,
+   "value_usd": 498.28,
+   "ret": -0.0287,
+   "stop_dist": 0.0532,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.049,
-   "value_usd": 655.52,
+   "weight": 0.048,
+   "value_usd": 650.38,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
@@ -1106,10 +1107,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.0767,
-    "trades": 18,
-    "win_rate": 0.167,
-    "open": 9,
+    "ret": -0.0925,
+    "trades": 22,
+    "win_rate": 0.136,
+    "open": 11,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1230,6 +1231,10 @@
      {
       "d": "2026-11-19",
       "r": -0.0767
+     },
+     {
+      "d": "2026-11-20",
+      "r": -0.0925
      }
     ]
    },
@@ -1238,11 +1243,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.1265,
-    "trades": 111,
-    "win_rate": 0.396,
+    "ret": -0.1485,
+    "trades": 115,
+    "win_rate": 0.391,
     "open": 0,
-    "avg_spread": 0.0043,
+    "avg_spread": 0.00443,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1371,6 +1376,10 @@
      {
       "d": "2026-11-18",
       "r": -0.1265
+     },
+     {
+      "d": "2026-11-19",
+      "r": -0.1485
      }
     ]
    }
