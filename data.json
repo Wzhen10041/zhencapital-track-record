@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-20T15:51:15-05:00",
+ "updated": "2026-11-23T09:40:11-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13286.27,
+  "account_value": 13346.67,
   "principal": 15850.0,
-  "pnl_usd": -2563.73,
+  "pnl_usd": -2503.33,
   "cash": 498.47,
   "deposits": [
    {
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.306,
+  "breadth50": 0.352,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1533,
-  "spy_return": -0.1053,
+  "total_return": -0.1495,
+  "spy_return": -0.0737,
   "max_drawdown": -0.1517,
   "win_rate": 0.135,
   "closed_trades": 37,
   "open_positions": 11,
-  "invested_pct": 0.962
+  "invested_pct": 0.963
  },
  "equity": [
   {
@@ -203,6 +203,12 @@
    "d": "2026-11-20",
    "r": -0.1533,
    "spy": -0.1053
+  },
+  {
+   "d": "2026-11-23",
+   "r": -0.1495,
+   "spy": -0.0737,
+   "live": true
   }
  ],
  "positions": [
@@ -210,7 +216,7 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.137,
+   "weight": 0.136,
    "value_usd": 1814.56,
    "ret": 0.034,
    "stop_dist": 0.1144,
@@ -220,20 +226,20 @@
    "ticker": "EVER",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.147,
-   "value_usd": 1955.06,
-   "ret": 0.0199,
-   "stop_dist": 0.0946,
+   "weight": 0.142,
+   "value_usd": 1898.11,
+   "ret": -0.0098,
+   "stop_dist": 0.0674,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.12,
-   "value_usd": 1596.11,
-   "ret": -0.0263,
-   "stop_dist": 0.0394,
+   "weight": 0.118,
+   "value_usd": 1576.93,
+   "ret": -0.038,
+   "stop_dist": 0.0277,
    "stage": "initial"
   },
   {
@@ -241,19 +247,19 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 818.19,
-   "ret": -0.0104,
-   "stop_dist": 0.0103,
+   "value_usd": 822.0,
+   "ret": -0.0058,
+   "stop_dist": 0.0149,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.044,
-   "value_usd": 590.7,
-   "ret": -0.0359,
-   "stop_dist": 0.0279,
+   "weight": 0.046,
+   "value_usd": 614.9,
+   "ret": 0.0036,
+   "stop_dist": 0.0662,
    "stage": "initial"
   },
   {
@@ -261,19 +267,19 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 632.04,
-   "ret": -0.0283,
-   "stop_dist": 0.0335,
+   "value_usd": 644.69,
+   "ret": -0.0088,
+   "stop_dist": 0.0524,
    "stage": "initial"
   },
   {
    "ticker": "VERA",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.037,
-   "value_usd": 485.07,
-   "ret": -0.0544,
-   "stop_dist": 0.0274,
+   "weight": 0.038,
+   "value_usd": 507.96,
+   "ret": -0.0098,
+   "stop_dist": 0.0713,
    "stage": "initial"
   },
   {
@@ -281,9 +287,9 @@
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.06,
-   "value_usd": 794.64,
-   "ret": -0.0007,
-   "stop_dist": 0.0491,
+   "value_usd": 796.18,
+   "ret": 0.0012,
+   "stop_dist": 0.051,
    "stage": "initial"
   },
   {
@@ -291,27 +297,27 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.073,
-   "value_usd": 965.79,
-   "ret": -0.0008,
-   "stop_dist": 0.0232,
+   "value_usd": 967.68,
+   "ret": 0.0011,
+   "stop_dist": 0.0251,
    "stage": "initial"
   },
   {
    "ticker": "DX",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.066,
-   "value_usd": 876.04,
-   "ret": -0.0005,
-   "stop_dist": 0.0457,
+   "weight": 0.064,
+   "value_usd": 854.08,
+   "ret": -0.0256,
+   "stop_dist": 0.0212,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.17,
-   "value_usd": 2259.6,
+   "weight": 0.176,
+   "value_usd": 2351.09,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
