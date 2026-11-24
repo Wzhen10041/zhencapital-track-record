@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T09:39:15-05:00",
+ "updated": "2026-11-24T10:33:23-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13636.28,
+  "account_value": 13653.46,
   "principal": 15850.0,
-  "pnl_usd": -2213.72,
+  "pnl_usd": -2196.54,
   "cash": 2456.8,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.388,
+  "breadth50": 0.4,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.131,
-  "spy_return": -0.0779,
+  "total_return": -0.1299,
+  "spy_return": -0.0756,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
@@ -211,8 +211,8 @@
   },
   {
    "d": "2026-11-24",
-   "r": -0.131,
-   "spy": -0.0779
+   "r": -0.1299,
+   "spy": -0.0756
   }
  ],
  "positions": [
@@ -220,20 +220,20 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.138,
-   "value_usd": 1878.27,
-   "ret": 0.0703,
-   "stop_dist": 0.1444,
+   "weight": 0.139,
+   "value_usd": 1896.77,
+   "ret": 0.0808,
+   "stop_dist": 0.1528,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.116,
-   "value_usd": 1577.52,
-   "ret": -0.0376,
-   "stop_dist": 0.0281,
+   "weight": 0.117,
+   "value_usd": 1591.73,
+   "ret": -0.0289,
+   "stop_dist": 0.0367,
    "stage": "initial"
   },
   {
@@ -241,29 +241,29 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.062,
-   "value_usd": 845.79,
-   "ret": 0.0229,
-   "stop_dist": 0.0426,
+   "value_usd": 841.65,
+   "ret": 0.0179,
+   "stop_dist": 0.0379,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.039,
-   "value_usd": 532.0,
-   "ret": 0.1939,
-   "stop_dist": 0.1624,
+   "weight": 0.038,
+   "value_usd": 518.24,
+   "ret": 0.163,
+   "stop_dist": 0.1402,
    "stage": "runner"
   },
   {
    "ticker": "VSTS",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.048,
-   "value_usd": 656.65,
-   "ret": 0.0095,
-   "stop_dist": 0.0697,
+   "weight": 0.049,
+   "value_usd": 664.7,
+   "ret": 0.0219,
+   "stop_dist": 0.081,
    "stage": "initial"
   },
   {
@@ -271,19 +271,19 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.04,
-   "value_usd": 545.97,
-   "ret": 0.0643,
-   "stop_dist": 0.1359,
+   "value_usd": 545.87,
+   "ret": 0.0641,
+   "stop_dist": 0.1357,
    "stage": "initial"
   },
   {
    "ticker": "PCOR",
    "setup": "A",
    "opened": "2026-11-20",
-   "weight": 0.06,
-   "value_usd": 818.73,
-   "ret": 0.0296,
-   "stop_dist": 0.0771,
+   "weight": 0.061,
+   "value_usd": 828.25,
+   "ret": 0.0416,
+   "stop_dist": 0.0877,
    "stage": "initial"
   },
   {
@@ -291,9 +291,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.072,
-   "value_usd": 978.35,
-   "ret": 0.0122,
-   "stop_dist": 0.0357,
+   "value_usd": 983.47,
+   "ret": 0.0175,
+   "stop_dist": 0.0408,
    "stage": "initial"
   },
   {
@@ -301,9 +301,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.063,
-   "value_usd": 857.2,
-   "ret": -0.022,
-   "stop_dist": 0.0247,
+   "value_usd": 855.8,
+   "ret": -0.0236,
+   "stop_dist": 0.0231,
    "stage": "initial"
   },
   {
@@ -311,29 +311,29 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.04,
-   "value_usd": 542.07,
-   "ret": 0.0447,
-   "stop_dist": 0.1146,
+   "value_usd": 552.33,
+   "ret": 0.0644,
+   "stop_dist": 0.1311,
    "stage": "initial"
   },
   {
    "ticker": "ZBIO",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.077,
-   "value_usd": 1049.4,
-   "ret": 0.0673,
-   "stop_dist": 0.1027,
+   "weight": 0.075,
+   "value_usd": 1022.0,
+   "ret": 0.0395,
+   "stop_dist": 0.0787,
    "stage": "initial"
   },
   {
    "ticker": "KMX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.041,
-   "value_usd": 565.73,
-   "ret": 0.011,
-   "stop_dist": 0.0787,
+   "weight": 0.042,
+   "value_usd": 566.94,
+   "ret": 0.0132,
+   "stop_dist": 0.0807,
    "stage": "initial"
   },
   {
@@ -341,7 +341,7 @@
    "setup": "Gold",
    "opened": "",
    "weight": 0.024,
-   "value_usd": 331.81,
+   "value_usd": 328.92,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
@@ -1397,11 +1397,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.1698,
-    "trades": 119,
-    "win_rate": 0.378,
+    "ret": -0.1583,
+    "trades": 121,
+    "win_rate": 0.388,
     "open": 0,
-    "avg_spread": 0.00467,
+    "avg_spread": 0.00463,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1538,6 +1538,10 @@
      {
       "d": "2026-11-20",
       "r": -0.1698
+     },
+     {
+      "d": "2026-11-23",
+      "r": -0.1583
      }
     ]
    }
