@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T15:51:07-05:00",
+ "updated": "2026-11-24T09:39:15-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13344.99,
+  "account_value": 13636.28,
   "principal": 15850.0,
-  "pnl_usd": -2505.01,
-  "cash": 2258.5,
+  "pnl_usd": -2213.72,
+  "cash": 2456.8,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.38,
+  "breadth50": 0.388,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1496,
-  "spy_return": -0.0664,
+  "total_return": -0.131,
+  "spy_return": -0.0779,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
   "open_positions": 13,
-  "invested_pct": 0.831
+  "invested_pct": 0.82
  },
  "equity": [
   {
@@ -208,6 +208,11 @@
    "d": "2026-11-23",
    "r": -0.1496,
    "spy": -0.0664
+  },
+  {
+   "d": "2026-11-24",
+   "r": -0.131,
+   "spy": -0.0779
   }
  ],
  "positions": [
@@ -215,135 +220,135 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.139,
-   "value_usd": 1861.15,
-   "ret": 0.0605,
-   "stop_dist": 0.1365,
+   "weight": 0.138,
+   "value_usd": 1878.27,
+   "ret": 0.0703,
+   "stop_dist": 0.1444,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.117,
-   "value_usd": 1556.06,
-   "ret": -0.0507,
-   "stop_dist": 0.0147,
+   "weight": 0.116,
+   "value_usd": 1577.52,
+   "ret": -0.0376,
+   "stop_dist": 0.0281,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.063,
-   "value_usd": 846.0,
-   "ret": 0.0232,
-   "stop_dist": 0.0428,
+   "weight": 0.062,
+   "value_usd": 845.79,
+   "ret": 0.0229,
+   "stop_dist": 0.0426,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.046,
-   "value_usd": 619.08,
-   "ret": 0.0104,
-   "stop_dist": 0.0725,
-   "stage": "initial"
+   "weight": 0.039,
+   "value_usd": 532.0,
+   "ret": 0.1939,
+   "stop_dist": 0.1624,
+   "stage": "runner"
   },
   {
    "ticker": "VSTS",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.049,
-   "value_usd": 659.64,
-   "ret": 0.0141,
-   "stop_dist": 0.0739,
+   "weight": 0.048,
+   "value_usd": 656.65,
+   "ret": 0.0095,
+   "stop_dist": 0.0697,
    "stage": "initial"
   },
   {
    "ticker": "VERA",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.038,
-   "value_usd": 510.91,
-   "ret": -0.0041,
-   "stop_dist": 0.0766,
+   "weight": 0.04,
+   "value_usd": 545.97,
+   "ret": 0.0643,
+   "stop_dist": 0.1359,
    "stage": "initial"
   },
   {
    "ticker": "PCOR",
    "setup": "A",
    "opened": "2026-11-20",
-   "weight": 0.061,
-   "value_usd": 809.16,
-   "ret": 0.0176,
-   "stop_dist": 0.0662,
+   "weight": 0.06,
+   "value_usd": 818.73,
+   "ret": 0.0296,
+   "stop_dist": 0.0771,
    "stage": "initial"
   },
   {
    "ticker": "REXR",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.073,
-   "value_usd": 979.42,
-   "ret": 0.0133,
-   "stop_dist": 0.0368,
+   "weight": 0.072,
+   "value_usd": 978.35,
+   "ret": 0.0122,
+   "stop_dist": 0.0357,
    "stage": "initial"
   },
   {
    "ticker": "DX",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.064,
-   "value_usd": 855.8,
-   "ret": -0.0236,
-   "stop_dist": 0.0231,
+   "weight": 0.063,
+   "value_usd": 857.2,
+   "ret": -0.022,
+   "stop_dist": 0.0247,
    "stage": "initial"
   },
   {
    "ticker": "AMLX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.039,
-   "value_usd": 518.61,
-   "ret": -0.0005,
-   "stop_dist": 0.0746,
+   "weight": 0.04,
+   "value_usd": 542.07,
+   "ret": 0.0447,
+   "stop_dist": 0.1146,
    "stage": "initial"
   },
   {
    "ticker": "ZBIO",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.073,
-   "value_usd": 978.6,
-   "ret": -0.0047,
-   "stop_dist": 0.0378,
+   "weight": 0.077,
+   "value_usd": 1049.4,
+   "ret": 0.0673,
+   "stop_dist": 0.1027,
    "stage": "initial"
   },
   {
    "ticker": "KMX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.042,
-   "value_usd": 559.19,
-   "ret": -0.0007,
-   "stop_dist": 0.068,
+   "weight": 0.041,
+   "value_usd": 565.73,
+   "ret": 0.011,
+   "stop_dist": 0.0787,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.025,
-   "value_usd": 332.89,
+   "weight": 0.024,
+   "value_usd": 331.81,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 2258.5,
+  "cash": 2456.8,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -351,7 +356,7 @@
    "ADMA": 137,
    "FANG": 9,
    "VMC": 3,
-   "COGT": 22,
+   "COGT": 16,
    "GLD": 1,
    "VSTS": 46,
    "VERA": 19,
@@ -1232,6 +1237,15 @@
    "value_usd": 560,
    "reason": "Shakeout reclaimed its range",
    "result": null
+  },
+  {
+   "time": "Nov 24 09:38",
+   "ticker": "COGT",
+   "action": "Sell",
+   "size": "1% of account",
+   "value_usd": 198,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.1867
   }
  ],
  "lab": {
