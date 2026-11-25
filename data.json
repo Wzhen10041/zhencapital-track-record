@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T11:34:43-05:00",
+ "updated": "2026-11-25T12:34:24-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13671.38,
+  "account_value": 13835.38,
   "principal": 15850.0,
-  "pnl_usd": -2178.62,
-  "cash": 504.94,
+  "pnl_usd": -2014.62,
+  "cash": 793.8,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.393,
+  "breadth50": 0.422,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1288,
-  "spy_return": -0.0974,
+  "total_return": -0.1183,
+  "spy_return": -0.0865,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
   "open_positions": 13,
-  "invested_pct": 0.963
+  "invested_pct": 0.943
  },
  "equity": [
   {
@@ -216,8 +216,8 @@
   },
   {
    "d": "2026-11-25",
-   "r": -0.1288,
-   "spy": -0.0974
+   "r": -0.1183,
+   "spy": -0.0865
   }
  ],
  "positions": [
@@ -226,9 +226,9 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.139,
-   "value_usd": 1895.4,
-   "ret": 0.08,
-   "stop_dist": 0.1522,
+   "value_usd": 1916.63,
+   "ret": 0.0921,
+   "stop_dist": 0.1615,
    "stage": "initial"
   },
   {
@@ -236,29 +236,29 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.117,
-   "value_usd": 1601.95,
-   "ret": -0.0227,
-   "stop_dist": 0.0429,
+   "value_usd": 1620.54,
+   "ret": -0.0114,
+   "stop_dist": 0.0539,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.063,
-   "value_usd": 857.91,
-   "ret": 0.0376,
-   "stop_dist": 0.0561,
-   "stage": "initial"
+   "weight": 0.042,
+   "value_usd": 577.88,
+   "ret": 0.0484,
+   "stop_dist": 0.0461,
+   "stage": "runner"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.04,
-   "value_usd": 551.52,
-   "ret": 0.2377,
-   "stop_dist": 0.1921,
+   "weight": 0.041,
+   "value_usd": 561.12,
+   "ret": 0.2592,
+   "stop_dist": 0.2059,
    "stage": "runner"
   },
   {
@@ -266,9 +266,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 652.28,
-   "ret": 0.0028,
-   "stop_dist": 0.0635,
+   "value_usd": 664.24,
+   "ret": 0.0212,
+   "stop_dist": 0.0803,
    "stage": "initial"
   },
   {
@@ -276,9 +276,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.039,
-   "value_usd": 535.13,
-   "ret": 0.0431,
-   "stop_dist": 0.1184,
+   "value_usd": 544.35,
+   "ret": 0.0611,
+   "stop_dist": 0.1333,
    "stage": "initial"
   },
   {
@@ -286,9 +286,9 @@
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.059,
-   "value_usd": 807.95,
-   "ret": 0.016,
-   "stop_dist": 0.0648,
+   "value_usd": 818.34,
+   "ret": 0.0291,
+   "stop_dist": 0.0767,
    "stage": "initial"
   },
   {
@@ -296,9 +296,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.072,
-   "value_usd": 989.55,
-   "ret": 0.0237,
-   "stop_dist": 0.0467,
+   "value_usd": 996.12,
+   "ret": 0.0305,
+   "stop_dist": 0.0529,
    "stage": "initial"
   },
   {
@@ -306,9 +306,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.065,
-   "value_usd": 891.88,
-   "ret": 0.0176,
-   "stop_dist": 0.0627,
+   "value_usd": 901.56,
+   "ret": 0.0286,
+   "stop_dist": 0.0727,
    "stage": "initial"
   },
   {
@@ -316,9 +316,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.041,
-   "value_usd": 554.13,
-   "ret": 0.0679,
-   "stop_dist": 0.1339,
+   "value_usd": 560.6,
+   "ret": 0.0804,
+   "stop_dist": 0.1439,
    "stage": "initial"
   },
   {
@@ -326,9 +326,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.077,
-   "value_usd": 1048.8,
-   "ret": 0.0667,
-   "stop_dist": 0.1022,
+   "value_usd": 1067.2,
+   "ret": 0.0854,
+   "stop_dist": 0.1177,
    "stage": "initial"
   },
   {
@@ -336,9 +336,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.041,
-   "value_usd": 561.0,
-   "ret": 0.0026,
-   "stop_dist": 0.071,
+   "value_usd": 569.47,
+   "ret": 0.0177,
+   "stop_dist": 0.0848,
    "stage": "initial"
   },
   {
@@ -346,21 +346,21 @@
    "setup": "Gold",
    "opened": "",
    "weight": 0.162,
-   "value_usd": 2218.93,
+   "value_usd": 2243.53,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 504.94,
+  "cash": 793.8,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
   "shares": {
    "ADMA": 137,
    "FANG": 9,
-   "VMC": 3,
+   "VMC": 2,
    "COGT": 16,
    "GLD": 7,
    "VSTS": 46,
@@ -1260,6 +1260,15 @@
    "value_usd": 1952,
    "reason": "Idle cash into gold while S&P 500 is below its 200 day line",
    "result": null
+  },
+  {
+   "time": "Nov 25 12:33",
+   "ticker": "VMC",
+   "action": "Sell",
+   "size": "2% of account",
+   "value_usd": 289,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.0481
   }
  ],
  "lab": {
