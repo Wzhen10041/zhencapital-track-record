@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T09:39:12-05:00",
+ "updated": "2026-11-25T11:34:43-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13574.11,
+  "account_value": 13671.38,
   "principal": 15850.0,
-  "pnl_usd": -2275.89,
+  "pnl_usd": -2178.62,
   "cash": 504.94,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.377,
+  "breadth50": 0.393,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.135,
-  "spy_return": -0.097,
+  "total_return": -0.1288,
+  "spy_return": -0.0974,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
@@ -216,8 +216,8 @@
   },
   {
    "d": "2026-11-25",
-   "r": -0.135,
-   "spy": -0.097
+   "r": -0.1288,
+   "spy": -0.0974
   }
  ],
  "positions": [
@@ -226,39 +226,39 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.139,
-   "value_usd": 1880.33,
-   "ret": 0.0714,
-   "stop_dist": 0.1454,
+   "value_usd": 1895.4,
+   "ret": 0.08,
+   "stop_dist": 0.1522,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.118,
-   "value_usd": 1598.4,
-   "ret": -0.0249,
-   "stop_dist": 0.0408,
+   "weight": 0.117,
+   "value_usd": 1601.95,
+   "ret": -0.0227,
+   "stop_dist": 0.0429,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.062,
-   "value_usd": 847.44,
-   "ret": 0.0249,
-   "stop_dist": 0.0444,
+   "weight": 0.063,
+   "value_usd": 857.91,
+   "ret": 0.0376,
+   "stop_dist": 0.0561,
    "stage": "initial"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.039,
-   "value_usd": 532.0,
-   "ret": 0.1939,
-   "stop_dist": 0.1624,
+   "weight": 0.04,
+   "value_usd": 551.52,
+   "ret": 0.2377,
+   "stop_dist": 0.1921,
    "stage": "runner"
   },
   {
@@ -266,9 +266,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 645.38,
-   "ret": -0.0078,
-   "stop_dist": 0.0535,
+   "value_usd": 652.28,
+   "ret": 0.0028,
+   "stop_dist": 0.0635,
    "stage": "initial"
   },
   {
@@ -276,9 +276,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.039,
-   "value_usd": 530.76,
-   "ret": 0.0346,
-   "stop_dist": 0.1112,
+   "value_usd": 535.13,
+   "ret": 0.0431,
+   "stop_dist": 0.1184,
    "stage": "initial"
   },
   {
@@ -286,19 +286,19 @@
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.059,
-   "value_usd": 797.34,
-   "ret": 0.0027,
-   "stop_dist": 0.0524,
+   "value_usd": 807.95,
+   "ret": 0.016,
+   "stop_dist": 0.0648,
    "stage": "initial"
   },
   {
    "ticker": "REXR",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.073,
-   "value_usd": 991.85,
-   "ret": 0.0261,
-   "stop_dist": 0.0489,
+   "weight": 0.072,
+   "value_usd": 989.55,
+   "ret": 0.0237,
+   "stop_dist": 0.0467,
    "stage": "initial"
   },
   {
@@ -306,19 +306,19 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.065,
-   "value_usd": 881.32,
-   "ret": 0.0055,
-   "stop_dist": 0.0514,
+   "value_usd": 891.88,
+   "ret": 0.0176,
+   "stop_dist": 0.0627,
    "stage": "initial"
   },
   {
    "ticker": "AMLX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.04,
-   "value_usd": 546.06,
-   "ret": 0.0524,
-   "stop_dist": 0.1211,
+   "weight": 0.041,
+   "value_usd": 554.13,
+   "ret": 0.0679,
+   "stop_dist": 0.1339,
    "stage": "initial"
   },
   {
@@ -326,9 +326,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.077,
-   "value_usd": 1044.8,
-   "ret": 0.0627,
-   "stop_dist": 0.0988,
+   "value_usd": 1048.8,
+   "ret": 0.0667,
+   "stop_dist": 0.1022,
    "stage": "initial"
   },
   {
@@ -336,17 +336,17 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.041,
-   "value_usd": 551.32,
-   "ret": -0.0147,
-   "stop_dist": 0.0547,
+   "value_usd": 561.0,
+   "ret": 0.0026,
+   "stop_dist": 0.071,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.164,
-   "value_usd": 2222.18,
+   "weight": 0.162,
+   "value_usd": 2218.93,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
@@ -1271,10 +1271,10 @@
     "name": "Morning re-scan",
     "tag": "Swing \u00b7 paper",
     "desc": "The live breakout setup, scanned again at 10:00 and bought then instead of at the close.",
-    "ret": -0.1108,
+    "ret": -0.1081,
     "trades": 30,
     "win_rate": 0.1,
-    "open": 4,
+    "open": 6,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1407,6 +1407,10 @@
      {
       "d": "2026-11-24",
       "r": -0.1108
+     },
+     {
+      "d": "2026-11-25",
+      "r": -0.1081
      }
     ]
    },
@@ -1415,11 +1419,11 @@
     "name": "Opening range breakout",
     "tag": "Intraday \u00b7 paper",
     "desc": "Stocks gapping up on heavy volume, bought on a break of the first 5 minute high, flat by 15:50.",
-    "ret": -0.1583,
-    "trades": 121,
-    "win_rate": 0.388,
+    "ret": -0.1555,
+    "trades": 124,
+    "win_rate": 0.395,
     "open": 0,
-    "avg_spread": 0.00463,
+    "avg_spread": 0.00476,
     "curve": [
      {
       "d": "2026-10-02",
@@ -1560,6 +1564,10 @@
      {
       "d": "2026-11-23",
       "r": -0.1583
+     },
+     {
+      "d": "2026-11-24",
+      "r": -0.1555
      }
     ]
    }
