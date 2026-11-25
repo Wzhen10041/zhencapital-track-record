@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T12:34:24-05:00",
+ "updated": "2026-11-25T13:33:38-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 13835.38,
+  "account_value": 13977.82,
   "principal": 15850.0,
-  "pnl_usd": -2014.62,
+  "pnl_usd": -1872.18,
   "cash": 793.8,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.422,
+  "breadth50": 0.441,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1183,
-  "spy_return": -0.0865,
+  "total_return": -0.1093,
+  "spy_return": -0.0793,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
@@ -216,8 +216,8 @@
   },
   {
    "d": "2026-11-25",
-   "r": -0.1183,
-   "spy": -0.0865
+   "r": -0.1093,
+   "spy": -0.0793
   }
  ],
  "positions": [
@@ -225,10 +225,10 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.139,
-   "value_usd": 1916.63,
-   "ret": 0.0921,
-   "stop_dist": 0.1615,
+   "weight": 0.14,
+   "value_usd": 1950.19,
+   "ret": 0.1112,
+   "stop_dist": 0.176,
    "stage": "initial"
   },
   {
@@ -236,9 +236,9 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.117,
-   "value_usd": 1620.54,
-   "ret": -0.0114,
-   "stop_dist": 0.0539,
+   "value_usd": 1629.09,
+   "ret": -0.0061,
+   "stop_dist": 0.0588,
    "stage": "initial"
   },
   {
@@ -246,9 +246,9 @@
    "setup": "A",
    "opened": "2026-11-17",
    "weight": 0.042,
-   "value_usd": 577.88,
-   "ret": 0.0484,
-   "stop_dist": 0.0461,
+   "value_usd": 582.46,
+   "ret": 0.0567,
+   "stop_dist": 0.0536,
    "stage": "runner"
   },
   {
@@ -256,9 +256,9 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.041,
-   "value_usd": 561.12,
-   "ret": 0.2592,
-   "stop_dist": 0.2059,
+   "value_usd": 571.84,
+   "ret": 0.2833,
+   "stop_dist": 0.2208,
    "stage": "runner"
   },
   {
@@ -266,9 +266,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 664.24,
-   "ret": 0.0212,
-   "stop_dist": 0.0803,
+   "value_usd": 675.51,
+   "ret": 0.0385,
+   "stop_dist": 0.0957,
    "stage": "initial"
   },
   {
@@ -276,9 +276,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.039,
-   "value_usd": 544.35,
-   "ret": 0.0611,
-   "stop_dist": 0.1333,
+   "value_usd": 551.28,
+   "ret": 0.0746,
+   "stop_dist": 0.1442,
    "stage": "initial"
   },
   {
@@ -286,19 +286,19 @@
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.059,
-   "value_usd": 818.34,
-   "ret": 0.0291,
-   "stop_dist": 0.0767,
+   "value_usd": 824.29,
+   "ret": 0.0366,
+   "stop_dist": 0.0833,
    "stage": "initial"
   },
   {
    "ticker": "REXR",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.072,
-   "value_usd": 996.12,
-   "ret": 0.0305,
-   "stop_dist": 0.0529,
+   "weight": 0.071,
+   "value_usd": 997.92,
+   "ret": 0.0324,
+   "stop_dist": 0.0547,
    "stage": "initial"
   },
   {
@@ -306,9 +306,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.065,
-   "value_usd": 901.56,
-   "ret": 0.0286,
-   "stop_dist": 0.0727,
+   "value_usd": 904.63,
+   "ret": 0.0321,
+   "stop_dist": 0.0759,
    "stage": "initial"
   },
   {
@@ -316,19 +316,19 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.041,
-   "value_usd": 560.6,
-   "ret": 0.0804,
-   "stop_dist": 0.1439,
+   "value_usd": 574.94,
+   "ret": 0.108,
+   "stop_dist": 0.1652,
    "stage": "initial"
   },
   {
    "ticker": "ZBIO",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.077,
-   "value_usd": 1067.2,
-   "ret": 0.0854,
-   "stop_dist": 0.1177,
+   "weight": 0.078,
+   "value_usd": 1084.4,
+   "ret": 0.1029,
+   "stop_dist": 0.1317,
    "stage": "initial"
   },
   {
@@ -336,9 +336,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.041,
-   "value_usd": 569.47,
-   "ret": 0.0177,
-   "stop_dist": 0.0848,
+   "value_usd": 572.33,
+   "ret": 0.0228,
+   "stop_dist": 0.0894,
    "stage": "initial"
   },
   {
@@ -346,7 +346,7 @@
    "setup": "Gold",
    "opened": "",
    "weight": 0.162,
-   "value_usd": 2243.53,
+   "value_usd": 2265.13,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
