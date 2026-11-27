@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:33:52-05:00",
+ "updated": "2026-11-27T14:33:47-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
@@ -24,7 +24,7 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.477,
+  "breadth50": 0.485,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
