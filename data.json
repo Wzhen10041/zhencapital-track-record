@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T15:51:03-05:00",
+ "updated": "2026-11-27T09:38:41-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14026.69,
+  "account_value": 14210.82,
   "principal": 15850.0,
-  "pnl_usd": -1823.31,
-  "cash": 466.33,
+  "pnl_usd": -1639.18,
+  "cash": 635.53,
   "deposits": [
    {
     "date": "2026-10-01",
@@ -24,19 +24,19 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.439,
+  "breadth50": 0.482,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.1061,
-  "spy_return": -0.0743,
+  "total_return": -0.0944,
+  "spy_return": -0.0667,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
   "open_positions": 13,
-  "invested_pct": 0.967
+  "invested_pct": 0.955
  },
  "equity": [
   {
@@ -218,6 +218,11 @@
    "d": "2026-11-25",
    "r": -0.1061,
    "spy": -0.0743
+  },
+  {
+   "d": "2026-11-27",
+   "r": -0.0944,
+   "spy": -0.0667
   }
  ],
  "positions": [
@@ -225,10 +230,10 @@
    "ticker": "ADMA",
    "setup": "A",
    "opened": "2026-11-09",
-   "weight": 0.14,
-   "value_usd": 1957.05,
-   "ret": 0.1151,
-   "stop_dist": 0.1789,
+   "weight": 0.137,
+   "value_usd": 1945.4,
+   "ret": 0.1085,
+   "stop_dist": 0.1739,
    "stage": "initial"
   },
   {
@@ -236,29 +241,29 @@
    "setup": "S",
    "opened": "2026-11-12",
    "weight": 0.116,
-   "value_usd": 1625.31,
-   "ret": -0.0085,
-   "stop_dist": 0.0566,
+   "value_usd": 1650.33,
+   "ret": 0.0068,
+   "stop_dist": 0.0709,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.042,
-   "value_usd": 584.54,
-   "ret": 0.0604,
-   "stop_dist": 0.057,
+   "weight": 0.041,
+   "value_usd": 584.66,
+   "ret": 0.0607,
+   "stop_dist": 0.0572,
    "stage": "runner"
   },
   {
    "ticker": "COGT",
    "setup": "S",
    "opened": "2026-11-17",
-   "weight": 0.041,
-   "value_usd": 572.64,
-   "ret": 0.2851,
-   "stop_dist": 0.2218,
+   "weight": 0.04,
+   "value_usd": 572.83,
+   "ret": 0.2855,
+   "stop_dist": 0.2221,
    "stage": "runner"
   },
   {
@@ -266,49 +271,49 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.048,
-   "value_usd": 675.74,
-   "ret": 0.0389,
-   "stop_dist": 0.096,
+   "value_usd": 681.95,
+   "ret": 0.0484,
+   "stop_dist": 0.1042,
    "stage": "initial"
   },
   {
    "ticker": "VERA",
    "setup": "S",
    "opened": "2026-11-19",
-   "weight": 0.04,
-   "value_usd": 561.83,
-   "ret": 0.0952,
-   "stop_dist": 0.1603,
-   "stage": "initial"
+   "weight": 0.033,
+   "value_usd": 475.44,
+   "ret": 0.2578,
+   "stop_dist": 0.2049,
+   "stage": "runner"
   },
   {
    "ticker": "PCOR",
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.059,
-   "value_usd": 823.41,
-   "ret": 0.0355,
-   "stop_dist": 0.0824,
+   "value_usd": 833.91,
+   "ret": 0.0487,
+   "stop_dist": 0.0939,
    "stage": "initial"
   },
   {
    "ticker": "REXR",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.071,
-   "value_usd": 994.95,
-   "ret": 0.0293,
-   "stop_dist": 0.0518,
+   "weight": 0.07,
+   "value_usd": 995.49,
+   "ret": 0.0299,
+   "stop_dist": 0.0523,
    "stage": "initial"
   },
   {
    "ticker": "DX",
    "setup": "S",
    "opened": "2026-11-20",
-   "weight": 0.065,
-   "value_usd": 906.4,
-   "ret": 0.0341,
-   "stop_dist": 0.0777,
+   "weight": 0.064,
+   "value_usd": 905.52,
+   "ret": 0.0331,
+   "stop_dist": 0.0768,
    "stage": "initial"
   },
   {
@@ -316,9 +321,9 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.042,
-   "value_usd": 590.14,
-   "ret": 0.1373,
-   "stop_dist": 0.1867,
+   "value_usd": 599.45,
+   "ret": 0.1553,
+   "stop_dist": 0.1994,
    "stage": "initial"
   },
   {
@@ -326,19 +331,19 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.077,
-   "value_usd": 1078.6,
-   "ret": 0.097,
-   "stop_dist": 0.127,
+   "value_usd": 1098.0,
+   "ret": 0.1168,
+   "stop_dist": 0.1424,
    "stage": "initial"
   },
   {
    "ticker": "KMX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.041,
-   "value_usd": 570.24,
-   "ret": 0.0191,
-   "stop_dist": 0.086,
+   "weight": 0.04,
+   "value_usd": 571.45,
+   "ret": 0.0212,
+   "stop_dist": 0.088,
    "stage": "initial"
   },
   {
@@ -346,14 +351,14 @@
    "setup": "Gold",
    "opened": "",
    "weight": 0.187,
-   "value_usd": 2619.52,
+   "value_usd": 2660.87,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
   }
  ],
  "holdings": {
-  "cash": 466.33,
+  "cash": 635.53,
   "units": 156.924239,
   "principal": 15850.0,
   "spy0": 774.77001953125,
@@ -364,7 +369,7 @@
    "COGT": 16,
    "GLD": 8,
    "VSTS": 46,
-   "VERA": 19,
+   "VERA": 14,
    "PCOR": 11,
    "REXR": 27,
    "DX": 88,
@@ -1278,6 +1283,15 @@
    "value_usd": 327,
    "reason": "Idle cash into gold while S&P 500 is below its 200 day line",
    "result": null
+  },
+  {
+   "time": "Nov 27 09:38",
+   "ticker": "VERA",
+   "action": "Sell",
+   "size": "1% of account",
+   "value_usd": 169,
+   "reason": "Reached prior high, sold a quarter",
+   "result": 0.2533
   }
  ],
  "lab": {
