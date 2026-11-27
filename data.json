@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T12:33:35-05:00",
+ "updated": "2026-11-27T13:33:52-05:00",
  "status": "model",
  "inception": "2026-10-05",
  "capital": {
-  "account_value": 14217.09,
+  "account_value": 14229.95,
   "principal": 15850.0,
-  "pnl_usd": -1632.91,
+  "pnl_usd": -1620.05,
   "cash": 635.53,
   "deposits": [
    {
@@ -24,14 +24,14 @@
   "model": true
  },
  "market": {
-  "breadth50": 0.48,
+  "breadth50": 0.477,
   "spy_above_200": false,
   "size_today": 0.3,
   "gold_on": true
  },
  "stats": {
-  "total_return": -0.094,
-  "spy_return": -0.062,
+  "total_return": -0.0932,
+  "spy_return": -0.06,
   "max_drawdown": -0.1517,
   "win_rate": 0.132,
   "closed_trades": 38,
@@ -221,8 +221,8 @@
   },
   {
    "d": "2026-11-27",
-   "r": -0.094,
-   "spy": -0.062
+   "r": -0.0932,
+   "spy": -0.06
   }
  ],
  "positions": [
@@ -231,29 +231,29 @@
    "setup": "A",
    "opened": "2026-11-09",
    "weight": 0.137,
-   "value_usd": 1952.25,
-   "ret": 0.1124,
-   "stop_dist": 0.1768,
+   "value_usd": 1946.09,
+   "ret": 0.1089,
+   "stop_dist": 0.1742,
    "stage": "initial"
   },
   {
    "ticker": "FANG",
    "setup": "S",
    "opened": "2026-11-12",
-   "weight": 0.116,
-   "value_usd": 1642.77,
-   "ret": 0.0022,
-   "stop_dist": 0.0667,
+   "weight": 0.115,
+   "value_usd": 1640.97,
+   "ret": 0.0011,
+   "stop_dist": 0.0657,
    "stage": "initial"
   },
   {
    "ticker": "VMC",
    "setup": "A",
    "opened": "2026-11-17",
-   "weight": 0.041,
-   "value_usd": 588.74,
-   "ret": 0.0681,
-   "stop_dist": 0.0637,
+   "weight": 0.042,
+   "value_usd": 590.74,
+   "ret": 0.0717,
+   "stop_dist": 0.0669,
    "stage": "runner"
   },
   {
@@ -261,9 +261,9 @@
    "setup": "S",
    "opened": "2026-11-17",
    "weight": 0.04,
-   "value_usd": 574.88,
-   "ret": 0.2901,
-   "stop_dist": 0.2249,
+   "value_usd": 570.4,
+   "ret": 0.2801,
+   "stop_dist": 0.2188,
    "stage": "runner"
   },
   {
@@ -271,9 +271,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.049,
-   "value_usd": 690.46,
-   "ret": 0.0615,
-   "stop_dist": 0.1153,
+   "value_usd": 691.84,
+   "ret": 0.0636,
+   "stop_dist": 0.117,
    "stage": "initial"
   },
   {
@@ -281,9 +281,9 @@
    "setup": "S",
    "opened": "2026-11-19",
    "weight": 0.034,
-   "value_usd": 479.78,
-   "ret": 0.2693,
-   "stop_dist": 0.2121,
+   "value_usd": 480.06,
+   "ret": 0.27,
+   "stop_dist": 0.2126,
    "stage": "runner"
   },
   {
@@ -291,9 +291,9 @@
    "setup": "A",
    "opened": "2026-11-20",
    "weight": 0.058,
-   "value_usd": 831.05,
-   "ret": 0.0451,
-   "stop_dist": 0.0908,
+   "value_usd": 830.61,
+   "ret": 0.0445,
+   "stop_dist": 0.0903,
    "stage": "initial"
   },
   {
@@ -311,9 +311,9 @@
    "setup": "S",
    "opened": "2026-11-20",
    "weight": 0.063,
-   "value_usd": 896.28,
-   "ret": 0.0226,
-   "stop_dist": 0.0673,
+   "value_usd": 897.6,
+   "ret": 0.0241,
+   "stop_dist": 0.0686,
    "stage": "initial"
   },
   {
@@ -321,37 +321,37 @@
    "setup": "S",
    "opened": "2026-11-23",
    "weight": 0.042,
-   "value_usd": 596.79,
-   "ret": 0.1501,
-   "stop_dist": 0.1958,
+   "value_usd": 600.78,
+   "ret": 0.1578,
+   "stop_dist": 0.2011,
    "stage": "initial"
   },
   {
    "ticker": "ZBIO",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.077,
-   "value_usd": 1096.8,
-   "ret": 0.1155,
-   "stop_dist": 0.1415,
+   "weight": 0.078,
+   "value_usd": 1104.2,
+   "ret": 0.1231,
+   "stop_dist": 0.1473,
    "stage": "initial"
   },
   {
    "ticker": "KMX",
    "setup": "S",
    "opened": "2026-11-23",
-   "weight": 0.041,
-   "value_usd": 576.84,
-   "ret": 0.0309,
-   "stop_dist": 0.0965,
+   "weight": 0.04,
+   "value_usd": 575.85,
+   "ret": 0.0291,
+   "stop_dist": 0.0949,
    "stage": "initial"
   },
   {
    "ticker": "GLD",
    "setup": "Gold",
    "opened": "",
-   "weight": 0.187,
-   "value_usd": 2664.56,
+   "weight": 0.188,
+   "value_usd": 2674.92,
    "ret": null,
    "stop_dist": null,
    "stage": "idle cash"
